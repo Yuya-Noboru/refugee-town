@@ -1,0 +1,254 @@
+{
+	"refugee" :{
+		"town" :{
+			"buildings" :{
+				"mageGuild1" :{
+					"id" :			0,
+					"name" :		"Mage Guild 1",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" :		{"gold" :2000,"wood" :5,"ore" :5}},
+				"mageGuild2" :{
+					"id" : 			1,
+					"name" :		"Mage Guild 2",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" :		{"gold" :1000,"wood":5,"ore":5,"mercury":4,"crystal":4,"sulfur":4,"gems":4},
+					"upgrades" :	"mageGuild1"},
+				"mageGuild3" :{
+					"id" :			2,
+					"name" :		"Mage Guild 3",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":6,"crystal":6,"sulfur":6,"gems":6},
+					"upgrades" :	"mageGuild2"},
+				"mageGuild4" :{
+					"id" :			3,
+					"name" :		"Mage Guild 4",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":8,"crystal":8,"sulfur":8,"gems":8},
+					"upgrades" :	"mageGuild3"},
+				"mageGuild5" :{
+					"id" :			4,
+					"name" :		"Mage Guild 5",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":10,"crystal":10,"sulfur":10,"gems":10},
+					"upgrades" :	"mageGuild4"},
+
+				"fort" :{
+					"id" :			7,
+					"name" :		"Fort",
+					"description" :	"The Fort provides your town with defensive walls.",
+					"cost" :		{"gold":5000,"wood":20,"ore":20}},
+				"citadel" :{
+					"id" :			8,
+					"name" :		"Citadel",
+					"description" :	"Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :		{"gold":2500,"ore":5},
+					"upgrades" :	"fort"},
+				"castle" :{
+					"id" :			9,
+					"name" :		"Castle",
+					"description" :	"The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :		{"gold":5000,"wood":10,"ore":10},
+					"upgrades" :	"citadel"},
+
+				"villageHall" :{
+					"id" : 			10,
+					"name" :		"Village Hall",
+					"description" :	"The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" :		"auto"},
+				"townHall" :{
+					"id" :			11,
+					"name" :		"Town Hall",
+					"description" :	"The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :		{"gold":2500},
+					"requires" :	[ "tavern" ],
+					"upgrades" :	"villageHall"},
+				"cityHall" :{
+					"id" :			12,
+					"name" : 		"City Hall",
+					"description" :	"The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :		{"gold":5000},
+					"requires" : 	[ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"upgrades" :	"townHall"},
+				"capitol" :{
+					"id" :			13,
+					"name" :		"Capitol",
+					"description" :	"The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :		{"gold":10000},
+					"requires" :	[ "castle" ],
+					"upgrades" :	"cityHall"},
+
+				"tavern" :{
+					"id" :			5,
+					"name" :		"Tavern",
+					"description" :	"The Tavern increases increases morale for troops defending the city.",
+					"cost" :		{"gold":500,"wood":5}},
+				"marketplace" :{
+					"id" :			14,
+					"name" :		"Marketplace",
+					"description" :	"With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :		{"gold":500,"wood":5}},
+				"resourceSilo" :{
+					"id" :			15,
+					"name" :		"Resource Silo",
+					"description" :	"The Resource Silo provides you with an additional +1 sulfur each day.",
+					"cost" :		{"gold":5000,"ore":5},
+					"requires" :	["marketplace"]},
+				"blacksmith" :{
+					"id" :			16,
+					"name" :		"Blacksmith",
+					"description" : "The Blacksmith provides your armies with First Aid Tent.",
+					"cost" :		{"gold":1000,"wood":5}},
+
+				"horde1" :{
+					"id" :			18,
+					"name" :		"Stables",
+					"description" :	"Stables increases weekly production of Vagabonds by 6 per week.",
+					"cost" :		{"gold":1000},
+					"requires" :	["dwellingLvl2"],
+					"upgrades" :	"dwellingLvl2"},
+				"horde1Upgr":		{
+					"id" :			19,
+					"name" :		"Stables",
+					"description" : "Stables increases weekly production of Nomads by 6 per week.",
+					"cost" :		{"gold":1000},
+					"requires" :	[ "allOf", ["horde1"], ["dwellingUpLvl2"] ],
+					"upgrades" :	"dwellingUpLvl2",
+					"mode" :		"auto"},
+				"horde2" :{
+					"id" :			24,
+					"name" :		"Factory Expansion",
+					"description" :	"Factory Expansion increases weekly production of Gold Golems by 2 per week.",
+					"cost" :		{"gold":1000,"crystal":2,"gems":2},
+					"requires" :	["dwellingUpLvl4"],
+					"upgrades" :	"dwellingLvl4"},
+				"horde2Upgr" :{
+					"id" :			25,
+					"name" :		"Factory Expansion",
+					"description" :	"Factory Expansion increases weekly production of Diamond Golems by 2 per week.",
+					"cost" :		{"gold":1000,"crystal":2,"gems":2},
+					"requires" :	["horde2"],
+					"upgrades" :	"dwellingUpLvl4",
+					"mode" :		"auto"},
+
+				"special3" :{
+					"id" :			17,
+					"name" :		"Unused building",
+					"description" :	"NOT IMPLEMENTED YET\r\n\r\nUnused building reduces the morale and luck of ennemy's units by 2 during a siege.",
+					"cost" :{"gold":2000}},
+				"special1" :{
+					"id" :			22,
+					"name" :		"Secret Cave",
+					"description" :	"Secret Cave earns your kingdom 300 gold per day.",
+					"cost":			{"gold":1200,"gems":1,"crystal":1},
+					"requires" : 	[ "allOf", ["dwellingUpLvl1"], ["dwellingUpLvl5"] ],
+					"produce":		{"gold":300}},
+				"special2" :{
+					"id" :			23,
+					"name" :		"Upg. Secret Cave",
+					"description" :	"Upg. Secret Cave earns your kingdom 600 gold per day.",
+					"cost" :		{"gold":1800,"gems":1,"crystal":1},
+                    "upgrades" :	"special1",
+                    "produce":		{"gold":600}},
+				"grail" :{
+					"id" :			26,
+					"name" :		"Sky Rift",
+                    "description" :	"Sky Rift increases weekly creature generation by 50 percent and adds 5000 gold per day. And it affords 7 mines(for all categories of resources respectively) for your kingdom. It also increases power 5 for defending heroes.",	
+					"produce":		{"gold":6000,"gems":1,"crystal":1,"sulfur":1,"mercury":1,"wood":2,"ore": 2}, 
+					"mode" :		"grail"},
+
+				"dwellingLvl1" :{
+					"id" :			30,
+					"description" :	"Rogue's Headquarter allows you to recruit Rogues.",
+					"name" :		"Rogue's Headquarter",
+					"cost" :		{"gold":100,"wood":2,"ore":2},
+					"requires" :	[ "fort" ]},
+				"dwellingLvl2" :{
+					"id" :			31,
+					"description" :	"Camp allows you to recruit Vagabonds.",
+					"name" :		"Camp",
+					"cost" :		{"gold":1000,"wood":5},
+					"requires" :	["fort"]},
+				"dwellingLvl3" :{
+					"id" :			32,
+					"description" :	"Watchtower allows you to recruit Sharpshooters.",
+					"name" :		"Watchtower",
+					"cost" :		{"gold":1500,"ore":5},
+					"requires" :	["dwellingUpLvl1"]},
+				"dwellingLvl4" :{
+					"id" :			33,
+					"description" :	"Golem Factory allows you to recruit Gold Golems.",
+					"name" :		"Golem Factory",
+					"cost" :		{"gold":2000,"ore":5,"mercury":5},
+					"requires" :	[ "allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["mageGuild2"], ["blacksmith"] ]},
+				"dwellingLvl5" :{
+					"id" :			34,
+					"description" :	"Enchanted Woods allows you to recruit Sorceresses.",
+					"name" :		"Enchanted Woods",
+					"cost" :		{"gold":2500,"wood":10},
+					"requires" :	[ "allOf", ["dwellingLvl1"], ["dwellingLvl2"],["mageGuild2"] ]},
+				"dwellingLvl6" :{
+					"id" : 			35,
+					"description" : "Skull Cave allows you to recruit Hell Steeds.",
+					"name" :		"Skull Cave",
+					"cost" :		{"gold":3000,"ore":15,"sulfur":5},
+					"requires" :	[ "allOf", ["dwellingLvl4"], ["dwellingLvl5"] ]},
+				"dwellingLvl7" :{
+					"id" :			36,
+					"description" : "Door to Hell allows you to recruit Angra Mainyu.",
+					"name" :		"Door to Hell",
+					"cost" :		{"gold":15000,"ore":10,"sulfur":15},
+					"requires" :	["dwellingLvl6"]},
+
+				"dwellingUpLvl1" :{
+					"id" :			37,
+					"description" :	"Upg. Rogue's Headquarter allows you to recruit Spies.",
+					"name" :		"Upg. Rogue's Headquarter",
+					"cost" :		{"gold":1000,"wood":3,"ore":3},
+					"requires" :	["fort"],
+					"upgrades" :	"dwellingLvl1"},
+				"dwellingUpLvl2" :{
+					"id" :			38,
+					"description" :	"Upg. Camp allows you to recruit Nomads.",
+					"name" :		"Nomad Camp",
+					"cost" :		{"gold":1500,"wood":5},
+					"requires" :	["fort"],
+					"upgrades" :	"dwellingLvl2"},
+				"dwellingUpLvl3" :{
+					"id" :			39,
+					"description" :	"Upg. Watchtower allows you to recruit Veteran Sharpshooters.",
+					"name" :		"Upg. Watchtower",
+					"cost" :		{"gold":1500,"ore":5},
+					"requires" :	[ "allOf", ["fort"],["mageGuild1"] ],		
+					"upgrades" :	"dwellingLvl3"},
+				"dwellingUpLvl4" :{
+					"id" :			40,
+					"description" :	"Upg. Golem Factory allows you to recruit Diamond Golems.",
+					"name" :		"Upg. Golem Factory",
+					"cost" :		{"gold":1500,"ore":5,"mercury":5},
+					"requires" :	[ "allOf", ["mageGuild2"], ["fort"]],
+					"upgrades" :	"dwellingLvl4"},
+				"dwellingUpLvl5" :{
+					"id" : 			41,
+					"description" :	"Upg. Enchanted Woods allows you to recruit Enchanters.",
+					"name" :		"Upg. Enchanted Woods",
+					"cost" :		{"gold":2000,"wood":10},
+					"requires" :	[ "allOf", ["mageGuild2"], ["fort"] ],
+					"upgrades" :	"dwellingLvl5"},
+				"dwellingUpLvl6" :{
+					"id" :			42,
+					"description" :	"Upg. Skull Cave allows you to recruit Nightmares.",
+					"name" :		"Upg. Skull Cave",
+					"cost" :		{"gold":3000,"sulfur":10},
+                    "requires" :	[ "allOf", ["dwellingUpLvl5"],["fort"] ],
+					"upgrades" :	"dwellingLvl6"},
+				"dwellingUpLvl7" :{
+					"id" : 43,
+					"description" : "Upg. Door to Hell allows you to recruit Ahriman.",
+					"name" :		"Upg. Door to Hell",
+					"cost" :		{"gold":20000,"mercury":10,"sulfur":20},
+					"requires" :	[ "allOf", ["dwellingUpLvl6"], ["fort"] ],
+					"upgrades" :	"dwellingLvl7"}
+			}
+		}
+	}
+}

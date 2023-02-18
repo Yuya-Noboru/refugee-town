@@ -1,0 +1,63 @@
+{
+	"rfgCommander":{
+		"name" :{
+			"plural" :	"Roving Enchanters",
+			"singular":	"Roving Enchanter"},
+		"faction" :		"refugee",
+		"special":		true,
+
+		"level" :		0,
+		"attack" :		7,
+		"defense" : 	7,
+		"damage" :		{ "min" : 14, "max" : 17 },
+		"hitPoints" :	50,
+		"speed" : 		6,
+		"shots" : 		24,
+		"growth" : 		1,
+		"fightValue" :	5272,
+		"aiValue" : 	5931,
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"refugee/creatures/battle/REFGCDR.def",
+			"map" :				"refugee/creatures/map/AVWREFGCDR.def",
+			"iconSmall" :		"refugee/creatures/iconsSmall/CRRFCDRS.bmp",
+			"iconLarge" :		"refugee/creatures/iconsBig/CRRFCDR.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :{
+				"projectile" :	"CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :{
+					"upperX" :	 38,
+					"upperY" :	-65,
+					"middleX" :	 36,
+					"middleY" :	-59,
+					"lowerX" :	 21,
+					"lowerY" :	-50},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+		}},
+
+		"sound" :{
+			"attack":	"ZELTATTK.wav",
+			"defend":	"ZELTDFND.wav",
+			"killed":	"ZELTKILL.wav",
+			"move":		"ZELTMOVE.wav",
+			"shoot":	"ZELTSHOT.wav",
+			"wince":	"ZELTWNCE.wav"},
+
+		"abilities" :{
+        	"shooter" :{		"type" :	"SHOOTER"},
+			"noMeleePenalty":{	"type" :	"NO_MELEE_PENALTY"},
+			"magicResistance":{	"type" :	"MAGIC_RESISTANCE",			"val" :	5},
+			"castsAmount" :{	"type" :	"CASTS",					"val" :	2},
+			"enchant" :{		"type" :	"CREATURE_ENCHANT_POWER",	"val" :	2},
+			"spellpower" :{		"type" :	"CREATURE_SPELL_POWER",		"val" :	100},
+			"canCast" :{		
+				"type" :	"SPELLCASTER",
+				"subtype" :	"spell.resurrection",
+				"val" :		1},
+            "noMind":{			"type":		"MIND_IMMUNITY"}
+		}
+	}
+}

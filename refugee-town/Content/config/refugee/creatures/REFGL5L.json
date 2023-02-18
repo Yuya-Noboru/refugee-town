@@ -1,0 +1,66 @@
+{
+	"rfgSorceress":{
+		"name" :{
+			"plural" :	"Sorceresses", 
+			"singular" :"Sorceress"},
+		"advMapAmount" :{
+			"min" :		8,
+			"max" :		16},
+		"faction" :		"refugee",
+		"upgrades":		["rfgEnchanter"],
+		"level" :		5,
+		"attack" :		15,
+		"defense" :		13,
+		"damage" :		{ "min" : 11, "max" : 14 },
+		"hitPoints" :	30,
+		"speed" :		8,
+		"shots" :		32,
+		"growth" :		3,
+		"fightValue" :	880,
+		"aiValue" :		960,
+		"cost" :		{ "gold" : 550 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"refugee/creatures/battle/REFGL4L.def",
+			"map" :				"refugee/creatures/map/AVWREFG07.def",
+			"iconSmall" :		"refugee/creatures/iconsSmall/CRRF007S.bmp",
+			"iconLarge" :		"refugee/creatures/iconsBig/CRRF007.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :{
+				"projectile" :	"refugee/creatures/projectile/CPRZEAX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :{
+					"lowerX" :	 62,
+					"lowerY" :	-93,
+					"middleX" :	 62,
+					"middleY" :	-93,
+					"upperX" :	 62,
+					"upperY" :	-93},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+		}},
+
+		"sound" :{
+			"attack":	"PIXIATTK.wav",
+			"defend":	"PIXIDFND.wav",
+			"killed":	"PIXIKILL.wav",
+			"move":		"VAMPMOVE.wav",
+			"shoot":	"MONKSHOT.wav",
+			"wince":	"PIXIWNCE.wav"},
+
+		"abilities" :{
+			"canShoot" :{	"type" :"SHOOTER"},
+			"flying" :{		"type" :"FLYING"},
+			"castDisease" :{
+				"type" :	"SPELL_AFTER_ATTACK",
+				"subtype" :	"spell.disease",
+				"val" :		25},
+			"castsWeakness" :{
+				"type" :	"ENCHANTER",
+				"subtype" :	"spell.weakness",
+				"val" :		3,
+				"addInfo" :	3}
+		}
+	}
+}

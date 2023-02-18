@@ -1,0 +1,93 @@
+{
+	"rfgDebug":{
+		"name":						"Debug",
+		"type":						"combat",
+		"targetType" :				"NO_TARGET",
+		"school":{
+			"air":					false,
+			"earth":				true,
+			"fire":					false,
+			"water":				false},
+
+		"level":					4,
+		"power":					500,
+		"defaultGainChance":		0,
+		"gainChance":{
+			"castle":				0,
+			"rampart":				0,
+			"refugee" :				0},
+
+		"animation":				{"cast":		[2]},
+ 		"sounds":					{"cast":		"HYPNOTIZ"},
+		"flags" :					{"indifferent": true},
+
+		"graphics":{
+			"iconBook":				"refugee/spells/debug0.bmp",
+			"iconScroll":			"refugee/spells/debug1.bmp",
+			"iconScenarioBonus":	"refugee/spells/debug2.bmp",
+			"iconEffect": 			"refugee/spells/debug3.bmp"},
+
+		"levels":{
+			"none":{
+				"description": 			"Summons Shapeshifters to fight on your side on battle field.",
+				"cost":					2,
+				"power":				500,
+				"aiValue":				10,
+				"range":				"X",
+				"targetModifier":		{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:shapeshifterBeta",
+						"permanent":	true,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"basic":{
+				"description": 			"Summons Shapeshifters to fight on your side on battle field.",
+				"cost":					2,
+				"power":				500,
+				"aiValue":				11,
+				"range":				"X",
+				"targetModifier":		{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:shapeshifterBeta",
+						"permanent":	true,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"advanced":	{
+				"description":			 "Summons Shapeshifters to fight on your side on battle field.",
+				"cost":					2,
+				"power":				500,
+				"aiValue":				12,
+				"range":				"X",
+				"targetModifier":		{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:shapeshifterBeta",
+						"permanent":	true,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"expert":{
+				"description": 			"Summons Shapeshifters to fight on your side on battle field.",
+				"cost":					2,
+				"power":				500,
+				"aiValue":				13,
+				"range":				"X",
+				"targetModifier":		{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:shapeshifterBeta",
+						"permanent":	true,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"rfgAngraMainyu":{
+		"name" :{
+			"plural" :	"Angra Mainyu",
+			"singular" :"Angra Mainyu"},
+		"advMapAmount" :{
+			"min" :		4,
+			"max" :		10},
+		"faction" :		"refugee",
+		"upgrades":		["rfgAhriman"],
+		"level" :		7,
+		"attack" :		17,
+		"defense" :		22,
+		"damage" :		{ "min" : 25, "max" : 45 },
+		"hitPoints" :	200,
+		"speed" :		13,
+		"growth" :		1,
+		"fightValue" :	3759,
+		"aiValue" :		5101,
+		"cost" :		{ "gold" : 2800, "sulfur" : 1 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"refugee/creatures/battle/REFGL7L.def",
+			"map" :				"refugee/creatures/map/AVWREFG13.def",
+			"iconSmall" :		"refugee/creatures/iconsSmall/CRRF013S.bmp",
+			"iconLarge" :		"refugee/creatures/iconsBig/CRRF013.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"creatures/AHRIMANATTK.wav",
+			"defend":			"creatures/AHRIMANDFND.wav",
+			"killed":			"creatures/AHRIMANKILL.wav",
+			"move":				"creatures/AHRIMANMOVE.wav", 
+			"wince":			"creatures/AHRIMANWNCE.wav",
+			"startMoving":		"creatures/AHRIMANEXT1.wav",
+			"endMoving":		"creatures/AHRIMANEXT2.wav"},
+
+		"abilities" :{
+			"teleports" : {
+				"type":			"FLYING",
+				"subtype":		1},
+			"castGottesbriefe":{
+				"type":			"SPELL_AFTER_ATTACK",
+				"subtype":		"spell.gottesbriefe",
+				"val":			30,
+				"addInfo" :		[1, 2]},
+			"castCurse":{
+				"type" :		"SPELL_BEFORE_ATTACK",
+				"subtype" :		"spell.curse",
+				"val" :			10,
+				"addInfo" :		1},
+			"immuneToMind" :{	"type" :"MIND_IMMUNITY"},
+			"selfMorale" :{		"type" :"SELF_MORALE"},
+			"selfLuck" :{		"type" :"SELF_LUCK"},
+			"fearless" :{		"type" :"FEARLESS"}
+		}
+	}
+}

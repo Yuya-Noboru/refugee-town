@@ -1,0 +1,36 @@
+{
+	"rfgKiana" :{
+		"class" :				"rfgWanderer",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"refugee/heroes/specs/spec-resistance-small.bmp",
+			"specialtyLarge" :	"refugee/heroes/specs/spec-resistance-large.bmp",
+			"small" : 			"refugee/heroes/portraits/rfgf5-small.bmp",
+			"large" : 			"refugee/heroes/portraits/rfgf5-large.bmp"},
+
+		"army" :[
+				{ "creature":	"rfgRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgVagabond",	"min":	3,	"max" :	6 }],
+
+		"skills" :[{ 	"level" : "advanced",	"skill" : "resistance" }],
+
+		"specialty":{
+			"bonuses" :{
+				"resistance" : {
+					"subtype" :		"skill.resistance",
+					"type" :		"SECONDARY_SKILL_PREMY",
+					"updater" :		"TIMES_HERO_LEVEL",
+					"val" :			5,
+					"valueType" :	"PERCENT_TO_BASE"
+		}}},
+
+		"texts":{
+			"name" :			"Kiana",
+			"biography" :		"During her exile throughout Krewlod,  Kiana showed predisposition to resist magic but her her tyrannic attitude oftenly leaded her to get into troubles.",
+			"specialty" :{
+				"name" :		"Resistance",
+				"tooltip" :		"Bonus: Resistance",
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage."
+		}}
+	}
+}

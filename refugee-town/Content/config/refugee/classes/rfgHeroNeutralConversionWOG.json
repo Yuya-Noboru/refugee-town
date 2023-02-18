@@ -1,0 +1,82 @@
+{
+"rfgLeyla" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgNiusha" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgKiana" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgSoraya" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgAreman" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgShayan" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgMahyar" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgYemapel" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgMithra" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgAran" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgSierra" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgAria" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgAzar" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgKeyvan" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgBhemnesh" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}},
+"rfgReza" :{
+	"specialty" :{	"bonuses" :{
+			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.sorceress",		"addInfo":	"creature.rfgSorceress"},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.hellSteed",		"addInfo":	"creature.rfgHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"creature.nightmare",		"addInfo":	"creature.rfgHorseBlack"}}}}
+}

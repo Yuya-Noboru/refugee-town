@@ -1,0 +1,36 @@
+{
+	"rfgSierra" :{
+		"class" :				"rfgEnchanter",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"refugee/heroes/specs/spec-firstaid-small.bmp",
+			"specialtyLarge" :	"refugee/heroes/specs/spec-firstaid-large.bmp",
+			"small" : 			"refugee/heroes/portraits/rfgf6-small.bmp",
+			"large" : 			"refugee/heroes/portraits/rfgf6-large.bmp"},
+
+		"army" :[
+				{ "creature":	"rfgRogue",		"min":	8,	"max" :	16 },
+				{ "creature" :	"firstAidTent",	"min" :	1,	"max" :	1  },
+				{ "creature":	"rfgVagabond",	"min":	3,	"max" :	6  }],
+
+		"skills" :[{ "level" :	"advanced",	"skill" :	"firstAid" }],
+		"spellbook" :[ "cure" ],
+		"specialty" :{
+			"bonuses" :{
+				"firstAid" :{
+					"subtype" :		"skill.firstAid",
+					"type" :		"SECONDARY_SKILL_PREMY",
+					"updater" :		"TIMES_HERO_LEVEL",
+					"val" :			5,
+					"valueType" :	"PERCENT_TO_BASE"
+		}}},
+		"texts":{
+			"name" :			"Sierra",
+			"biography" :		"Sierra believes that strength lies in alliances between each individuals. She is known to travel from battlefields to heal and recruits everyone she encounters which has greatly increased the troops of the kingdom.",
+			"specialty" :{
+				"name" :		"First Aid",
+				"tooltip" :		"",
+				"description" :	"{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill."
+		}}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"rfgHorseFire":{
+		"name" :{
+			"plural" :	"Hell Steeds",
+			"singular" :"Hell Steed"},
+		"advMapAmount" :{
+			"min" :		5,
+			"max" :		12},
+		"faction" :		"refugee",
+		"upgrades":		["rfgHorseBlack"],
+		"level" :		6,
+		"attack" :		15,
+		"defense" :		14,
+		"damage" :		{ "min" : 18, "max" : 22 },
+		"hitPoints" :	100,
+		"speed" :		8,
+		"growth" :		2,
+		"fightValue" :	1533,
+		"aiValue" :		1660,
+		"cost" :		{ "gold" : 950 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"refugee/creatures/battle/REFGL6L.def",
+			"map" :				"refugee/creatures/map/AVWREFG11.def",
+			"iconSmall" :		"refugee/creatures/iconsSmall/CRRF011S.bmp",
+			"iconLarge" :		"refugee/creatures/iconsBig/CRRF011.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"UNICATTK.wav",
+			"defend": 	"UNICDFND.wav",
+			"killed": 	"UNICKILL.wav",
+			"move":		"UNICMOVE.wav",
+			"shoot":	"WUNCSHOT.wav",
+			"wince":	"UNICWNCE.wav"},
+
+		"abilities" :{
+ 			"fireShield" :{
+				"type" :	"FIRE_SHIELD",
+				"val" :		30},
+			"fireBreath" :{
+				"type" :	"TWO_HEX_ATTACK_BREATH"},
+			"immuneToFire" :{
+				"type" :	"FIRE_IMMUNITY",
+				"subtype" :	0},
+			"spellFireWall" :{
+				"type" : 	"SPELL_AFTER_ATTACK",
+				"subtype" :	"spell.fireWall",
+				"val" :		12,	"addInfo" :	3},
+			"spellpower" :{
+				"type" :	"CREATURE_SPELL_POWER",
+				"val" :		100}
+		}
+	}
+}

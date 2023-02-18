@@ -1,0 +1,67 @@
+{"core:creatureGeneratorCommon" :{
+	"types" : {
+		"refugeeLevel1" :{
+			"name" :				"Rogue's Headquarter",
+			"creatures" :			[[ "rfgRogue" ]],
+			"templates" :{
+				"default" :{
+					"animation" :	"refugee/creatures/dwellings/AVWCATH01",
+					"mask" :		["VVV","VBB","BBA" ]}}},
+
+		"refugeeLevel2" : {
+			"name" :				"Camp",
+			"creatures" :			[[ "rfgVagabond" ]],
+			"templates" : {
+				"default" : {
+					"animation" :	"refugee/creatures/dwellings/AVWCATH02",
+					"mask" :		[ "VBB", "VBA" ]}}},
+
+		"refugeeLevel3" : {
+			"name" :				"Watchtower",
+			"creatures" :			[[ "rfgSharp" ]],
+			"templates" : {
+				"default" : {   
+					"animation" : 	"refugee/creatures/dwellings/AVWCATH03",
+					"mask" :		["VVV","VBB","VBA" ]}}},
+
+		"refugeeLevel4" : {
+			"name" : 				"Golem Factory",
+			"creatures" : 			[[ "rfgGoldGolem" ]],
+			"templates" : {
+				"default" : {
+					"animation" : 	"refugee/creatures/dwellings/AVWCATH04",
+					"mask" : 		["VVV","VBB","VAB" ]}}},
+
+		"refugeeLevel5" : {
+			"name" : 				"Enchanted Woods",
+			"creatures" : 			[[ "rfgSorceress" ]],
+			"guards" : [			{"amount" : 9, "type" : "rfgSorceress" }],
+			"templates" : {
+				"default" : {
+					"animation" :	"refugee/creatures/dwellings/AVWCATH05",
+					"mask" : 		["VVV","VBB","VAB" ]}}},
+
+            "refugeeLevel6" : {
+                "name" : "Skull Cave",
+                "creatures" : [[ "rfgHorseFire" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "rfgHorseFire" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "refugee/creatures/dwellings/AVWCATH06",
+                        "mask" : ["VVV","BBB","BAB" ]
+                    }
+                }
+            },
+            "refugeeLevel7" : {
+                "name" : "Door to Hell",
+                "creatures" : [[ "rfgAngraMainyu" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "rfgAngraMainyu" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "refugee/creatures/dwellings/AVWCATH07",
+                        "mask" : ["VVV","VBB","VAB" ]}}}
+}}}

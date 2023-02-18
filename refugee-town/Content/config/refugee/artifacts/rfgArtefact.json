@@ -1,0 +1,32 @@
+{
+	"rfgArtefact" : {
+		"type" :[			"HERO" ],
+		"class" :			"MAJOR",
+		"slot" :			"MISC",
+		"value" :			12000,
+
+		"text" :{
+			"name" :		"Unnamed",
+			"description" :	"{Unnamed}\r\n\r\nReduces attack, defence and speed of all enemy units by 25%.",
+			"event" :		"On your travel, you stumble upon big sword. You dust it off and stick in your backpack."},
+
+		"graphics" :{
+			"image" :		"refugee/artifacts/aswbreaker",
+			"large":		".",
+			"map" :			"refugee/artifacts/aswbreaker"},
+
+		"bonuses" :[{
+			"effectRange" :	"ONLY_ENEMY_ARMY", 
+			"type" :		"MORALE", 
+			"val" :			-3,
+			"valueType" :	"BASE_NUMBER",
+			},
+			{
+			"effectRange" :	"ONLY_ENEMY_ARMY", 
+			"type" :		"LUCK", 
+			"val" :			-3,
+			"valueType" :	"BASE_NUMBER",
+			}
+		],
+	}
+}

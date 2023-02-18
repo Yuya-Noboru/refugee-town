@@ -1,0 +1,82 @@
+{
+	"rfgLeyla" :{
+		"specialty" :{
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgNiusha" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgKiana" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgSoraya" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgAreman" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgShayan" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgMahyar" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgYemapel" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgMithra" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgAran" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgSierra" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgAria" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgAzar" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgKeyvan" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgBhemnesh" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}},
+	"rfgReza" :{
+		"specialty" : {
+			"bonuses" :{
+				"Nonevil":{
+					"type" :		"NONEVIL_ALIGNMENT_MIX"}}}}
+}

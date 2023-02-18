@@ -1,0 +1,32 @@
+{
+	"rfgReza" :{
+		"class" :				"rfgEnchanter",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"refugee/heroes/specs/spec-rfgGolem-small.bmp",
+			"specialtyLarge" :	"refugee/heroes/specs/spec-rfgGolem-large.bmp",
+			"small" : 			"refugee/heroes/portraits/rfgm7-small.bmp",
+			"large" : 			"refugee/heroes/portraits/rfgm7-large.bmp"},
+
+		"army" :[
+				{ "creature" :	"rfgGoldGolem",	"min" :	1,	"max" :	2 },
+				{ "creature" :	"rfgGoldGolem",	"min" :	1,	"max" :	1 },
+				{ "creature" :	"rfgGoldGolem",	"min" :	1,	"max" :	1 }],
+
+		"skills" :[
+			{ "level" :		"basic",	"skill" :	"resistance" },
+			{ "level" :		"basic",	"skill" :	"intelligence" }],
+
+		"spellbook" :[ "rfgEmet", "rfgMet" ],
+		"specialty" : {"creature" : "rfgGoldGolem"},
+
+		"texts":{
+			"name" :			"Reza",
+			"biography" :		"Reza contempt living beings and works inside the Golem Factory where he repair and creates golems. Before joining the kingdom, half his face was burned by Xyron which explains his hate against Eeofol's inhabitants.",
+			"specialty" :{
+				"name" :		"Gold Golem",
+				"tooltip" :		"",
+				"description" :	"{Gold Golem}\r\n\r\nIncreases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
+		}}
+	}
+}

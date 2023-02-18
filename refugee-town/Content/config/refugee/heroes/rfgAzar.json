@@ -1,0 +1,32 @@
+{
+	"rfgAzar" :{
+		"class" :				"rfgEnchanter",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"refugee/heroes/specs/spec-rfgHorse-small.bmp",
+			"specialtyLarge" :	"refugee/heroes/specs/spec-rfgHorse-large.bmp",
+			"small" : 			"refugee/heroes/portraits/rfgm2-small.bmp",
+			"large" : 			"refugee/heroes/portraits/rfgm2-large.bmp"},
+
+		"army" :[
+				{ "creature":	"rfgRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgVagabond",	"min":	3,	"max" :	6 },
+				{ "creature" :	"rfgSharp",		"min" :	2,	"max" :	3 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"fireMagic" },
+				{ "level" :		"basic",	"skill" :	"estates" }],
+
+		"spellbook" :[	"fireball" ],
+		"specialty" :{	"creature" : "rfgHorseFire"},
+		
+		"texts":{
+			"name" :			"Azar",
+			"biography" :		"Abandoned with unicorns in AvLee when he was a child, he grew up as a druid until he joined Shayan's kingdom. Hell steeds and Nightmares remind him of unicorns he once knew.",
+			"specialty" :{
+				"name" :		"Hell Steed",
+				"tooltip" :		"",
+				"description" :	"{Hell Steed}\r\n\r\nIncreases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 5th level."
+		}}
+	}
+}
