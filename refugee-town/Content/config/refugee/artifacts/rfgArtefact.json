@@ -7,7 +7,7 @@
 
 		"text" :{
 			"name" :		"Unnamed",
-			"description" :	"{Unnamed}\r\n\r\nReduces attack, defence and speed of all enemy units by 25%.",
+			"description" :	"{Unnamed}\r\n\r\nReduces luck and morale of enemy units by 3.",
 			"event" :		"On your travel, you stumble upon big sword. You dust it off and stick in your backpack."},
 
 		"graphics" :{
@@ -16,17 +16,21 @@
 			"map" :			"refugee/artifacts/aswbreaker"},
 
 		"bonuses" :[{
-			"effectRange" :	"ONLY_ENEMY_ARMY", 
+			"propagator": "BATTLE_WIDE",
+			"propagationUpdater" : "BONUS_OWNER_UPDATER",
+			"limiters" : [ "OPPOSITE_SIDE" ],
 			"type" :		"MORALE", 
 			"val" :			-3,
 			"valueType" :	"BASE_NUMBER",
 			},
 			{
-			"effectRange" :	"ONLY_ENEMY_ARMY", 
+			"propagator": "BATTLE_WIDE",
+			"propagationUpdater" : "BONUS_OWNER_UPDATER",
+			"limiters" : [ "OPPOSITE_SIDE" ],
 			"type" :		"LUCK", 
 			"val" :			-3,
 			"valueType" :	"BASE_NUMBER",
 			}
-		],
+		]
 	}
 }
