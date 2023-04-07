@@ -23,7 +23,7 @@
 			"biography" :		"Areman spent his life wandering in Erathia with all kinds of creatures which eventually died during his journey. What earned him to be known as the eternal wanderer.",
 			"specialty" :{
 				"name" :		"Nomad",
-				"tooltip" :		"",
+				"tooltip" :		"Specialty bonus: Nomad",
 				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of any Boar or Nomad for each level attained after 5th level."
 		}}
 	}

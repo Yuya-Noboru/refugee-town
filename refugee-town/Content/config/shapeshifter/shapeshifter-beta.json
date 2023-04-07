@@ -22,7 +22,7 @@
 		"doubleWide" :	true,
 
 		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"shapeshifter/ShapeshifterB-Battle.def",
 			"map" :				"shapeshifter/ShapeshifterB-Map.def",
 			"iconSmall" :		"shapeshifter/ShapeshifterB-portraitSmall.bmp",

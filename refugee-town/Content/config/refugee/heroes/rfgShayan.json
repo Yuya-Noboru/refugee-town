@@ -33,7 +33,7 @@
 			"biography" :		"Shayan, under construction...",
 			"specialty" :{
 				"name" :		"Motley Army",
-				"tooltip" :		"",
+				"tooltip" :		"Specialty bonus: Motley Army",
 				"description" : "{Motley Army}\r\n\r\nGood and Neutral creatures can be mixed without morale penalty."
 		}}
 	}

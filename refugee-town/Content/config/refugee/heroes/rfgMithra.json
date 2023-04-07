@@ -25,7 +25,7 @@
 			"biography" :		"Hidden in woods near the land of Deyja, Mithra incredible ability to destroy undead made her popular among sorceresses. After losing a battle against liches, she took refuge within Shayan's kingdom to teaches magic.",
 			"specialty" :{
 				"name" :		"Enchanter",
-				"tooltip" :		"",
+				"tooltip" :		"Specialty bonus: Enchanter",
 				"description" :	"{Enchanter}\r\n\r\nIncreases the Attack and Defense skills of any Sorceress or Enchanters for each level attained after 5th level."
 		}}
 	}

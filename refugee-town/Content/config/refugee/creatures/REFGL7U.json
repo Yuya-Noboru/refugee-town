@@ -3,9 +3,9 @@
 		"name" :{
 			"plural" :	"Ahriman",
 			"singular" :"Ahriman"},
-		"advMapAmount" :{
-			"min" :		3,
-			"max" :		8},
+			"advMapAmount" :{
+				"min" :		3,
+				"max" :		8},
 		"faction" :		"refugee",
 
 		"level" :		7,
@@ -21,7 +21,7 @@
 		"doubleWide" :	false,
 
 		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"refugee/creatures/battle/REFGL7U.def",
 			"map" :				"refugee/creatures/map/AVWREFG14.def",
 			"iconSmall" :		"refugee/creatures/iconsSmall/CRRF014S.bmp",
@@ -52,8 +52,8 @@
 				"val" :			10,
 				"addInfo" :		1},
 			"immuneToMind" :{	"type" :"MIND_IMMUNITY"},
-			"selfMorale" :{		"type" :"SELF_MORALE"},
-			"selfLuck" :{		"type" :"SELF_LUCK"},
+			"selfMorale" :{			"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX"},
+			"selfLuck" :{		"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"},
 			"fearless" :{		"type" :"FEARLESS"},
 			"fear" :{			"type" :"FEAR"}
 		}

@@ -77,7 +77,7 @@
 					"destruction" :{
 						"type" :		"core:damage",
 						"killByCount":	true
-					}}},
+					}}}
 		}
 	}
 }

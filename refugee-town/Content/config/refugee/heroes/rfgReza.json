@@ -25,7 +25,7 @@
 			"biography" :		"Reza contempt living beings and works inside the Golem Factory where he repair and creates golems. Before joining the kingdom, half his face was burned by Xyron which explains his hate against Eeofol's inhabitants.",
 			"specialty" :{
 				"name" :		"Gold Golem",
-				"tooltip" :		"",
+				"tooltip" :		"Specialty bonus: Gold Golem",
 				"description" :	"{Gold Golem}\r\n\r\nIncreases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
 		}}
 	}

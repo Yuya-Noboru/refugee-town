@@ -21,7 +21,7 @@
 			"limiters" : [ "OPPOSITE_SIDE" ],
 			"type" :		"MORALE", 
 			"val" :			-3,
-			"valueType" :	"BASE_NUMBER",
+			"valueType" :	"BASE_NUMBER"
 			},
 			{
 			"propagator": "BATTLE_WIDE",
@@ -29,7 +29,7 @@
 			"limiters" : [ "OPPOSITE_SIDE" ],
 			"type" :		"LUCK", 
 			"val" :			-3,
-			"valueType" :	"BASE_NUMBER",
+			"valueType" :	"BASE_NUMBER"
 			}
 		]
 	}
