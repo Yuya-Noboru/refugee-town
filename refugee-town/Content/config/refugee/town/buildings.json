@@ -101,8 +101,8 @@
 
 				"horde1" :{
 					"id" :			18,
-					"name" :		"Stables",
-					"description" :	"Stables increases weekly production of Vagabonds by 6 per week.",
+					"name" :		"Stalls",
+					"description" :	"Stalls increases weekly production of Vagabonds by 6 per week.",
 					"cost" :		{"gold":1000},
 					"requires" :	["dwellingLvl2"],
 					"upgrades" :	"dwellingLvl2"},
@@ -152,7 +152,7 @@
 				"grail" :{
 					"id" :			26,
 					"name" :		"Sky Rift",
-                    "description" :	"Sky Rift increases weekly creature generation by 50 percent and adds 5000 gold per day. And it affords 7 mines(for all categories of resources respectively) for your kingdom. It also increases power 5 for defending heroes.",	
+                    "description" :	"Sky Rift increases weekly creature generation by 50 percent and adds 5000 gold per day. And it affords 7 mines(for all categories of resources respectively) for your kingdom. It also increases power 5 for defending heroes.",
 					"produce":		{"gold":6000,"gems":1,"crystal":1,"sulfur":1,"mercury":1,"wood":2,"ore": 2}, 
 					"mode" :		"grail"},
 
