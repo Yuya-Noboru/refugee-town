@@ -22,9 +22,17 @@
 	"french" : {
 		"name" : "Réfugiés",
 		"description" : "Réfugiés est une ville créée par Yuya qui s'inspire de la ville neutre de WoG et du camp de réfugiés de Heroes 3. Le point commun de ses créatures est leur non appartenance aux autres factions. Ainsi, ce château arbore des concepts tels que le nomadisme, les armées hétéroclites et les solutions de fortune. La ville reprend également des éléments des mythologies mésopotamiennes/sumériennes/akkadiennes. Forum officiel VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
-		"modType" : "Ville",
 		"translations" : [
 			"translation/refugee/french.json"
+		]
+	},
+
+
+	"german" : {
+		"name" : "Flüchtlings-Stadt",
+		"description" : "Flüchtlings-Stadt ist eine von Yuya erschaffene Stadt, die von WoG's Neutral Town und Heroes3's Refugee Camp inspiriert wurde. Der gemeinsame Punkt seiner Kreaturen ist ihre Nicht-Zugehörigkeit zu den anderen Fraktionen. So finden sich in dieser Burg Konzepte wie Nomadentum, bunt zusammengewürfelte Armeen und Behelfslösungen. Die Stadt nimmt auch Elemente aus der mesopotamischen/sumerischen/akkadischen Mythologie auf. Offizielles VCMI-Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+		"translations" : [
+			"translation/refugee/german.json"
 		]
 	},
 
