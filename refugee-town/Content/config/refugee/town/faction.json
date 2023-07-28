@@ -3,6 +3,7 @@
 		"name" :					"Refugee",
 		"nativeTerrain" :			"dirt",
 		"alignment" :				"neutral",
+		"boat" : "boatCastle",
 		"creatureBackground" :{
 			"120px" :				"refugee/RFGBCKG120.bmp",
 			"130px" :				"refugee/RFGBCKG130.bmp"},
@@ -137,7 +138,8 @@
 				["rfgHorseFire",	"rfgHorseBlack"],
 				["rfgAngraMainyu",	"rfgAhriman"]],
 
-			"horde" :				[ 1, 4 ],
+			"horde" :	[ 1, 4 ],
+			"moatAbility" : "refugeeMoat",
 			"icons" :{
 				"fort" :{
 					"built" :{
@@ -158,8 +160,6 @@
 			"warMachine" :			"firstAidTent",
 			"mageGuild" :			5,
 			"musicTheme" :			"music/RefugeeTown",
-			"moatDamage" :			90,
-			"moatHexes" :			[ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 
 			"names" : [
 				"Shahriar",
