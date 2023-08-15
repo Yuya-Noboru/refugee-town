@@ -30,7 +30,7 @@
 			"templates" : {
 				"default" : {
 					"animation" : 	"refugee/creatures/dwellings/AVWCATH04",
-					"mask" : 		["VVV","VBB","VAB" ]}}},
+					"mask" : 		["VVV","VVV","VBB","VAB" ]}}},
 
 		"refugeeLevel5" : {
 			"name" : 				"Enchanted Woods",
