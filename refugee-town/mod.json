@@ -98,7 +98,3 @@
 	"objects" :[
         "config/refugee/dwellings.json"]
 }
-
-//	UNUSED
-//	"artifacts":[	"config/refugee/artifacts/rfgArtefact.json"  ],
-//	"heroes" :[		"config/refugee/classes/rfgHeroBonusMix.json" ],
