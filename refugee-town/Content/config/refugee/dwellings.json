@@ -22,7 +22,7 @@
 			"templates" : {
 				"default" : {   
 					"animation" : 	"refugee/creatures/dwellings/AVWCATH03",
-					"mask" :		["VVV","VBB","VBA" ]}}},
+					"mask" :		["VVV","VVV","VAA" ]}}},
 
 		"refugeeLevel4" : {
 			"name" : 				"Golem Factory",
