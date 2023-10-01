@@ -1,0 +1,43 @@
+{
+	"rfgcVagabond":{
+		"name" :{
+			"plural" :	"Vagabonds",
+			"singular" :"Vagabond"},
+		"advMapAmount" :{"min" : 16,	"max" : 25},
+		"faction" :		"refugee",
+		"upgrades":		["rfgcNomad"],
+		"level" :		2,
+		"attack" :		8,
+		"defense" :		7,
+		"damage" :		{ "min" : 2, "max" : 6 },
+		"hitPoints" :	25,
+		"speed" :		6,
+		"growth" :		7,
+		"horde":		4,
+		"fightValue" :	245,
+		"aiValue" :		305,
+		"cost" :		{ "gold" : 150 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL2L.def",
+			"map" :				"creatures/map/AVWREFG03.def",
+			"iconSmall" :		"creatures/icons/RFGC2L-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC2L-PB.png",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"NMADATTK.wav",
+			"defend":	"NMADDFND.wav",
+			"killed":	"NMADKILL.wav",
+			"move":		"NMADMOVE.wav",
+			"wince":	"NMADWNCE.wav"},
+
+		"abilities":{
+				"sandWalker" :{
+				"type" :		"NO_TERRAIN_PENALTY",
+				"subtype" :		"terrain.sand",
+				"propagator" :	"HERO"}}
+	}
+}

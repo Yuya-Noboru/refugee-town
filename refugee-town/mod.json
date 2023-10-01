@@ -1,100 +1,95 @@
 {
-	"name" :		"Refugee Town",
-	"description" :	"Refugee is a town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
-	"author":		"Yuya Noboru",
-	"version" :		"0.7",
-	"contact":		"mail: yuya.noboru@gmail.com",
-	"modType" :		"Town",
-	"depends" :		["wake-of-gods"],
-	"compatibility" :
-	{
-		"min" : "1.3.0"
-	},
+	"name" :			"Refugee Town",
+	"description" :		"Refugee is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+	"author":			"Yuya Noboru (v0.1-v0.4, v0.8), Anonymous (v0.5-v0.7)",
+	"version" :			"0.8",
+	"contact":			"mail: yuya.noboru@gmail.com",
+	"modType" :			"Town",
+	"compatibility" :	{"min" : "1.3.0"},
+
 	"changelog" :{
-		"Note":[	"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
-		"0.7":[	"Update to vcmi-1.3"],
-		"0.6":[	"Update to vcmi-1.2"],
-		"0.5":[	"Some tweaks", "Tower icons added"],
-		"0.4":[	"Under construction..."],
-		"0.2":[	"New Townscreen and buildings; Renamed buildings and edited ressources costs and unlocking tree; Edited various game icons; Remastered town's theme; Added 2 new spells; Replaced Keyvan/Shayan specialties; Changed LVL7/LVL3 stats and abilities; Fixed the two 'Hordes' buildings; Fixed every .JSON files syntax errors and optimized their codes."],
-		"0.1":[	"Initial release: Added new factions 'Refugee'; Creatures & Heroes" ]
-	},
+		"Note":					["See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
+		"v0.8":					["Work in progress."],
+
+		"v0.7 (17/08/2023)":	["Update to VCMI 1.3"],
+		"v0.6":					["Update to VCMI 1.2"],
+		"v0.5":					["Some tweaks.", "Tower icons added.", "Added spell Moat.", "French/German translation.", "Updated sorceress sprites and few townscreen buildings (blacksmith, dwellings 1/1U/6U).", "Updated Dwelling 4 adv map sprites.", "Converted themes .MP3 to .OGG", "Updated siege sprites."],
+
+		"v0.4 (10/06/2020)":	["Given all heroes the ability to convert true neutral creatures into Refugee's faction", "Rebalanced every heroes starting army to make them stronger", "Added Heroes descriptions", "Replaced heroes battle and map visuals with new original ones", "Changed keyvan's specialty and added Sigu as starting spell in addition to the new version of namburbi", "Replaced kiana ballista specialty with resistance and changed her starting skills", "Replaced shayan's specialty with a new one, changed his starting skills and added surrender discount bonus per level", "", "Replaced creature Peasant (ex-LVL1) with Rogues (ex-LVL1U) and added new LVL1U called Spy. Reduced power multiplier of Rogue's spying ability from 3 to 2. Spies spying ability PM is set to 3.", "Replaced Boar (ex-LVL2) with new creature Vagabond", "Switched tiers between Tier 4 Sorceress/Enchanter with Tier 5 Gold/Diamond golems.", "Updated adv. map amounts of every units based on HoTA's map editor values", "Rebalanced units statistics (Tiers 1/2/4/5) to make them more coherent with their vanilla counterparts. Units are stronger but their growths are underaverage.", "Edited visuals & sounds of both Tier 7 units and visuals of Veteran Sharpshooter Lvl3U", "Updated creatures adv map visuals, portraits and icons", "Hell steed nows has the ability to cast Fire wall with 12% chance as in WoG (doesn't works).", "Added new unique neutral creature Shapeshifter.", "Fixed sorceress missing shot sounds", "", "created puzzle map and siege visuals", "Replaced sorceress towers garrison by Roving Enchanters", "Optimized files Buildings Areas and borders. Edited Dwelling5 (ex-Dwl4) borders and areas", "Added an alternative music for the town. It will need manual installation.", "", "Old spell Gottesbriefe is renamed Sigu.", "Old spell Namburbi is renamed Emet.", "New offensive spell against all-type of golems called Met.", "New spell Namburbi now increase morale and luck of targeted/all ally's troop(s).", "Reworked Namburbi sprites."],
+		"v0.2 (20/05/2020)":	["New Townscreen and buildings", "Renamed buildings and edited ressources costs and unlocking tree", "Edited various game icons", "Remastered town's theme", "Added 2 new spells", "Replaced Keyvan/Shayan specialties", "Changed LVL7/LVL3 stats and abilities", "Fixed the two 'Hordes' buildings", "Fixed every .JSON files syntax errors and optimized their codes."],
+		"v0.1 (22/09/2019)":	["Initial release: Added new factions 'Refugee'; Creatures & Heroes" ]},
 
 	"french" : {
-		"name" : "Réfugiés",
-		"description" : "Réfugiés est une ville créée par Yuya qui s'inspire de la ville neutre de WoG et du camp de réfugiés de Heroes 3. Le point commun de ses créatures est leur non appartenance aux autres factions. Ainsi, ce château arbore des concepts tels que le nomadisme, les armées hétéroclites et les solutions de fortune. La ville reprend également des éléments des mythologies mésopotamiennes/sumériennes/akkadiennes. Forum officiel VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
-		"translations" : [
-			"translation/refugee/french.json"
-		]
-	},
-
+		"name" :		"Réfugiés",
+		"description" :	"Réfugiés est une ville créée par Yuya qui s'inspire de la ville neutre de WoG, ainsi que des camps de réfugiés d'Heroes 3. Le point commun de ses créatures est leur non-appartenance aux autres factions. Ainsi, ce château arbore des concepts tels que le nomadisme, les armées hétéroclites et les solutions de fortune. La ville reprend également des éléments des mythologies mésopotamiennes, sumériennes et akkadiennes. Forum officiel VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+		"translations" :["translation/refugee/french.json"]},
 
 	"german" : {
-		"name" : "Flüchtlings-Stadt",
-		"description" : "Flüchtlings-Stadt ist eine von Yuya erschaffene Stadt, die von WoG's Neutral Town und Heroes3's Refugee Camp inspiriert wurde. Der gemeinsame Punkt seiner Kreaturen ist ihre Nicht-Zugehörigkeit zu den anderen Fraktionen. So finden sich in dieser Burg Konzepte wie Nomadentum, bunt zusammengewürfelte Armeen und Behelfslösungen. Die Stadt nimmt auch Elemente aus der mesopotamischen/sumerischen/akkadischen Mythologie auf. Offizielles VCMI-Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
-		"translations" : [
-			"translation/refugee/german.json"
-		]
-	},
+		"name" :		"Flüchtlings-Stadt",
+		"description" :	"Flüchtlings-Stadt ist eine von Yuya erschaffene Stadt, die von WoG's Neutral Town und Heroes3's Refugee Camp inspiriert wurde. Der gemeinsame Punkt seiner Kreaturen ist ihre Nicht-Zugehörigkeit zu den anderen Fraktionen. So finden sich in dieser Burg Konzepte wie Nomadentum, bunt zusammengewürfelte Armeen und Behelfslösungen. Die Stadt nimmt auch Elemente aus der mesopotamischen/sumerischen/akkadischen Mythologie auf. Offizielles VCMI-Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+		"translations" :["translation/refugee/german.json"]},
 
 	"factions" :[
-		"config/refugee/town/buildings.json",
-		"config/refugee/town/faction.json",
-		"config/refugee/town/puzzle.json",
-		"config/refugee/town/siege.json",
-		"config/refugee/town/structures.json"],
+		"config/town/buildings.json",
+		"config/town/faction.json",
+		"config/town/puzzle.json",
+		"config/town/siege.json",
+		"config/town/structures.json"],
+
+	"terrains" : [
+		"config/town/terrain.json"],
 
 	"creatures" :[
-		"config/refugee/creatures/REFGL1L.json",
-		"config/refugee/creatures/REFGL1U.json",
-		"config/refugee/creatures/REFGL2L.json",
-		"config/refugee/creatures/REFGL2U.json",
-		"config/refugee/creatures/REFGL3L.json",
-		"config/refugee/creatures/REFGL3U.json",
-		"config/refugee/creatures/REFGL4L.json",
-		"config/refugee/creatures/REFGL4U.json",
-		"config/refugee/creatures/REFGL5L.json",
-		"config/refugee/creatures/REFGL5U.json",
-		"config/refugee/creatures/REFGL6L.json",
-		"config/refugee/creatures/REFGL6U.json",
-		"config/refugee/creatures/REFGL7L.json",
-		"config/refugee/creatures/REFGL7U.json",
-		"config/refugee/creatures/REFGCDR.json",
-		"config/shapeshifter/shapeshifter-beta.json"],
+		"config/creatures/RFGCL1L.json",
+		"config/creatures/RFGCL1U.json",
+		"config/creatures/RFGCL2L.json",
+		"config/creatures/RFGCL2U.json",
+		"config/creatures/RFGCL3L.json",
+		"config/creatures/RFGCL3U.json",
+		"config/creatures/RFGCL4L.json",
+		"config/creatures/RFGCL4U.json",
+		"config/creatures/RFGCL5L.json",
+		"config/creatures/RFGCL5U.json",
+		"config/creatures/RFGCL6L.json",
+		"config/creatures/RFGCL6U.json",
+		"config/creatures/RFGCL7L.json",
+		"config/creatures/RFGCL7U.json",
+		"config/creatures/RFGC-Commander.json",
+		"config/creatures/RFGC-Daeva.json"],
 
 	"heroClasses" :[
-		"config/refugee/classes/rfgEnchanter.json",
-		"config/refugee/classes/rfgWanderer.json"],
+		"config/classes/RFGHC-Enchanter.json",
+		"config/classes/RFGHC-Wanderer.json"],
 
 	"heroes" :[
-		"config/refugee/heroes/rfgLeyla.json",
-		"config/refugee/heroes/rfgNiusha.json",
-		"config/refugee/heroes/rfgKiana.json",
-		"config/refugee/heroes/rfgSoraya.json",
-		"config/refugee/heroes/rfgAreman.json",
-		"config/refugee/heroes/rfgShayan.json",
-		"config/refugee/heroes/rfgMahyar.json",
-		"config/refugee/heroes/rfgYemapel.json",
-		"config/refugee/heroes/rfgMithra.json",
-		"config/refugee/heroes/rfgAran.json",
-		"config/refugee/heroes/rfgSierra.json",
-		"config/refugee/heroes/rfgAria.json",
-		"config/refugee/heroes/rfgAzar.json",
-		"config/refugee/heroes/rfgKeyvan.json",
-		"config/refugee/heroes/rfgBhemnesh.json",
-		"config/refugee/heroes/rfgReza.json",
-		"config/refugee/classes/rfgHeroNeutralConversion.json"],
+		"config/heroes/RFGH-Leyla.json",
+		"config/heroes/RFGH-Niusha.json",
+		"config/heroes/RFGH-Kiana.json",
+		"config/heroes/RFGH-Soraya.json",
+		"config/heroes/RFGH-Areman.json",
+		"config/heroes/RFGH-Shayan.json",
+		"config/heroes/RFGH-Mahyar.json",
+		"config/heroes/RFGH-Yemapel.json",
+		"config/heroes/RFGH-Mithra.json",
+		"config/heroes/RFGH-Aran.json",
+		"config/heroes/RFGH-Sierra.json",
+		"config/heroes/RFGH-Aria.json",
+		"config/heroes/RFGH-Azar.json",
+		"config/heroes/RFGH-Keyvan.json",
+		"config/heroes/RFGH-Bhemnesh.json",
+		"config/heroes/RFGH-Reza.json",
+		"config/classes/RFGH-HeroNeutralConversion.json"],
 
 	"spells" :[
-		"config/refugee/spells/rfgDebug.json",
-		"config/refugee/spells/rfgEmet.json",
-		"config/refugee/spells/rfgMet.json",
-		"config/refugee/spells/rfgGottesbriefe.json",
-		"config/refugee/spells/rfgGottesbriefeP.json",
-		"config/refugee/spells/rfgNamburbi.json",
-		"config/refugee/spells/moat.json"
-		],
+		"config/spells/RFGS-Emet.json",
+		"config/spells/RFGS-Met.json",
+		"config/spells/RFGS-Gottesbriefe.json",
+		"config/spells/RFGS-GottesbriefeP.json",
+		"config/spells/RFGS-Namburbi.json",
+		"config/spells/RFGS-Holybreaker.json",
+		"config/spells/RFGS-SummonDaeva.json",
+		"config/spells/RFGS-Moat.json"],
 
 	"objects" :[
-        "config/refugee/dwellings.json"]
+		"config/town/dwellings.json"]
 }

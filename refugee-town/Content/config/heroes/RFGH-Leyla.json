@@ -1,0 +1,37 @@
+{
+	"rfghLeyla" :{
+		"class" :				"rfghcWanderer",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-slayer-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-slayer-large.png",
+			"small" : 			"heroes/portraits/RFGH-Leyla-small.png",
+			"large" : 			"heroes/portraits/RFGH-Leyla-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"ballistics" },
+				{ "level" :		"basic",	"skill" :	"diplomacy" }],
+
+		"spellbook" :[ "slayer" ],
+		"specialty" : {
+			"bonuses" :{
+				"slayer" :{
+					"addInfo" : 1,
+					"subtype" : "spell.slayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+		}}},
+
+		"texts":{
+			"name" :			"Leyla",
+			"biography" :		"Leyla saw her parents burnt alive by a dragon breath and she dedicated her life feeding her hate of dragons. Her great skills in combat allowed her to be widely known in the kingdom as the dragon-slayer.",
+			"specialty" :{
+				"name" :		"Slayer",
+				"tooltip" :		"speciality : Slayer",
+				"description" : "{Slayer}\r\n\r\nCasts Slayer spell with increased effect, based on the level of the target."
+		}}
+	}
+}

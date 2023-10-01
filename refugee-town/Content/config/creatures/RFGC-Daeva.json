@@ -1,0 +1,94 @@
+{
+	"rfgDaeva":{
+		"name" :{
+			"plural" :		"Daevas",
+			"singular" :	"Daeva"},
+		"advMapAmount" :	{"min" : 0,	"max" : 0},
+		"faction" :			"refugee",
+
+		"level" :			7,
+		"attack" :			30,
+		"defense" :			50,
+		"damage" :			{ "min" : 45, "max" : 65 },
+		"hitPoints" :		777,
+		"speed" :			20,
+		"growth" :			0,
+		"fightValue" :		30433,
+		"aiValue" :			30433,
+		"cost" :{ 			"gold" : 0 },
+		"doubleWide" :		false,
+
+		"graphics" :{
+			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :			"creatures/battle/RFGCG.def",
+			"map" :					"creatures/map/AVWREFG01.def",
+			"iconSmall" :			"creatures/icons/RFGCG-PS.bmp",
+			"iconLarge" :			"creatures/icons/RFGCG-PB.png",
+			"timeBetweenFidgets": 	1},
+
+		"sound" :{
+			"attack":				"CALFATTK.wav",
+			"defend":				"CALFDFND.wav",
+			"killed":				"CALFKILL.wav",
+			"move":					"CALFMOVE.wav",
+			"shoot":				"CALFSHOT.wav",
+			"wince":				"CALFWNCE.wav"},
+
+		"abilities":{
+			"flying" :	{		"type" : "FLYING",					"subtype" : 0},
+			"fearless":{		"type" : "FEARLESS"},
+			"selfMorale" :{		"type" : "MORALE",	"val" : 1, 		"valueType" : "INDEPENDENT_MAX"},
+			"selfLuck" :{		"type" : "LUCK",	"val" : 1, 		"valueType" : "INDEPENDENT_MAX"},
+
+			"spellImmunity" :{	"type" : "LEVEL_SPELL_IMMUNITY",	"val" : 1},
+			"spellResist" :{	"type" : "MAGIC_RESISTANCE",		"val" : 50},
+			"magicMirror" :{	"type" : "MAGIC_MIRROR",			"val" : 50},
+			"fireShield" :{		"type" : "FIRE_SHIELD",				"val" : 25},
+			"airShield":{		"type" : "ENCHANTED",			"subtype" : "spell.airShield",
+								"val"  : 3,						"addInfo" : 100},
+
+			"doubleDamage":{	"type" : "DOUBLE_DAMAGE_CHANCE",	"val" : 10},
+			"extraRetaliation":{"type" : "ADDITIONAL_RETALIATION",	"val" :  2},
+			"regeneration":{	"type" : "HP_REGENERATION",			"val" : 30},
+
+			"castDisrupt":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.disruptingRay",
+							"val":	25,						"addInfo" :	[2, 0]},
+			"castWeak":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.weakness",
+							"val":	25,						"addInfo" :	[2, 0]},
+			"castCurse":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.curse",
+							"val":	25,						"addInfo" :	[2, 0]},
+			"castForget":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.forgetfulness",
+							"val":	25,						"addInfo" :	[2, 0]},
+
+			"castSlow":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.slow",
+							"val":	20,						"addInfo" :	[2, 0]},
+			"castArrow":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.magicArrow",
+							"val":	20,						"addInfo" :	[2, 0]},
+			"castLBolt":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.lightningBolt",
+							"val":	20,						"addInfo" :	[2, 0]},
+
+			"castBlind":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.blind",
+							"val":	10,						"addInfo" :	[2, 0]},
+			"castHypno":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.hypnotize",
+							"val":	10,						"addInfo" :	[2, 0]},
+			"castBerserk":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.berserk",
+							"val":	10,						"addInfo" :	[2, 0]},
+			"castImplose":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.implosion",
+							"val":	5,						"addInfo" :	[2, 0]},
+
+			"deathStare":{	"type" : "DEATH_STARE",			"subtype" : 0,						"val" : 10},
+			"dispellH":{	"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.dispelHelpful",	"val" : 50},
+			"disease":{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.disease",		"val" : 20},
+			"poison":{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.poison",			"val" : 20},
+			"petrify":{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.stoneGaze",		"val" : 10},
+			"age" :{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.age",			"val" : 20},
+
+			"spellsLth":{	"type" : "CREATURE_ENCHANT_POWER",	"val" :	 2},
+			"spellcastRng":{"type" : "RANDOM_SPELLCASTER",		"val" :	 2},
+			"powerImplose":{"type" : "SPECIFIC_SPELL_POWER",	"val" :	 300, "subtype":	"spell.implosion"},
+			"powerLBolt":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	 150, "subtype":	"spell.lightningBolt"},
+			"powerArrow":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	  75, "subtype":	"spell.magicArrow"},
+			"casts" :{		"type" : "CASTS",					"val" :	30}
+		}
+	}
+}

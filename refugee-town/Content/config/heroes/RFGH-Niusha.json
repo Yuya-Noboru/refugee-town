@@ -1,0 +1,39 @@
+{
+	"rfghNiusha" :{
+		"class" :				"rfghcWanderer",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-offence-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-offence-large.png",
+			"small" : 			"heroes/portraits/RFGH-Niusha-small.png",
+			"large" : 			"heroes/portraits/RFGH-Niusha-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"offence" },
+				{ "level" :		"basic",	"skill" :	"archery" }],
+
+		"specialty" :{
+			"bonuses" :{
+				"offence" :{
+					"subtype" : 0,
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" : 				"PERCENTAGE_DAMAGE_BOOST",
+					"val" : 5,
+					"valueType" : 			"PERCENT_TO_BASE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Niusha",
+			"biography" :		"Niusha was a slave her whole youth until Shayan sets her free and takes her to his land. Her loyalty is unwavering and she seeks to prove it everyday on battlefields.",
+			"specialty" :{
+				"name" :		"Offence",
+				"tooltip" :		"speciality : Offence",
+				"description" :	"{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill."
+		}}
+	}
+}

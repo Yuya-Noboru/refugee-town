@@ -1,0 +1,45 @@
+{
+	"rfgcGoldGolem":{
+		"name" :{
+			"plural" :	"Gold Golems",
+			"singular" :"Gold Golem"},
+		"advMapAmount" :{"min" : 10,	"max" : 20},
+		"faction" :		"refugee",
+		"upgrades":		["rfgcDiamondGolem"],
+		"level" :		4,
+		"attack" :		11,
+		"defense" :		12,
+		"damage" :		{ "min" : 8, "max" : 10 },
+		"hitPoints" :	50,
+		"speed" :		5,
+		"growth" :		3,
+		"horde":		2,
+		"fightValue" :	575,
+		"aiValue" :		575,
+		"cost" :		{ "gold" : 450 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL5L.def",
+			"map" :				"creatures/map/AVWREFG09.def",
+			"iconSmall" :		"creatures/icons/RFGC4L-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC4L-PB.png",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"GGLMATTK.wav",
+			"defend":	"GGLMDFND.wav",
+			"killed":	"GGLMKILL.wav",
+			"move":		"GGLMMOVE.wav",
+			"wince": 	"GGLMWNCE.wav"},
+
+		"abilities" :{
+			"magicResistance" :{
+				"type" :	"SPELL_DAMAGE_REDUCTION",
+				"subtype" :	-1,
+				"val" :		85},
+			"nonliving" :{	"type" :"NON_LIVING"}
+		}
+	}
+}

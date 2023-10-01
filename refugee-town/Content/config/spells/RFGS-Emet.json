@@ -1,0 +1,95 @@
+{
+	"rfgsEmet":{
+		"name":						"Emet",
+		"type":						"combat",
+		"targetType" :				"NO_TARGET",
+		"school":{
+			"air":					false,
+			"earth":				true,
+			"fire":					false,
+			"water":				false},
+
+		"level":					4,
+		"power":					20,
+		"defaultGainChance":		0,
+		"gainChance":{
+			"castle" :				1,
+			"rampart" :				1,
+			"tower" :				10,
+			"inferno" :				1,
+			"necropolis" :			1,
+			"dungeon" :				1,
+			"stronghold" :			1,
+			"fortress" :			1,
+			"conflux" :				5,
+			"refugee" :				25},
+
+		"animation":				{"cast":		[2]},
+ 		"sounds":					{"cast":		"SUMNELM"},
+		"flags" :					{"indifferent": true},
+
+		"graphics":{
+			"iconBook":				"spells/Emet0.bmp",
+			"iconScroll":			"spells/Emet1.bmp",
+			"iconScenarioBonus":	"spells/Emet2.bmp",
+			"iconEffect": 			"spells/Emet3.bmp"},
+
+		"levels":{
+			"base":{
+				"range":				"X",
+				"targetModifier":		{"smart":true}},
+			"none":{
+				"description": 			"Summons Gold Golems to fight on your side on battle field.",
+				"cost":					16,
+				"power":				20,
+				"aiValue":				10,
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:rfgcGoldGolem",
+						"permanent":	false,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"basic":{
+				"description": 			"Summons Gold Golems to fight on your side on battle field.",
+				"cost":					16,
+				"power":				40,
+				"aiValue":				11,
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:rfgcGoldGolem",
+						"permanent":	false,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"advanced":	{
+				"description":			 "Summons Gold Golems to fight on your side on battle field.",
+				"cost":					16,
+				"power":				60,
+				"aiValue":				12,
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:rfgcGoldGolem",
+						"permanent":	false,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}},
+			"expert":{
+				"description": 			"Summons Diamond Golems to fight on your side on battle field.",
+				"cost":					18,
+				"power":				80,
+				"aiValue":				13,
+				"battleEffects":{
+					"summon":{
+						"exclusive":	true,
+						"id":			"refugee-town:rfgcDiamondGolem",
+						"permanent":	false,
+						"type":			"core:summon",
+						"summonByHealth":true
+					}}}
+		}
+	}
+}

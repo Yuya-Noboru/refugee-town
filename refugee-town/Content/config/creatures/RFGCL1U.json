@@ -1,0 +1,62 @@
+{
+	"rfgcSpy":{
+		"name" :{
+			"plural" :	"Spies",
+			"singular" :"Spy"},
+		"advMapAmount" :{"min" : 18,	"max" : 30},
+		"faction" :		"refugee",
+
+		"level" :		1,
+		"attack" :		8,
+		"defense" :		3,
+		"damage" :		{ "min" : 2, "max" : 4 },
+		"hitPoints" :	10,
+		"speed" :		7,
+		"growth" :		8,
+
+		"fightValue" :	148,
+		"aiValue" :		148,
+		"cost" :		{ "gold" : 105 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL1U.def",
+			"map" :				"creatures/map/AVWREFG02.def",
+			"iconSmall" :		"creatures/icons/RFGC1U-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC1U-PB.png",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"ROGUATTK.wav",
+			"defend":			"ROGUDFND.wav",
+			"killed":			"ROGUKILL.wav",
+			"move":				"ROGUMOVE.wav",
+			"wince":			"ROGUWNCE.wav",
+			"startMoving":		"creatures/SPYMOVESTART.wav",
+			"endMoving":		"creatures/SPYMOVESTOP.wav"},
+
+		"abilities":{
+			"teleports" : {
+				"type":			"FLYING",
+				"subtype":		1},
+			"visionsMonsters" :{
+				"type" :		"VISIONS",
+				"subtype" :		0,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsHeroes" :{
+				"type" :		"VISIONS",
+				"subtype" :		1,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsTowns" :{
+				"type" :		"VISIONS",
+				"subtype" :		2,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"}}
+	}
+}

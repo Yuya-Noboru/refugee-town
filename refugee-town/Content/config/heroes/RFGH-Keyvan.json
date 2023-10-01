@@ -1,0 +1,43 @@
+{
+	"rfghKeyvan" :{
+		"class" :				"rfghcEnchanter",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcspellNG-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcspellNG-large.png",
+			"small" : 			"heroes/portraits/RFGH-Keyvan-small.png",
+			"large" : 			"heroes/portraits/RFGH-Keyvan-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"sorcery" }],
+
+		"spellbook" :[ 			"rfgsNamburbi", "rfgsSiguP" ],
+		"specialty" : {
+			"bonuses" :{
+				"rfgsSiguP" : {
+					"subtype" :		"spell.rfgsSiguP",
+					"type" :		"SPECIAL_SPELL_LEV",
+					"updater" :		"TIMES_HERO_LEVEL",
+					"val" :			3},
+				"rfgsNamburbi" : {
+					"subtype" :		"spell.rfgsNamburbi",
+					"type" :		"SPECIAL_SPELL_LEV",
+					"updater" :		"TIMES_HERO_LEVEL",
+					"val" :			3}
+		}},
+		"texts":{
+			"name" :			"Keyvan",
+			"biography" :		"Unlike his brother, Keyvan always had bad relationships with people and tend to resolve his issues with magic. Rumors say he can control the course of battles with his spells.",
+			"specialty" :{
+				"name" :		"Alkephobos",
+				"tooltip" :		"Specialty bonus: Namburbi and Gottesbriefe spells",
+				"description" :	"{Alkephobos}\r\n\r\nKeyvan starts with the Namburbi and Gottesbriefe spells."
+		}}
+	}
+}

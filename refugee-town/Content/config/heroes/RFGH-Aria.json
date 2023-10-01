@@ -1,0 +1,38 @@
+{
+	"rfghAria" :{
+		"class" :				"rfghcEnchanter",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-gold-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-gold-large.png",
+			"small" : 			"heroes/portraits/RFGH-Aria-small.png",
+			"large" : 			"heroes/portraits/RFGH-Aria-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"wisdom" }],
+
+		"spellbook" :[ "hypnotize" ],
+		"specialty" :{
+			"bonuses" :{
+				"gold" :{
+					"subtype" :	"resource.gold",
+					"type" :	"GENERATE_RESOURCE",
+					"val" :		350
+		}}},
+
+		"texts":{
+			"name" :			"Aria",
+			"biography" :		"Aria has never defines violence as an answer but as the latest solution. She focus on ways to increase her kingdom revenues and don't mind to uses her charm and magic to lead her to victory.",
+			"specialty" :{
+				"name" :		"+350 Gold",
+				"tooltip" :		"Increases kingdom's income by 350 gold per day",
+				"description" :	"{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+		}}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"rfgsDaeva":{
+		"name":						"Summon Daeva",
+		"type":						"combat",
+		"targetType" :				"NO_TARGET",
+		"school":{
+			"air":					false,
+			"earth":				false,
+			"fire":					false,
+			"water":				false},
+		"level":					5,
+		"power":					1,
+		"defaultGainChance":		0,
+		"gainChance":{
+			"castle" :				0,
+			"rampart" :				0,
+			"tower" :				0,
+			"inferno" :				0,
+			"necropolis" :			0,
+			"dungeon" :				0,
+			"stronghold" :			0,
+			"fortress" :			0,
+			"conflux" :				0,
+			"refugee" :				1},
+
+		"animation":				{"cast":		[2]},
+ 		"sounds":					{"cast":		"HYPNOTIZ"},
+		"flags" :					{"indifferent": true},
+
+		"graphics":{
+			"iconBook":				"spells/daeva0.bmp",
+			"iconScroll":			"spells/daeva1.bmp",
+			"iconScenarioBonus":	"spells/daeva2.bmp",
+			"iconEffect": 			"spells/daeva3.bmp"},
+
+		"levels":{
+			"base":{
+				"description": 			"Summons a Daeva to fight on your side on battle field.",
+				"cost":					100,
+				"power":				150,
+				"aiValue":				0,
+				"range":				"X",
+				"targetModifier":		{"smart":true},
+				"battleEffects":{		"summon":{
+					"exclusive":	true,
+					"id":			"refugee-town:rfgDaeva",
+					"permanent":	false,
+					"type":			"core:summon",
+					"summonByHealth":true}}
+			},
+			"none":		{},
+			"basic":	{},
+			"advanced":	{},
+			"expert":	{}
+			
+		}
+	}
+}

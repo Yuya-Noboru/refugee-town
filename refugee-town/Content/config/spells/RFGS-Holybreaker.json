@@ -1,0 +1,99 @@
+{
+	"rfgsHolybreaker":{
+		"name":						"Holy Breaker",
+		"type":						"ability",
+		"targetType" :				"CREATURE",
+		"targetCondition" :{
+			"anyOf" :{
+				"core:creature.angel":						"absolute",
+				"core:creature.archangel":					"absolute",
+				"core:creature.devil":						"absolute",
+				"core:creature.archDevil":					"absolute",
+				"core:creature.giant":						"absolute",
+				"core:creature.titan":						"absolute",
+				"core:creature.cyclop":						"absolute",
+				"core:creature.cyclopKing":					"absolute",
+				"core:creature.pegasus":					"absolute",
+				"core:creature.silverPegasus":				"absolute",
+				"core:creature.gorgon":						"absolute",
+				"core:creature.mightyGorgon":				"absolute",
+				"core:creature.medusa":						"absolute",
+				"core:creature.medusaQueen":				"absolute"},
+			"noneOf" :{
+				"bonus.NON_LIVING" : 						"absolute",
+				"bonus.SIEGE_WEAPON" : 						"absolute",
+				"bonus.UNDEAD" : 							"absolute",
+				"bonus.GARGOYLE" : 							"absolute"}},
+
+		"school":{
+			"air":					false,
+			"earth":				false,
+			"fire":					false,
+			"water":				false},
+
+		"level":					5,
+		"power":					100,
+		"defaultGainChance": 		0,
+		"gainChance":{
+			"castle" :				0,
+			"rampart" :				0,
+			"tower" :				0,
+			"inferno" :				0,
+			"necropolis" :			0,
+			"dungeon" :				0,
+			"stronghold" :			0,
+			"fortress" :			0,
+			"conflux" :				0,
+			"refugee" :				0},
+
+		"animation":				{"affect":[	"spells/HOLYBREAKER.def"]},
+		"sounds": 					{"cast": 	"spells/HOLYBREAKER.WAV"},
+		"flags" :					{"negative":true},
+
+		"graphics":{
+			"iconBook":				"spells/Holybreaker0.bmp",
+			"iconScroll":			"spells/Holybreaker1.bmp",
+			"iconScenarioBonus":	"spells/Holybreaker2.bmp",
+			"iconEffect": 			"spells/Holybreaker3.bmp"},
+
+		"levels":{
+			"base":{
+				"description": 		"Weaken divine unit(s).",
+				"power":			10,
+				"aiValue":			22,
+				"cost":				0,
+				"range":			"0",
+				"targetModifier":	{"smart":true}},
+
+			"none":{
+				"effects" :{
+					"stackHealth" : {	"val" :			-20,
+										"type" :		"STACK_HEALTH",
+										"valueType":	"PERCENT_TO_ALL",
+										"duration" :	"N_TURNS"},
+					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
+
+			"basic":{
+				"effects" :{
+					"stackHealth" : {	"val" :			-20,
+										"type" :		"STACK_HEALTH",
+										"valueType":	"PERCENT_TO_ALL",
+										"duration" :	"N_TURNS"},
+					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
+			"advanced":{
+				"effects" :{
+					"stackHealth" : {	"val" :			-25,
+										"type" :		"STACK_HEALTH",
+										"valueType":	"PERCENT_TO_ALL",
+										"duration" :	"N_TURNS"},
+					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
+			"expert":{
+				"effects" :{
+					"stackHealth" : {	"val" :			-30,
+										"type" :		"STACK_HEALTH",
+										"valueType":	"PERCENT_TO_ALL",
+										"duration" :	"N_TURNS"},
+					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
+		}
+	}
+}

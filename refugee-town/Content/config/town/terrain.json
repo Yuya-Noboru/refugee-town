@@ -1,0 +1,19 @@
+{
+	"lonesomeRoad" :{
+		"text":					"Lonesome Road",
+		"moveCost" :			100,
+		"minimapUnblocked" :	[ 82, 56, 8 ],
+		"minimapBlocked"   :	[ 57, 40, 8 ],
+		"music" :				"Dirt.mp3",	
+		"tiles" :				"DIRTTL",
+
+		"river" :				"mudRiver",
+		"rockTerrain":			"rock",
+		"shortIdentifier" :		"lr",
+		"type" :				["SURFACE"],
+		"battleFields" :		["dirt_birches", "dirt_hills", "dirt_pines"],
+		"horseSound" :			"horse00",
+		"horseSoundPenalty" :	"horse20"
+//		"terrainViewPatterns" :	"dirt"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"rfghSoraya" :{
+		"class" :				"rfghcWanderer",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-logistic-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-logistic-large.png",
+			"small" : 			"heroes/portraits/RFGH-Soraya-small.png",
+			"large" : 			"heroes/portraits/RFGH-Soraya-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"armorer" }],
+
+		"spellbook" :[ 			"haste" ],
+		"specialty" :{
+			"bonuses" :{
+				"logistics" :{
+					"subtype" : 0,
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" :				"MOVEMENT",
+					"val" :					5,
+					"valueType" :			"PERCENT_TO_TARGET_TYPE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Soraya",
+			"biography" :		"Soraya's logistic skill is so good that she is widely known for being the fastest wanderer in both Krewlod and Tatalia.",
+			"specialty" :{
+				"name" :		"Logistics",
+				"tooltip" :		"speciality : Logistics",
+				"description" :	"{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage."
+		}}
+	}
+}

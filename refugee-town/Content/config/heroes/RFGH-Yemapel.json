@@ -1,0 +1,39 @@
+{
+	"rfghYemapel" :{
+		"class" :				"rfghcWanderer",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-armorer-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-armorer-large.png",
+			"small" : 			"heroes/portraits/RFGH-Yemapel-small.png",
+			"large" : 			"heroes/portraits/RFGH-Yemapel-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"armorer" },
+				{ "level" :		"basic",	"skill" :	"offence" }],
+
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Yemapel",
+			"biography" :		"Native from Krewlod, nothing much is known about Yemapel except the fact that he has shown impressive talents in military concerns.",
+			"specialty" :{
+				"name" :		"Armorer",
+				"tooltip" :		"speciality bonus: Armorer",
+				"description" :	"{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill."
+		}}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"rfgcRogue":{
+		"name" :{
+			"plural" :	"Rogues",
+			"singular" :"Rogue"},
+		"advMapAmount" :{"min" : 18,	"max" : 40},
+		"faction" :		"refugee",
+		"upgrades":		["rfgcSpy"],
+		"level" :		1,
+		"attack" :		8,
+		"defense" : 	3,
+		"damage" :		{ "min" : 2, "max" : 4 },
+		"hitPoints" :	10,
+		"speed" : 		6,
+		"growth" : 		8,
+
+		"fightValue" :	135,
+		"aiValue" : 	135,
+		"cost" : 		{ "gold" : 85 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL1L.def",
+			"map" :				"creatures/map/AVWREFG01.def",
+			"iconSmall" :		"creatures/icons/RFGC1L-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC1L-PB.png",
+            "timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"ROGUATTK.wav",
+			"defend":			"ROGUDFND.wav",
+			"killed":			"ROGUKILL.wav",
+			"move":				"ROGUMOVE.wav",
+			"wince":			"ROGUWNCE.wav"},
+
+		"abilities":{
+			"visionsMonsters" :{
+				"type" :		"VISIONS",
+				"subtype" :		0,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsHeroes" :{
+				"type" :		"VISIONS",
+				"subtype" :		1,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsTowns" :{
+				"type" :		"VISIONS",
+				"subtype" :		2,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"}}
+	}
+}

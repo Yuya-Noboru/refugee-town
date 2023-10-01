@@ -1,0 +1,32 @@
+{
+	"rfghMithra" :{
+		"class" :				"rfghcEnchanter",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcEnch-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcEnch-large.png",
+			"small" : 			"heroes/portraits/RFGH-Mithra-small.png",
+			"large" : 			"heroes/portraits/RFGH-Mithra-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"waterMagic" }],
+
+		"spellbook" :[	"destroyUndead" ],
+		"specialty" :{	"creature" : "rfgcSorceress"	},
+
+		"texts":{
+			"name" :			"Mithra",
+			"biography" :		"Hidden in woods near the land of Deyja, Mithra incredible ability to destroy undead made her popular among sorceresses. After losing a battle against liches, she took refuge within Shayan's kingdom to teaches magic.",
+			"specialty" :{
+				"name" :		"Enchanter",
+				"tooltip" :		"Specialty bonus: Enchanter",
+				"description" :	"{Enchanter}\r\n\r\nIncreases the Attack and Defense skills of any Sorceress or Enchanters for each level attained after 5th level."
+		}}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"rfgcAhriman":{
+		"name" :{
+			"plural" :	"Ahriman",
+			"singular" :"Ahriman"},
+		"advMapAmount" :{"min" : 3,	"max" : 8},
+		"faction" :		"refugee",
+
+		"level" :		7,
+		"attack" :		23,
+		"defense" :		28,
+		"damage" :		{ "min" : 30, "max" : 40 },
+		"hitPoints" :	260,
+		"speed" :		15,
+		"growth" :		1,
+		"fightValue" :	5243,
+		"aiValue" :		7115,
+		"cost" :		{ "gold" : 4444, "sulfur" : 2 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL7U.def",
+			"map" :				"creatures/map/AVWREFG14.def",
+			"iconSmall" :		"creatures/icons/RFGC7U-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC7U-PB.png",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"ANGLATTK.wav",
+			"defend":			"creatures/AHRIMANDFND.wav",
+			"killed":			"creatures/AHRIMANKILL.wav",
+			"move":				"ANGLMOVE.wav",
+			"wince":			"creatures/AHRIMANWNCE.wav"},
+
+		"abilities" :{
+			"flying" :	{			"type" : 	"FLYING",			"subtype" : 0},
+			"immuneToMind" :{		"type" :	"MIND_IMMUNITY"},
+			"fearless" :{			"type" :	"FEARLESS"},
+			"strikeFirst" :{		"type" :	"FIRST_STRIKE" },
+
+//	MORALE AND LUCK MECHANICS
+			"selfMorale" :{			"type" :	"MORALE",	"val" : 1,	"valueType" : "INDEPENDENT_MAX"},
+			"selfLuck" :{			"type" :	"LUCK",		"val" : 1,	"valueType" : "INDEPENDENT_MAX"},
+
+			"descreaseLuck" :{		"type" :	"LUCK",		"val" : -1,	"stacking" :"Ahrimans",
+									"propagator":			"BATTLE_WIDE",
+									"propagationUpdater" :	"BONUS_OWNER_UPDATER",
+									"limiters" :			["OPPOSITE_SIDE" ]},
+									
+			"descreaseMorale" :{	"type" :	"MORALE",	"val" : -1,	"stacking" :"Ahrimans",
+									"propagator":			"BATTLE_WIDE",
+									"propagationUpdater" :	"BONUS_OWNER_UPDATER",
+									"limiters" :			[ "OPPOSITE_SIDE" ]},
+//	SPELLCASTER
+			"castGottesbriefe":{
+				"type":			"SPELL_AFTER_ATTACK",
+				"subtype":		"spell.rfgsSigu",
+				"val":			33,		"addInfo" :		[2, 2]},
+			"castHolyBreaker":{
+				"type":			"SPELL_AFTER_ATTACK",
+				"subtype":		"spell.rfgsHolybreaker",
+				"val":			100,	"addInfo" :		[3, 2]},
+			"castSorrow":{
+				"type" :		"SPELL_BEFORE_ATTACK",
+				"subtype" :		"spell.sorrow",
+				"val" :			15,		"addInfo" :		1},
+			"castMisfortune":{
+				"type" :		"SPELL_BEFORE_ATTACK",
+				"subtype" :		"spell.misfortune",
+				"val" :			15,		"addInfo" :		1}
+		}
+	}
+}

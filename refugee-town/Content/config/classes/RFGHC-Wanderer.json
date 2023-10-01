@@ -1,0 +1,73 @@
+{
+	"rfghcWanderer" :{
+		"faction" :			"refugee",
+		"name" :			"Wanderer",
+		"affinity" :		"might",
+		"commander" :		"rfgcCommander",
+		"animation" : {
+			"battle" : {
+				"male"   :	"heroes/REFGH2M.def",
+				"female" :	"heroes/REFGH1F.def" }},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "heroes/AVWREFGH2M.def" },
+				"female" : { "animation" : "heroes/AVWREFGH1F.def" }}},
+
+		"primarySkills" :{
+			"attack"     :		2,
+			"defence"    :		2,
+			"spellpower" :		1,
+			"knowledge"  :		1},
+		"lowLevelChance" :{
+			"attack"     :		10,
+			"defence"    :		10,
+			"spellpower" :		40,
+			"knowledge"  :		40},
+		"highLevelChance" :{
+			"attack"     :		10,
+			"defence"    :		10,
+			"spellpower" :		40,
+			"knowledge"  :		40},
+		"secondarySkills" :{
+			"pathfinding"  :	4,
+			"archery"      :	5,
+			"logistics"    :	8,
+			"scouting"     :	2,
+			"diplomacy"    :	4,
+			"navigation"   :	2,
+			"leadership"   :	4,
+			"wisdom"       :	8,
+			"mysticism"    :	9,
+			"luck"         :	7,
+			"ballistics"   :	8,
+			"eagleEye"     :	3,
+			"necromancy"   :	0,
+			"estates"      :	6,
+			"fireMagic"    :	6,
+			"airMagic"     :	6,
+			"waterMagic"   :	6,
+			"earthMagic"   :	6,
+			"scholar"      :	1,
+			"tactics"      :	4,
+			"artillery"    :	8,
+			"learning"     :	1,
+			"offence"      :	4,
+			"armorer"      :	5,
+			"intelligence" :	9,
+			"sorcery"      :	8,
+			"resistance"   :	4,
+			"firstAid"     :	5},
+
+		"defaultTavern" :		5,
+		"tavern" :{
+			"castle"     :		2,
+			"rampart"    :		2,
+			"tower"      :		2,
+			"inferno"    :		2,
+			"necropolis" :		2,
+			"dungeon"    :		2,
+			"stronghold" :		4,
+			"fortress"   :		4,
+			"conflux"    :		4}
+	}
+}

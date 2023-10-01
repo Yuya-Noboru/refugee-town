@@ -1,0 +1,28 @@
+{
+	"rfghMahyar" :{
+		"class" :				"rfghcWanderer",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcSharp-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcSharp-large.png",
+			"small" : 			"heroes/portraits/RFGH-Mahyar-small.png",
+			"large" : 			"heroes/portraits/RFGH-Mahyar-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
+				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 },
+				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 }],
+
+		"skills" :[	{	"level" :	"advanced",	"skill":	"archery" }],
+		"specialty":{	"creature":	"rfgcSharp"},
+
+		"texts":{
+			"name" :			"Mahyar",
+			"biography" :		"Mahyar was a poor woodcutter until he discovered the secret of a thieves' den. He sought a new life among them and later became the leader of the sharpshooters.",
+			"specialty" :{
+				"name" :		"Sharpshooter",
+				"tooltip" :		"Specialty bonus: Sharpshooter",
+				"description" :	"{Sharpshooter}\r\n\r\nIncreases the Attack and Defense skills of any Sharpshooter or Sagittarii for each level attained after 5th level."
+		}}
+	}
+}

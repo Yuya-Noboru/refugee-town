@@ -1,0 +1,72 @@
+{
+	"rfgsNamburbi":{
+		"name":						"Namburbi",
+		"type":						"combat",
+		"targetType" :				"CREATURE",
+		"targetCondition" :{
+			"noneOf" :{				"bonus.SIEGE_WEAPON" :	"absolute"}},
+
+		"school":{
+			"air":					false,
+			"earth":				false,
+			"fire":					false,
+			"water":				true},
+
+		"level":					3,
+		"power":					10,
+		"defaultGainChance":		0,
+		"gainChance":{
+			"castle" :				3,
+			"rampart" :				5,
+			"tower" :				3,
+			"inferno" :				0,
+			"necropolis" :			0,
+			"dungeon" :				0,
+			"stronghold" :			5,
+			"fortress" :			0,
+			"conflux" :				2,
+			"refugee" :				25},
+
+		"animation":				{"affect":[	"spells/NAMBURBI.DEF"]},
+		"sounds": 					{"cast": 	"spells/NAMBURBI.WAV"},
+		"flags" :					{"positive": true},
+
+		"graphics":{
+			"iconBook":				"spells/Namburbi0.bmp",
+			"iconScroll":			"spells/Namburbi1.bmp",
+			"iconScenarioBonus":	"spells/Namburbi2.bmp",
+			"iconEffect": 			"spells/Namburbi3.bmp"},
+
+		"levels":{
+			"base":{
+				"cost":				14,
+				"power":			14,
+				"aiValue":			12,
+				"range":			"0",
+				"targetModifier":	{"smart":true}},
+
+			"none":{
+				"description": 		"Increases selected's unit's luck and morale by 1.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
+			"basic":{
+				"description": 		"Increases selected's unit's luck and morale by 1.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
+			"advanced":	{
+				"description":		"Increases selected's unit's luck and morale by 2.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :		2,	"duration":	"N_TURNS"}}},
+			"expert":{
+				"description": 		"Increases the luck and morale of all friendly units by 2.",
+				"range":			"X",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :		2,	"duration":	"N_TURNS"}}}},
+
+		"counters" : {	"spell.rfgsSiguP":	true}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"rfgsDominion":{
+		"name":						"Dominion",
+		"type":						"ability",
+		"targetType" :				"CREATURE",
+		"targetCondition" :{
+			"noneOf" :{				"bonus.SIEGE_WEAPON" :	"absolute"}},
+
+		"school":{
+			"air":					false,
+			"earth":				false,
+			"fire":					true,
+			"water":				false},
+
+		"level":					5,
+		"power":					10,
+		"defaultGainChance": 		0,
+		"gainChance":{
+			"castle" :				0,
+			"rampart" :				0,
+			"tower" :				0,
+			"inferno" :				0,
+			"necropolis" :			0,
+			"dungeon" :				0,
+			"stronghold" :			0,
+			"fortress" :			0,
+			"conflux" :				0,
+			"refugee" :				0},
+
+		"animation":				{"affect":[	"spells/DOMINION.DEF"]},
+		"sounds": 					{"cast": 	"spells/DOMINION.WAV"},
+		"flags" :					{"negative":true},
+
+		"graphics":{
+			"iconBook":				"spells/Dominion0.bmp",
+			"iconScroll":			"spells/Dominion1.bmp",
+			"iconScenarioBonus":	"spells/Dominion2.bmp",
+			"iconEffect": 			"spells/Dominion3.bmp"},
+
+		"levels":{
+			"base":{
+				"power":			10,
+				"aiValue":			22,
+				"cost":				0,
+				"range":			"0",
+				"targetModifier":	{"smart":true}},
+
+			"none":{
+				"description": 			"Dominate the selected unit(s).",
+				"effects" :{	
+					"weakness":{		"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.attack",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"disruptingRay":{	"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.defence",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"stacksSpeed":{		"type" : "STACKS_SPEED",	"addInfo" :	0,	
+										"val" :	-25,	"valueType" :"PERCENT_TO_ALL",	"duration" : "N_TURNS"},
+					"forgetful":{		"type":	"FORGETFULL",							"duration" : "N_TURNS"}}},
+			"basic":{
+				"description": 			"Dominate the selected unit(s).",
+				"effects" :{	
+					"weakness":{		"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.attack",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"disruptingRay":{	"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.defence",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"stacksSpeed":{		"type" : "STACKS_SPEED",	"addInfo" :	0,	
+										"val" :	-25,	"valueType" :"PERCENT_TO_ALL",	"duration" : "N_TURNS"},
+					"forgetful":{		"type":	"FORGETFULL",							"duration" : "N_TURNS"}}},
+			"advanced":{
+				"description": 			"Dominate the selected unit(s).",
+				"effects" :{	
+					"weakness":{		"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.attack",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"disruptingRay":{	"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.defence",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"stacksSpeed":{		"type" : "STACKS_SPEED",	"addInfo" :	0,	
+										"val" :	-25,	"valueType" :"PERCENT_TO_ALL",	"duration" : "N_TURNS"},
+					"forgetful":{		"type":	"FORGETFULL",							"duration" : "N_TURNS"}}},
+			"expert":{
+				"description": 			"Dominate the selected unit(s).",
+				"effects" :{	
+					"weakness":{		"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.attack",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"disruptingRay":{	"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.defence",
+										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},
+					"stacksSpeed":{		"type" : "STACKS_SPEED",	"addInfo" :	0,	
+										"val" :	-25,	"valueType" :"PERCENT_TO_ALL",	"duration" : "N_TURNS"},
+					"forgetful":{		"type":	"FORGETFULL",							"duration" : "N_TURNS"}}}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"rfghAreman" :{
+		"class" :				"rfghcWanderer",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcNomad-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcNomad-large.png",
+			"small" : 			"heroes/portraits/RFGH-Areman-small.png",
+			"large" : 			"heroes/portraits/RFGH-Areman-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"luck" }],
+
+		"specialty" :{			"creature" : "rfgcVagabond"},
+
+		"texts":{
+			"name" :			"Areman",
+			"biography" :		"Areman spent his life wandering in Erathia with all kinds of creatures which eventually died during his journey. What earned him to be known as the eternal wanderer.",
+			"specialty" :{
+				"name" :		"Nomad",
+				"tooltip" :		"",
+				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of any Boar or Nomad for each level attained after 5th level."
+		}}
+	}
+}

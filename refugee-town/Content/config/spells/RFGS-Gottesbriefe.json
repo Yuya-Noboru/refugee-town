@@ -1,0 +1,74 @@
+{
+	"rfgsSigu":{
+		"name":						"Šigû",
+		"type":						"ability",
+		"targetType" :				"CREATURE",
+		"targetCondition" :{
+			"noneOf" :{				"bonus.SIEGE_WEAPON" :	"absolute"}},
+
+		"school":{
+			"air":					true,
+			"earth":				false,
+			"fire":					false,
+			"water":				false},
+
+		"level":					5,
+		"power":					10,
+		"defaultGainChance": 		0,
+		"gainChance":{
+			"castle" :				0,
+			"rampart" :				0,
+			"tower" :				0,
+			"inferno" :				0,
+			"necropolis" :			0,
+			"dungeon" :				0,
+			"stronghold" :			0,
+			"fortress" :			0,
+			"conflux" :				0,
+			"refugee" :				0},
+
+		"animation":				{"affect":[	"spells/SIGU.DEF"]},
+		"sounds": 					{"cast": 	"spells/SIGU.WAV"},
+		"flags" :					{"negative":true},
+
+		"graphics":{
+			"iconBook":				"spells/Sigu0.bmp",
+			"iconScroll":			"spells/Sigu1.bmp",
+			"iconScenarioBonus":	"spells/Sigu2.bmp",
+			"iconEffect": 			"spells/Sigu3.bmp"},
+
+		"levels":{
+			"base":{
+				"power":			10,
+				"aiValue":			14,
+				"cost":				0,
+				"range":			"0",
+				"targetModifier":	{"smart":true}},
+			"none":{
+				"description": 		"Decreases selected's unit's luck and morale by 1.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :	-1,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :	-1,	"duration":	"N_TURNS"}}},
+			"basic":{
+				"description": 		"Decreases selected's unit's luck and morale by 1.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :	-1,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :	-1,	"duration":	"N_TURNS"}}},
+
+			"advanced":{
+				"description": 		"Decreases selected's unit's luck and morale by 2.",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :	-2,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :	-2,	"duration":	"N_TURNS"}}},
+					
+			"expert":{
+				"description": 		"Reduces the luck and morale of all enemy's units by 2.",
+				"cost":				20,
+				"range":			"X",
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :	-2,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :	-2,	"duration":	"N_TURNS"}}}},
+
+		"counters" : {	"spell.rfgsNamburbi":	true}
+	}
+}

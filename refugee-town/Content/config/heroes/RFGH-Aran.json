@@ -1,0 +1,39 @@
+{
+	"rfghAran" :{
+		"class" :				"rfghcEnchanter",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-mysticism-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-mysticism-large.png",
+			"small" : 			"heroes/portraits/RFGH-Aran-small.png",
+			"large" : 			"heroes/portraits/RFGH-Aran-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6  }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"mysticism" },
+				{ "level" :		"basic",	"skill" :	"intelligence" }],
+
+		"spellbook" :[ "blind" ],
+		"specialty" :{
+			"bonuses" :{
+				"mysticism" :{
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" :				"MANA_REGENERATION",
+					"val" :					5,
+					"valueType" :			"PERCENT_TO_BASE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Aran",
+			"biography" :		"Believed to be the most intelligent and beautiful enchantress, most sorceresses and enchanters seeks to learn from Aran and follow blindly her path.",
+			"specialty" :{
+				"name" :		"Mysticism",
+				"tooltip" :		"speciality : Mysticism",
+				"description" :	"{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill."
+		}}
+	}
+}

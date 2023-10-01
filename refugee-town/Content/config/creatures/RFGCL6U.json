@@ -1,0 +1,52 @@
+{
+	"rfgcHorseBlack":{
+		"name" :{
+			"plural" :	"Nightmares",
+			"singular" :"Nightmare"},
+		"advMapAmount" :{"min" : 5,	"max" : 10},
+		"faction" :		"refugee",
+
+		"level" :		6,
+		"attack" :		18,
+		"defense" :		16,
+		"damage" :		{ "min" : 20, "max" : 24 },
+		"hitPoints" :	110,
+		"speed" :		9,
+		"growth" :		2,
+		"fightValue" :	1833,
+		"aiValue" :		1761,
+		"cost" :		{ "gold" : 1500 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCL6U.def",
+			"map" :				"creatures/map/AVWREFG12.def",
+			"iconSmall" :		"creatures/icons/RFGC6U-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGC6U-PB.png",
+			"timeBetweenFidgets" : 2},
+
+		"sound" :{
+			"attack":	"WUNCATTK.wav",
+			"defend":	"WUNCDFND.wav",
+			"killed":	"WUNCKILL.wav",
+			"move":		"WUNCMOVE.wav",
+			"shoot":	"WUNCSHOT.wav",
+			"wince":	"WUNCWNCE.wav"},
+
+		"abilities" :{
+ 			"fireShield" :{		"type" :	"FIRE_SHIELD",		"val" :		30},
+			"fireBreath" :{		"type" :	"TWO_HEX_ATTACK_BREATH" },
+			"immuneToFire" :{	"type" :	"FIRE_IMMUNITY",	"subtype" :	0},
+			"immuneToMind" :{	"type" :	"MIND_IMMUNITY"},
+			"deathStare" :{		"type" :	"DEATH_STARE",		"subtype" :	0,	"val" :		10},
+
+			"castCurse":{
+				"type" :		"SPELL_BEFORE_ATTACK",
+				"subtype" :		"spell.curse",
+				"val" :			20,
+				"addInfo" :		2}
+
+		}
+	}
+}
