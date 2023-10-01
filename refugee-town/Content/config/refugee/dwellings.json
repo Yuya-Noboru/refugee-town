@@ -6,7 +6,7 @@
 			"templates" :{
 				"default" :{
 					"animation" :	"refugee/creatures/dwellings/AVWCATH01",
-					"mask" :		["VVV","VBB","BBA" ]}}},
+					"mask" :		["VVV","VVV","VAV" ]}}},
 
 		"refugeeLevel2" : {
 			"name" :				"Camp",
