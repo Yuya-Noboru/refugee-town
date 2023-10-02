@@ -1,11 +1,11 @@
 {
 	"rfgDaeva":{
 		"name" :{
-			"plural" :		"Daevas",
-			"singular" :	"Daeva"},
-		"advMapAmount" :	{"min" : 0,	"max" : 0},
+		"plural" :		"Daevas",
+		"singular" :	"Daeva"},
+		"advMapAmount" :	{"min" : 1,	"max" : 1},
 		"faction" :			"refugee",
-
+		"special" : 		true,
 		"level" :			7,
 		"attack" :			30,
 		"defense" :			50,
@@ -15,7 +15,7 @@
 		"growth" :			0,
 		"fightValue" :		30433,
 		"aiValue" :			30433,
-		"cost" :{ 			"gold" : 0 },
+		"cost" :	        { "gold" : 0 },
 		"doubleWide" :		false,
 
 		"graphics" :{

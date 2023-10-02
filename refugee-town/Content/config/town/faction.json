@@ -1,8 +1,8 @@
 {
 	"refugee" :{
 		"name" :					"Refugee",
-//		"nativeTerrain" :			"dirt",
-		"nativeTerrain" :			"lonesomeRoad",
+		"nativeTerrain" :			"dirt",
+//		"nativeTerrain" :			"lonesomeRoad",
 		"alignment" :				"neutral",
 		"boat" : "boatCastle",
 		"creatureBackground" :{
