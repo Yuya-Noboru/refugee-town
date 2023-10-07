@@ -32,7 +32,7 @@
 
 				"special1":       { "animation" : "town-screen/buildings/OTHER/RFGTS-SPECIAL1.def",	"x":0,"y":0, "border" : "town-screen/buildings-border/RFGBB-SPECIAL1.bmp", "area" : "town-screen/buildings-area/RFGBA-SPECIAL1.bmp" },
 				"special2":       { "animation" : "town-screen/buildings/OTHER/RFGTS-DUMMY.def",	"x":0,"y":0, "border" : "town-screen/buildings-border/REFG-TS-NULL.bmp", "area" : "town-screen/buildings-area/REFG-TS-NULL.bmp" },
-				"grail":          { "animation" : "town-screen/buildings/OTHER/RFGTS-GRAIL.def",	"x":0,"y":0, "border" : "town-screen/buildings-border/RFGBB-GRAIL.bmp", "area" : "town-screen/buildings-area/RFGBA-GRAIL.bmp" },
+				"grail":          { "animation" : "town-screen/buildings/OTHER/RFGTS-GRAIL.def",	"x":212,"y":0, "border" : "town-screen/buildings-border/RFGBB-GRAIL.bmp", "area" : "town-screen/buildings-area/RFGBA-GRAIL.bmp" },
 
 				"dwellingLvl1":   { "animation" : "town-screen/buildings/DWELLINGS/RFGTS-LVL1.def",	"x":0,"y":0, "border" : "town-screen/buildings-border/RFGBB-LVL1.bmp", "area" : "town-screen/buildings-area/RFGBA-LVL1.bmp" },
 				"dwellingLvl2":   { "animation" : "town-screen/buildings/DWELLINGS/RFGTS-LVL2.def",	"x":0,"y":0, "border" : "town-screen/buildings-border/RFGBB-LVL2.bmp", "area" : "town-screen/buildings-area/RFGBA-LVL2.bmp" },
