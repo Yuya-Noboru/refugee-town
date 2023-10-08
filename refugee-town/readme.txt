@@ -23,7 +23,7 @@ General:
   - Fixed Hell Steeds & Nightmares idle animations. Several visual upgrades.
 
   - Removed Wake of Gods dependencies & added optional file for wog support.
-  - Grail nows increase all primary skills by 5 and summons a Daeva during a siege.
+  - Grail now increases all primary skills by 5 and summons a Daeva during a siege.
   - Fixed Resource silo not producing the additional +1 sulfur per day.
   - SPECIAL1 building now produces 10% gold interest per week (same as Rampart's treasury).
   - SPECIAL2 building now increase movement rate of visiting hero (same as Castle's stables).
@@ -32,7 +32,7 @@ General:
 Heroes:
   - Upgraded Heroes portraits and specialty visuals.
   - Removed Areman spellbook.
-  - Reworked Shayan specialty mechanics. generate a console error but it does works).
+  - Reworked Shayan specialty mechanics. generate a console error but it does work).
   - Fixed female/male sprites being switched for some heroes.
 
 Spells:
@@ -41,20 +41,20 @@ Spells:
   - Created visuals even for non-playable spells & abilities.
 
 Units:
-  - Hell Steed : Replaced non-working 'cast Firewall' ability with 'cast Curse'.
+  - Hell Steed: Replaced non-working 'cast Firewall' ability with 'cast Curse'.
   - Removed 'Veteran Sharpshooter'(ex-LVL4 Upg. unit).
   - Sharpshooter are now LVL4 Upg. and statistics are now based on the original creature.
   - Added new creature LVL4 called 'Sagitarrii' that can be upgraded into Sharpshooter.
   - Rebalanced every units statistics, growth and costs.
 
-  - Reworked LVL7 unit : Rebalanced its stats and abilities.
-  - Commander now casts Sigu on ennemies and Namburbi on allies instead of resurrection.
-  - Added 'Stack experience' for each units (when WoG submod is enabled).
+  - Reworked LVL7 unit: Rebalanced its stats and abilities.
+  - Commander now casts Sigu on enemies and Namburbi on allies instead of resurrection.
+  - Added 'Stack experience' for each unit (when WoG submod is enabled).
   - New special unit 'Daeva', a powerful Djinn that is summoned by the grail during a siege.
-  - Upgraded uinits portraits visuals.
+  - Upgraded units portraits visuals.
 
 --------------------------------------------------------------------------------------
-Refugee Town (v0.5 - v0.7) : Refers to the mod's changelog inside VCMI launcher.
+Refugee Town (v0.5 - v0.7): Refers to the mod's changelog inside VCMI launcher.
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 Refugee Town (v0.4) [Released 10/06/2020]:
@@ -72,7 +72,7 @@ Units:
   - Updated adventure map amounts of every units based on HoTA's map editor values.
   - Edited visuals & sounds of both tier 7 units and visuals of 'Veteran Sharpshooter' (LvL3 Upg.).
   - Updated creatures adventure map visuals (/w .MSG-.MSK files) and updated creatures portraits & icons
-  - Hell Steed nows has the ability to cast "Fire Wall" with 12% chance as in WoG (doesn't work).
+  - Hell Steed now has the ability to cast "Fire Wall" with 12% chance as in WoG (doesn't work).
   - Fixed sorceress missing "shot" sounds.
   - New neutral creature "Shapeshifter".
 

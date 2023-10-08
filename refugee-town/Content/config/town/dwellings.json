@@ -6,7 +6,7 @@
 			"templates" :{
 				"default" :{
 					"animation" :	"creatures/dwellings/AVWCATH01",
-					"mask" :		["VVV","VBB","BBA" ]}}},
+					"mask" :		["VVV","VVV","VAV"]}}},
 
 		"refugeeLevel2" : {
 			"name" :				"Camp",
@@ -14,7 +14,7 @@
 			"templates" : {
 				"default" : {
 					"animation" :	"creatures/dwellings/AVWCATH02",
-					"mask" :		[ "VBB", "VBA" ]}}},
+					"mask" :		["VBB", "VBA"]}}},
 
 		"refugeeLevel3" : {
 			"name" :				"Watchtower",
@@ -22,7 +22,7 @@
 			"templates" : {
 				"default" : {   
 					"animation" : 	"creatures/dwellings/AVWCATH03",
-					"mask" :		["VVV","VBB","VBA" ]}}},
+					"mask" :		["VVV","VVV","VAA"]}}},
 
 		"refugeeLevel4" : {
 			"name" : 				"Golem Factory",
