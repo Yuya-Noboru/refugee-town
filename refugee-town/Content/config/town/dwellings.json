@@ -3,6 +3,9 @@
 		"refugeeLevel1" :{
 			"name" :				"Rogue's Headquarter",
 			"creatures" :			[[ "rfgcRogue" ]],
+			"sounds": {
+				"ambient": ["dwellings/dwelling-1.wav"]
+			},
 			"templates" :{
 				"default" :{
 					"animation" :	"creatures/dwellings/AVWCATH01",
