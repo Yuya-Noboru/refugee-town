@@ -4,7 +4,7 @@
 			"name" :				"Rogue's Headquarter",
 			"creatures" :			[[ "rfgcRogue" ]],
 			"sounds": {
-				"ambient": ["dwellings/dwelling-1.wav"]
+				"ambient": ["dwellings/rfgdwl1.wav"]
 			},
 			"templates" :{
 				"default" :{
@@ -30,6 +30,9 @@
 		"refugeeLevel4" : {
 			"name" : 				"Golem Factory",
 			"creatures" : 			[[ "rfgcGoldGolem" ]],
+			"sounds": {
+				"ambient": ["dwellings/rfgdwl4.wav"]
+			},
 			"templates" : {
 				"default" : {
 					"animation" : 	"creatures/dwellings/AVWCATH04",
