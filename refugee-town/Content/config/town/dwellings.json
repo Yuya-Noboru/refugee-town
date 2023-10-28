@@ -50,6 +50,9 @@
             "refugeeLevel6" : {
                 "name" : "Skull Cave",
                 "creatures" : [[ "rfgcHorseFire" ]],
+				"sounds": {
+					"ambient": ["dwellings/rfgdwl6.wav"]
+				},
                 "guards" : [
                     { "amount" : 6, "type" : "rfgcHorseFire" }
                 ],
