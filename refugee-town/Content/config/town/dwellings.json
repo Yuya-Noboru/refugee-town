@@ -41,6 +41,9 @@
 		"refugeeLevel5" : {
 			"name" : 				"Enchanted Woods",
 			"creatures" : 			[[ "rfgcSorceress" ]],
+			"sounds": {
+				"ambient": ["dwellings/rfgdwl5.wav"]
+			},
 			"guards" : [			{"amount" : 9, "type" : "rfgcSorceress" }],
 			"templates" : {
 				"default" : {
