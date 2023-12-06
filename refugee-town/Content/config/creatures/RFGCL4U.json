@@ -37,7 +37,7 @@
 		"abilities" :{
 			"magicResistance" :{
 				"type" :	"SPELL_DAMAGE_REDUCTION",
-				"subtype" :	-1,
+				"subtype" :	"spellSchool.any",
 				"val" :		95},
 			"nonliving" :{	"type" :"NON_LIVING"}
 		}

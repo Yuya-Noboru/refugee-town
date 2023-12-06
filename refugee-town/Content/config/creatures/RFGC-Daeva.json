@@ -35,7 +35,7 @@
 			"wince":				"CALFWNCE.wav"},
 
 		"abilities":{
-			"flying" :	{		"type" : "FLYING",					"subtype" : 0},
+			"flying" :	{		"type" : "FLYING", "subtype" : "movementFlying"},
 			"fearless":{		"type" : "FEARLESS"},
 			"selfMorale" :{		"type" : "MORALE",	"val" : 1, 		"valueType" : "INDEPENDENT_MAX"},
 			"selfLuck" :{		"type" : "LUCK",	"val" : 1, 		"valueType" : "INDEPENDENT_MAX"},
@@ -76,7 +76,7 @@
 			"castImplose":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.implosion",
 							"val":	5,						"addInfo" :	[2, 0]},
 
-			"deathStare":{	"type" : "DEATH_STARE",			"subtype" : 0,						"val" : 10},
+			"deathStare":{	"type" : "DEATH_STARE",			"subtype" : "deathStareGorgon",		"val" : 10},
 			"dispellH":{	"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.dispelHelpful",	"val" : 50},
 			"disease":{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.disease",		"val" : 20},
 			"poison":{		"type" : "SPELL_AFTER_ATTACK",	"subtype" : "spell.poison",			"val" : 20},
@@ -87,7 +87,7 @@
 			"spellcastRng":{"type" : "RANDOM_SPELLCASTER",		"val" :	 2},
 			"powerImplose":{"type" : "SPECIFIC_SPELL_POWER",	"val" :	 300, "subtype":	"spell.implosion"},
 			"powerLBolt":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	 150, "subtype":	"spell.lightningBolt"},
-			"powerArrow":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	  75, "subtype":	"spell.magicArrow"},
+			"powerArrow":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	 75,  "subtype":	"spell.magicArrow"},
 			"casts" :{		"type" : "CASTS",					"val" :	30}
 		}
 	}

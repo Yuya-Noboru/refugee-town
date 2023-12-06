@@ -37,15 +37,15 @@
 		"abilities" :{
  			"fireShield" :{		"type" :	"FIRE_SHIELD",		"val" :		30},
 			"fireBreath" :{		"type" :	"TWO_HEX_ATTACK_BREATH" },
-			"immuneToFire" :{	"type" :	"FIRE_IMMUNITY",	"subtype" :	0},
+			"immuneToFire" :{	"type" :	"SPELL_SCHOOL_IMMUNITY",	"subtype" :	"fire"},
 			"immuneToMind" :{	"type" :	"MIND_IMMUNITY"},
-			"deathStare" :{		"type" :	"DEATH_STARE",		"subtype" :	0,	"val" :		10},
+			"deathStare" :{		"type" :	"DEATH_STARE",		"subtype" :	"deathStareGorgon",	"val" :		10},
 
 			"castCurse":{
 				"type" :		"SPELL_BEFORE_ATTACK",
 				"subtype" :		"spell.curse",
 				"val" :			20,
-				"addInfo" :		2}
+				"addInfo" :		[2, 2]}
 
 		}
 	}

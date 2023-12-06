@@ -26,7 +26,8 @@
 					"valueType" : "INDEPENDENT_MAX",
 //					"limiters": [{	"type":			"CREATURE_FACTION_LIMITER",
 //									"parameters": [ "refugee", true ]}]}
-					"limiters" :[ "TEAM_PROPAGATOR" ]}
+//					"limiters" :[ "TEAM_PROPAGATOR" ]
+				}
 		}},
 					
 		"texts":{

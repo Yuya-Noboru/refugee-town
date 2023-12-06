@@ -37,14 +37,14 @@
 		"abilities" :{
  			"fireShield" :{		"type" :	"FIRE_SHIELD",		"val" :		30},
 			"fireBreath" :{		"type" :	"TWO_HEX_ATTACK_BREATH" },
-			"immuneToFire" :{	"type" :	"FIRE_IMMUNITY",	"subtype" :	0},
+			"immuneToFire" :{	"type" :	"SPELL_SCHOOL_IMMUNITY",	"subtype" :	"fire"},
 
 			"castCurse":{
 				"type" :		"SPELL_BEFORE_ATTACK",
 				"subtype" :		"spell.curse",
 				"val" :			20,
-				"addInfo" :		1}
-
+				"addInfo" :		[1, 2]
+			}
 		}
 	}
 }

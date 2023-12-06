@@ -34,7 +34,7 @@
 			"wince":			"creatures/AHRIMANWNCE.wav"},
 
 		"abilities" :{
-			"flying" :	{			"type" : 	"FLYING",			"subtype" : 0},
+			"flying" :	{			"type" : 	"FLYING",			"subtype" : "movementFlying"},
 			"immuneToMind" :{		"type" :	"MIND_IMMUNITY"},
 			"fearless" :{			"type" :	"FEARLESS"},
 			"strikeFirst" :{		"type" :	"FIRST_STRIKE" },
@@ -64,11 +64,11 @@
 			"castSorrow":{
 				"type" :		"SPELL_BEFORE_ATTACK",
 				"subtype" :		"spell.sorrow",
-				"val" :			15,		"addInfo" :		1},
+				"val" :			15,		"addInfo" :		[1, 2]},
 			"castMisfortune":{
 				"type" :		"SPELL_BEFORE_ATTACK",
 				"subtype" :		"spell.misfortune",
-				"val" :			15,		"addInfo" :		1}
+				"val" :			15,		"addInfo" :		[1, 2]}
 		}
 	}
 }

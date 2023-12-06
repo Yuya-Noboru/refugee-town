@@ -49,11 +49,12 @@
 
 		"abilities" :{
 			"canShoot" :{	"type" :"SHOOTER"},
-			"flying" :{		"type" :"FLYING"},
+			"flying" :{		"type" :"FLYING", "subtype" : "movementFlying"},
 			"castDisease" :{
 				"type" :	"SPELL_AFTER_ATTACK",
 				"subtype" :	"spell.disease",
-				"val" :		25},
+				"val" :		25,
+				"addInfo" : [1,1]},
 			"castsWeakness" :{
 				"type" :	"ENCHANTER",
 				"subtype" :	"spell.weakness",
