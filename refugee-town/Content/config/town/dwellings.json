@@ -62,7 +62,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "creatures/dwellings/AVWCATH06",
-                        "mask" : ["VVV","BBB","BAB" ]
+                        "mask" : ["VVV","VAB" ]
                     }
                 }
             },
