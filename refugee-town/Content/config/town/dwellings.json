@@ -14,6 +14,9 @@
 		"refugeeLevel2" : {
 			"name" :				"Camp",
 			"creatures" :			[[ "rfgcVagabond" ]],
+			"sounds": {
+				"ambient": ["dwellings/rfgdwl2.wav"]
+			},
 			"templates" : {
 				"default" : {
 					"animation" :	"creatures/dwellings/AVWCATH02",
