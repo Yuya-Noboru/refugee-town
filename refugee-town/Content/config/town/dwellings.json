@@ -25,6 +25,9 @@
 		"refugeeLevel3" : {
 			"name" :				"Watchtower",
 			"creatures" :			[[ "rfgcSharp" ]],
+			"sounds": {
+				"ambient": ["dwellings/rfgdwl3.wav"]
+			},
 			"templates" : {
 				"default" : {   
 					"animation" : 	"creatures/dwellings/AVWCATH03",
