@@ -20,7 +20,7 @@
 			"templates" : {
 				"default" : {
 					"animation" :	"creatures/dwellings/AVWCATH02",
-					"mask" :		["VBB", "VBA"]}}},
+					"mask" :		["VAV"]}}},
 
 		"refugeeLevel3" : {
 			"name" :				"Watchtower",
