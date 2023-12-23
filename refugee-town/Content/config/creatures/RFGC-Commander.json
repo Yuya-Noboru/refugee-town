@@ -7,11 +7,11 @@
 		"special":		true,
 
 		"level" :		0,
-		"attack" :		7,
-		"defense" : 	7,
-		"damage" :		{ "min" : 14, "max" : 17 },
-		"hitPoints" :	50,
-		"speed" : 		6,
+		"attack" :		5,
+		"defense" : 	5,
+		"damage" :		{ "min" : 12, "max" : 6 },
+		"hitPoints" :	40,
+		"speed" : 		4,
 		"shots" : 		24,
 		"growth" : 		1,
 		"fightValue" :	5272,
@@ -47,7 +47,6 @@
 			"wince":	"ZELTWNCE.wav"},
 
 		"abilities" :{
-        	"shooter" :{		"type" :	"SHOOTER"},
 			"noMeleePenalty":{	"type" :	"NO_MELEE_PENALTY"},
 			"magicResistance":{	"type" :	"MAGIC_RESISTANCE",			"val" :	5},
 
