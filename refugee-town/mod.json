@@ -2,13 +2,14 @@
 	"name" :			"Refugee Town",
 	"description" :		"Refugee is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 	"author":			"Yuya Noboru (v0.1-v0.4, v0.8), Anonymous (v0.5-v0.7)",
-	"version" :			"0.8.4",
+	"version" :			"0.8.5",
 	"contact":			"mail: yuya.noboru@gmail.com",
 	"modType" :			"Town",
 	"compatibility" :	{"min" : "1.4.0"},
 
 	"changelog" :{
 		"Note":					["See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
+		"v0.8.5":					["Added chinese translation by Rindlit."],
 		"v0.8.4":					["Added the creatures' stackExp and fixed the commander."],
 		"v0.8.3":					["Adjusted Commanders stats."],
 		"v0.8.2":					["Some improvements made by Fabrice."],
@@ -27,6 +28,11 @@
 		"name" :		"Réfugiés",
 		"description" :	"Réfugiés est une ville créée par Yuya qui s'inspire de la ville neutre de WoG, ainsi que des camps de réfugiés d'Heroes 3. Le point commun de ses créatures est leur non-appartenance aux autres factions. Ainsi, ce château arbore des concepts tels que le nomadisme, les armées hétéroclites et les solutions de fortune. La ville reprend également des éléments des mythologies mésopotamiennes, sumériennes et akkadiennes. Forum officiel VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 		"translations" :["translation/refugee/french.json"]},
+
+	"chinese" : {
+		"name" :		"边荒",
+		"description" :	"边荒",
+		"translations" :["translation/refugee/chinese.json"]},
 
 	"german" : {
 		"name" :		"Flüchtlings-Stadt",
