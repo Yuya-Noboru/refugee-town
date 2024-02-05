@@ -248,11 +248,13 @@
 	"spell.refugee-town.rfgsNamburbi.description.basic" : "增加被选中部队的运气和士气。",
 	"spell.refugee-town.rfgsNamburbi.description.expert" : "增加所有部队的运气和士气，效果是初级的2倍。",
 	"spell.refugee-town.rfgsNamburbi.description.none" : "增加被选中部队的运气和士气。",
-	"spell.refugee-town.rfgsNamburbi.name" : "阿尔刻的英勇"
+	"spell.refugee-town.rfgsNamburbi.name" : "阿尔刻的英勇",
 	"spell.refugee-town.rfgsDaeva.description.advanced" : "“召唤一个迪弗在战场上与你并肩作战。",
 	"spell.refugee-town.rfgsDaeva.description.basic" : "召唤一个迪弗在战场上与你并肩作战。",
 	"spell.refugee-town.rfgsDaeva.description.expert" : "召唤一个迪弗在战场上与你并肩作战。",
 	"spell.refugee-town.rfgsDaeva.description.none" : "召唤一个迪弗在战场上与你并肩作战。",
 	"spell.refugee-town.rfgsDaeva.name" : "召唤恶神",
 	"spell.refugee-town.rfgsMoatTrigger.name" : "沟渠",
+    "spell.refugee-town.rfgsMoat.name" : "壕沟",
+	"terrain.refugee-town.lonesomeRoad.name" : "荒凉道路"
 }
