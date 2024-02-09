@@ -1,6 +1,6 @@
 {
 	"rfghReza" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgcGolem-small.png",
@@ -22,7 +22,7 @@
 
 		"texts":{
 			"name" :			"Reza",
-			"biography" :		"Reza contempt living beings and works inside the Golem Factory where he repair and creates golems. Before joining the kingdom, half his face was burned by Xyron which explains his hate against Eeofol's inhabitants.",
+			"biography" :		"Reza holds contempt for living beings and works inside the Golem Factory where he repairs and creates golems. Being a golem himself, he understands their weaknesses and strengths.",
 			"specialty" :{
 				"name" :		"Gold Golem",
 				"tooltip" :		"Specialty bonus: Gold Golem",

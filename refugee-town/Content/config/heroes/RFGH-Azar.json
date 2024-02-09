@@ -1,6 +1,6 @@
 {
 	"rfghAzar" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgchorse-small.png",
@@ -10,8 +10,8 @@
 
 		"army" :[
 				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
-				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	 6 },
+				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :  3 }],
 
 		"skills" :[
 				{ "level" :		"basic",	"skill" :	"fireMagic" },
@@ -22,7 +22,7 @@
 		
 		"texts":{
 			"name" :			"Azar",
-			"biography" :		"Abandoned with unicorns in AvLee when he was a child, he grew up as a druid until he joined Shayan's kingdom. Hell steeds and Nightmares remind him of unicorns he once knew.",
+			"biography" :		"Abandoned with unicorns in AvLee when he was a child, Azar grew up as a druid until he joined Shayan's kingdom. Rumors says he brought Nightmares to Erathia when he attempted to resurrect a fallen unicorn into the door to hell.",
 			"specialty" :{
 				"name" :		"Hell Steed",
 				"tooltip" :		"Specialty bonus: Hell Steed",

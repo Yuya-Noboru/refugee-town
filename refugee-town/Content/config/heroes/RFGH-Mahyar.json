@@ -1,6 +1,6 @@
 {
 	"rfghMahyar" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgcSharp-small.png",

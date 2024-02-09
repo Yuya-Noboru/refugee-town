@@ -1,6 +1,6 @@
 {
 	"rfghSierra" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterF",
 		"female" :				true,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-firstaid-small.png",

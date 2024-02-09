@@ -21,7 +21,7 @@
 		"graphics" :{
 			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :			"creatures/battle/RFGCC.def",
-			"map" :					"creatures/map/AVWREFGCDR.def",
+			"map" :					"creatures/map/RFGCA-CDR.def",
 			"iconSmall" :			"creatures/icons/RFGCC-PS.bmp",
 			"iconLarge" :			"creatures/icons/RFGCC-PB.png",
 			"timeBetweenFidgets" :	1,
@@ -47,18 +47,12 @@
 			"wince":	"ZELTWNCE.wav"},
 
 		"abilities" :{
-			"noMeleePenalty":{	"type" :	"NO_MELEE_PENALTY"},
-			"magicResistance":{	"type" :	"MAGIC_RESISTANCE",			"val" :	5},
-
-			"heals" : {			"type" : "HEALER",	"subtype" : "spell.firstAid"},
-
-			"castsAmount" :{	"type" :	"CASTS",					"val" :	1},
-			"enchant" :{		"type" :	"CREATURE_ENCHANT_POWER",	"val" :	1},
-			"spellpower" :{		"type" :	"CREATURE_SPELL_POWER",		"val" :	100},
-			"castSigu":{		"type" :	"SPELLCASTER",				
-								"subtype" :	"spell.rfgsSiguP",	"val" :	1},
-			"castNamburbi":{	"type" :	"SPELLCASTER",
-								"subtype" :	"spell.rfgsNamburbi",		"val" :	1},
+			"magicResistance":{	"type" :	"MAGIC_RESISTANCE",			"val" : 5},
+			"castsAmount":{		"type" :	"CASTS",					"val" : 1},
+			"enchant":{			"type" :	"CREATURE_ENCHANT_POWER",	"val" : 1},
+			"spellpower":{		"type" :	"CREATURE_SPELL_POWER",		"val" : 100},
+			"canCast":{			"type" : 	"SPELLCASTER",
+								"subtype":	"spell.rfgsAmad",			"val" : 3}
 		}
 	}
 }

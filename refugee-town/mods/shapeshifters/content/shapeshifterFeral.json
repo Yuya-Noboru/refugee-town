@@ -1,0 +1,50 @@
+{
+	"shapeshifterFeral":{
+		"name" : {
+			"plural" :	"Shapeshifters",
+			"singular":	"Shapeshifter"},
+
+		"advMapAmount" : {"min" :2,	"max" :	4},
+		"faction":		"neutral",
+		"level" :		7,
+		"attack" :		24,
+		"defense" :		28,
+		"damage" :{		"min" : 35, "max" : 50 },
+		"hitPoints" :	330,
+		"speed" :		10,
+		"growth" :		2,
+		"fightValue" :	19580,
+		"aiValue" :		19580,
+		"cost" :{		"gold" : 9600 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"ShapeshifterB-Battle.def",
+			"map" :				"ShapeshifterB-Map.def",
+			"iconSmall" :		"ShapeshifterB-portraitSmall.bmp",
+			"iconLarge" :		"ShapeshifterB-portraitBig.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"SHAPESHIFTERB-ATTK.wav",
+			"defend":			"SHAPESHIFTERB-DFND.wav",
+			"killed":			"SHAPESHIFTERB-KILL.wav",
+			"move":				"SHAPESHIFTERB-MOVE.wav", 
+			"wince":			"SHAPESHIFTERB-WNCE.wav",
+			"startMoving":		"SHAPESHIFTERB-MOVESTART.wav",
+			"endMoving":		"SHAPESHIFTERB-MOVESTOP.wav"},
+
+		"abilities":{
+			"nonliving":{		"type" :"NON_LIVING"},
+			"jousting" :{		"type" :"JOUSTING"},
+			"immuneToMind":{	"type" :"MIND_IMMUNITY"},
+			"extraRetaliation":{"type" :"ADDITIONAL_RETALIATION",	"val" :1},
+			"reduceDefence" :{	"type" :"ENEMY_DEFENCE_REDUCTION",	"val" :60},
+			"petrification":{	"type" :"SPELL_AFTER_ATTACK",		"subtype" :	"spell.stoneGaze",		"val" :20,	"addInfo" :[0,2]},
+			"spellResurrect" :{	"type" :"SPELLCASTER",				"subtype":	"spell.resurrection",	"val":3},
+			"spellPower" :{		"type" :"CREATURE_SPELL_POWER",		"val" :100},
+			"spellPoints" :{	"type" :"CASTS",					"val" :1}
+		}
+	}
+}

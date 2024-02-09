@@ -1,0 +1,13 @@
+{
+	"name" :			"Creature : Shapeshiters (Neutral)",
+	"description" :		"This submod adds a brand new neutral creature : Shapeshifter(s). This creature transforms itself into different vanilla creatures. Be careful while attacking a monster in the adventure map.",
+	"author" :			"Yuya Noboru",
+	"contact" :			"yuya.noboru@gmail.com",
+	"version" :			"Same as main mod.",
+	"modType" :			"Creatures",
+
+
+	"compatibility" :	{"min" : "1.4.0"},
+	"keepDisabled" : 	false,
+	"creatures" :		["shapeshifterFeral.json"]
+}

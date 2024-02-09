@@ -1,0 +1,82 @@
+{
+	"rfgsAmad":{
+		"name":						"Amad",
+		"type":						"combat",
+		"targetType" :				"CREATURE",
+		"targetCondition" :{
+			"allOf" :{
+				"core:bonus.NON_LIVING":					"absolute"},
+			"anyOf" :{
+				"refugee-town:creature.rfgcGoldGolem":		"absolute",
+				"refugee-town:creature.rfgcDiamondGolem":	"absolute",
+				"refugee-town:creature.rfgcFleshGolem":		"absolute",
+				"core:creature.ironGolem":					"absolute",
+				"core:creature.stoneGolem":					"absolute",
+				"core:creature.goldGolem":					"absolute",
+				"core:creature.diamondGolem":				"absolute"},
+			"noneOf" :{
+				"core:bonus.SIEGE_WEAPON" : 				"absolute",
+				"core:bonus.UNDEAD" : 						"absolute",
+				"core:bonus.GARGOYLE" : 					"absolute"}},
+
+		"school":{
+			"air":					false,
+			"earth":				true,
+			"fire":					false,
+			"water":				false},
+
+		"level":					4,
+		"power":					40,
+		"defaultGainChance": 		5,
+		"gainChance":{
+			"castle" :				1,
+			"rampart" :				1,
+			"tower" :				12,
+			"inferno" :				1,
+			"necropolis" :			1,
+			"dungeon" :				1,
+			"stronghold" :			1,
+			"fortress" :			1,
+			"conflux" :				5,
+			"refugee" :				20},
+
+		"animation":				{"affect":[	"C01SPE0"]},
+		"sounds": 					{"cast": 	"ANIMDEAD"},
+		"flags" :					{"positive": true, "rising" : true},
+
+		"graphics":{
+			"iconBook":				"spells/Amad0.bmp",
+			"iconScroll":			"spells/Amad1.bmp",
+			"iconScenarioBonus":	"spells/Amad2.bmp",
+			"iconEffect": 			"spells/Amad3.bmp"},
+
+		"levels":{
+			"base":{
+				"description": 			"{Amad}\n\nRepair selected golems.",
+				"cost":					18,
+				"aiValue":				60,
+				"range":				"0",
+				"targetModifier":		{"smart":true},
+
+				"battleEffects":{
+					"heal":{
+						"type":				"core:heal",
+						"healLevel":		"resurrect",
+						"healPower":		"oneBattle",
+						"minFullUnits" : 	1,
+						"val" : 			40},
+					"cure":{
+						"type":				"core:dispel",
+						"indirect":			true,
+						"optional":			true,
+						"dispelNegative":	true,
+						"dispelNeutral":	false,
+						"dispelPositive":	false}}},
+
+			"none":{		"power":40,		"battleEffects":{	"heal":{	"healPower":	"oneBattle"}}},
+			"basic":{		"power":40,		"battleEffects":{	"heal":{	"healPower":	"oneBattle"}}},
+			"advanced":{	"power":50,		"battleEffects":{	"heal":{	"healPower":	"permanent"}}},		
+			"expert":{		"power":60,		"battleEffects":{	"heal":{	"healPower":	"permanent"}}}
+		}
+	}
+}

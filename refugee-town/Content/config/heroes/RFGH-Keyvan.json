@@ -1,6 +1,6 @@
 {
 	"rfghKeyvan" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgcspellNG-small.png",
@@ -10,7 +10,7 @@
 
 		"army" :[
 				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	6 },
 				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
 
 		"skills" :[

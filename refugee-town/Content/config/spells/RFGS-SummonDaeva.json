@@ -35,18 +35,18 @@
 
 		"levels":{
 			"base":{
-				"description": 			"Summons a Daeva to fight on your side on battle field.",
+				"description": 			"{Summon Daeva}\n\nSummons a Daeva to fight on your side on battle field.",
 				"cost":					100,
-				"power":				150,
+				"power":				720,
 				"aiValue":				0,
 				"range":				"X",
 				"targetModifier":		{"smart":true},
 				"battleEffects":{		"summon":{
-					"exclusive":	true,
-					"id":			"refugee-town:rfgDaeva",
-					"permanent":	false,
-					"type":			"core:summon",
-					"summonByHealth":true}}
+					"exclusive":		true,
+					"id":				"refugee-town:rfgcDaeva",
+					"permanent":		false,
+					"type":				"core:summon",
+					"summonByHealth":	true}}
 			},
 			"none":		{},
 			"basic":	{},

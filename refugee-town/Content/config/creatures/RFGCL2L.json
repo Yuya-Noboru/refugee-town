@@ -22,7 +22,7 @@
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/battle/RFGCL2L.def",
-			"map" :				"creatures/map/AVWREFG03.def",
+			"map" :				"creatures/map/RFGCA-L2L.def",
 			"iconSmall" :		"creatures/icons/RFGC2L-PS.bmp",
 			"iconLarge" :		"creatures/icons/RFGC2L-PB.png",
 			"timeBetweenFidgets" : 1},
@@ -38,69 +38,6 @@
 				"sandWalker" :{
 				"type" :		"NO_TERRAIN_PENALTY",
 				"subtype" :		"terrain.sand",
-				"propagator" :	"HERO"}},
-		"stackExperience" : [
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "RETURN_AFTER_STRIKE"
-				},
-				"values" : [ false, false, true, true, true, true, true, true, true, true ]	
-			},
-			{
-				"bonus" :
-				{
-					"type" : "JOUSTING"
-				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
-			}
-		]
+				"propagator" :	"HERO"}}
 	}
 }

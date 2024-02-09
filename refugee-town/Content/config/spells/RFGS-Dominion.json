@@ -46,7 +46,7 @@
 				"targetModifier":	{"smart":true}},
 
 			"none":{
-				"description": 			"Dominate the selected unit(s).",
+				"description": 			"{Dominion}\n\nDominate the selected unit(s).",
 				"effects" :{	
 					"weakness":{		"type":	"PRIMARY_SKILL",	"subtype" :	"primSkill.attack",
 										"val" :	 -3,	"valueType" :"ADDITIVE_VALUE",	"duration" : "N_TURNS"},

@@ -11,17 +11,17 @@
 		"defense" :		23,
 		"damage" :		{ "min" : 30, "max" : 40 },
 		"hitPoints" :	180,
-		"speed" :		14,
+		"speed" :		11,
 		"growth" :		1,
-		"fightValue" :	3759,
-		"aiValue" :		5101,
-		"cost" :		{ "gold" : 3333, "sulfur" : 1 },
+		"fightValue" :	3659,
+		"aiValue" :		4801,
+		"cost" :		{ "gold" : 2222, "sulfur" : 1 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/battle/RFGCL7L.def",
-			"map" :				"creatures/map/AVWREFG13.def",
+			"map" :				"creatures/map/RFGCA-L7L.def",
 			"iconSmall" :		"creatures/icons/RFGC7L-PS.bmp",
 			"iconLarge" :		"creatures/icons/RFGC7L-PB.png",
 			"timeBetweenFidgets" : 1},
@@ -34,83 +34,25 @@
 			"wince":			"creatures/AHRIMANWNCE.wav"},
 
 		"abilities" :{
-			"flying" :	{			"type" : 	"FLYING",			"subtype" : "movementFlying"},
-			"immuneToMind" :{		"type" :	"MIND_IMMUNITY"},
-			"fearless" :{			"type" :	"FEARLESS"},
-			"strikeFirst" :{		"type" :	"FIRST_STRIKE" },
+			"flying" :	{			"type" : 	"FLYING",				"subtype" : "movementFlying"},
+			"nonliving" :{			"type" :	"NON_LIVING"},
+			"basicSlayer" :{		"type" : 	"KING",					"val" : 2},
+			"strikeFirst" :{		"type" :	"FIRST_STRIKE"},
+			"magicResistance":{		"type" :	"MAGIC_RESISTANCE",		"val" : 25},
 
-//	MORALE AND LUCK MECHANICS
-			"selfMorale" :{			"type" :	"MORALE",	"val" : 1,	"valueType" : "INDEPENDENT_MAX"},
-			"selfLuck" :{			"type" :	"LUCK",		"val" : 1,	"valueType" : "INDEPENDENT_MAX"},
+			"castGottesbriefe":{	"type":		"SPELL_AFTER_ATTACK",
+									"subtype":	"spell.rfgsSigu",		"val" :  33,	"addInfo" :	[2, 2]},
+			"castHolyBreaker":{		"type":		"SPELL_AFTER_ATTACK",
+									"subtype":	"spell.rfgsHolybreaker","val" : 100,	"addInfo" :	[2, 2]}
 
-			"descreaseLuck" :{		"type" :	"LUCK",		"val" : -1,	"stacking" :"Ahrimans",
-									"propagator":			"BATTLE_WIDE",
-									"propagationUpdater" :	"BONUS_OWNER_UPDATER",
-									"limiters" :			["OPPOSITE_SIDE" ]},
-									
-			"descreaseMorale" :{	"type" :	"MORALE",	"val" : -1,	"stacking" :"Ahrimans",
-									"propagator":			"BATTLE_WIDE",
-									"propagationUpdater" :	"BONUS_OWNER_UPDATER",
-									"limiters" :			[ "OPPOSITE_SIDE" ]},
-//	SPELLCASTER
-			"castGottesbriefe":{
-				"type":			"SPELL_AFTER_ATTACK",
-				"subtype":		"spell.rfgsSigu",
-				"val":			33,		"addInfo" :		[2, 2]},
-			"castHolyBreaker":{
-				"type":			"SPELL_AFTER_ATTACK",
-				"subtype":		"spell.rfgsHolybreaker",
-				"val":			100,	"addInfo" :		[2, 2]},
-			"castSorrow":{
-				"type" :		"SPELL_BEFORE_ATTACK",
-				"subtype" :		"spell.sorrow",
-				"val" :			15,		"addInfo" :		[1, 2]},
-			"castMisfortune":{
-				"type" :		"SPELL_BEFORE_ATTACK",
-				"subtype" :		"spell.misfortune",
-				"val" :			15,		"addInfo" :		[1, 2]}
-		},
-		"stackExperience" : [
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}
-		]
+// Removed old abilities
+//			"descreaseLuck" :{		"type":"LUCK",	"val":-1,	"stacking":"Ahrimans",	"propagator":"BATTLE_WIDE",
+//									"propagationUpdater":"BONUS_OWNER_UPDATER",		"limiters":["OPPOSITE_SIDE" ]},								
+//			"descreaseMorale" :{	"type":"MORALE","val":-1,	"stacking":"Ahrimans",	"propagator":"BATTLE_WIDE",
+//									"propagationUpdater":"BONUS_OWNER_UPDATER",		"limiters":[ "OPPOSITE_SIDE" ]}
+//			"oppression":{			"type" :	"MORALE",				"val" : 0,		"stacking":	"Ahrimans",	
+//									"valueType":"INDEPENDENT_MIN",		"propagator":	"BATTLE_WIDE",
+//									"propagationUpdater":	"BONUS_OWNER_UPDATER",		"limiters":["OPPOSITE_SIDE"]},
+		}
 	}
 }

@@ -2,8 +2,8 @@
 	"refugee" :{
 		"town" :{
 			"siege" :{
-				"shooter" :			"rfgcCommander",
-				"imagePrefix" :		"siege/SGCT",
+				"shooter" :			"rfgcEnchanter",
+				"imagePrefix" :		"siege/SgRf",
 				"towerIconSmall" :	"icons/arrowtowersmall",
 				"towerIconLarge" :	"icons/arrowtowerslarge",
 
@@ -22,15 +22,15 @@
 					"bottom":{
 						"tower" :		{ "x" : 0,		"y" : 0    },		// "TW11" ... "TW12"
 						"battlement" :	{ "x" : 0,		"y" : 0    },		// "TW1C"
-						"creature" :	{ "x" : 394,	"y" : 299  }},
+						"creature" :	{ "x" : 366,	"y" : 303  }},
 					"keep" :{
 						"tower" :		{ "x" : 0,		"y" : 0    },		// "MAN1" ... "MAN2"
 						"battlement" :	{ "x" : 0,		"y" : 0    },		// "MANC"
-						"creature" :	{ "x" : 526,	"y" : -29  }},
+						"creature" :	{ "x" : 496,	"y" : 90  }},
 					"top" :{
 						"tower" :		{ "x" : 0,		"y" : 0    },		// "TW21" ... "TW22"
 						"battlement" :	{ "x" : 0,		"y" : 0    },		// "TW2C"
-						"creature" :	{ "x" : 342,	"y" : -187 }}},
+						"creature" :	{ "x" : 334,	"y" : -182 }}},
 
 				"walls" :{
 					"upper" :			{ "x" : 0, "y" : 0 },				// "WA61" ... "WA63"

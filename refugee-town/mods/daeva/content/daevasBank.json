@@ -1,0 +1,103 @@
+{
+	"core:creatureBank":{
+		"types":{
+			"rfgaDaevasBank":{
+				"name" :			"Mysterious Lamp",
+				"resetDuration" :	0,
+				"aiValue" :			14000,
+				"sounds" : {
+					"ambient" :		["LOOPMAGI"],
+					"visit" :		["hotaLamp"]},
+				"rmg" : {
+					"value" :		2000,
+					"rarity" :		100,
+//					"zoneLimit" :	1
+					},
+
+				"templates" : {
+					"base" : { "animation":	"daevaBank.def", 
+					"visitableFrom" :		[ "+++", "+++", "+++" ],
+					"mask" :				["VAV"],
+					"allowedTerrains":		["grass", "rough", "dirt", "sand"]}},
+
+				"levels":[
+// ---------------------------------------------------------------------------------------------------
+					{	"chance":		30,
+						"guards":[
+								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 10 },
+								 {	"amount":	11,	"type":	"efreet"	, "upgradeChance": 10 },
+								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 40 },
+								 {	"amount":	11,	"type":	"efreet"	, "upgradeChance": 10 },
+								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 10 }
+								],
+						"combat_value":		806,
+						"reward" : {
+							"value":		8000,
+							"spells" :	[{	"level" : 4 }],
+							"creatures":[{	"amount": 25,	"type":	   "masterGenie" }],
+							"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}},
+// ---------------------------------------------------------------------------------------------------
+					{	"chance":		30,
+						"guards":[
+								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 10},
+								 {	"amount":	22,	"type":	"efreet"	, "upgradeChance": 10},
+								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 40},
+								 {	"amount":	22,	"type":	"efreet"	, "upgradeChance": 10},
+								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 10}
+								],
+						"combat_value":	1210,
+						"reward" : {
+							"value":	16000,
+							"creatures":[{	"amount": 50,	"type":	   "masterGenie" }],
+							"spells" :	[{	"level" : 5 }],
+							"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}},
+// ---------------------------------------------------------------------------------------------------
+					{	"chance":		25,
+						"guards":[
+								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 10},
+								 {	"amount":	33,	"type":	"efreet"	, "upgradeChance": 10},
+								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 40},
+								 {	"amount":	33,	"type":	"efreet"	, "upgradeChance": 10},
+								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 10}
+								],
+						"combat_value":	1614,
+						"reward" : {
+							"value":	24000,
+							"creatures":[{	"amount": 1,	"type":	   "creature.rfgcDaeva" }],
+							"spells" :	[{	"level" : 5 }],
+							"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}},
+// ---------------------------------------------------------------------------------------------------							
+					{	"chance":		10,
+						"guards":[
+								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 20},
+								 {	"amount":	44,	"type":	"efreet"	, "upgradeChance": 20},
+								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 60},
+								 {	"amount":	44,	"type":	"efreet"	, "upgradeChance": 20},
+								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 20}
+								],
+						"combat_value":	2018,
+						"reward" : {
+							"value":	30000,
+							"creatures":[{	"amount": 2,	"type":	   "creature.rfgcDaeva" }],
+							"spells" :	[{	"level" : 5 }],
+							"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}},
+// ---------------------------------------------------------------------------------------------------							
+					{	"chance":		5,
+						"guards":[
+								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66},
+								 {	"amount":	77,	"type":	"efreet"	, "upgradeChance": 33},
+								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66},
+								 {	"amount":	77,	"type":	"efreet"	, "upgradeChance": 33},
+								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66}
+								],
+						"combat_value":	4444,
+						"reward" : {
+							"value":	60000,
+							"creatures":[{	"amount": 4,	"type":	   "creature.rfgcDaeva" }],
+							"spells" :	[{	"level" : 5 }],
+							"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}}
+				]
+			}
+		}
+	}
+}

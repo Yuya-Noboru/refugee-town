@@ -1,0 +1,72 @@
+{
+	"rfghDebug" :{
+		"class" :				"rfghcEnchanterF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgNecrolem-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgNecrolem-large.png",
+			"small" : 			"heroes/portraits/RFGH-debug-small.png",
+			"large" : 			"heroes/portraits/RFGH-debug-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcFleshGolem", 	"min":	12,	"max" :	18 },
+				{ "creature":	"rfgcSorceress",	"min":	3,	"max" :	5  },
+				{ "creature":	"rfgcAngraMainyu",	"min":	1,	"max" :	1  }
+
+//				{ "creature":	"rfgcFleshGolem", 	"min":	12,	"max" :	18 },
+
+//				{ "creature":	"rfgcRogue",		"min":	12,	"max" :	20 },
+//				{ "creature":	"rfgcSpy",			"min":	12,	"max" :	20 },
+
+//				{ "creature":	"rfgcVagabond",		"min":	8,	"max" :	16 },
+//				{ "creature":	"rfgcNomad",		"min":	8,	"max" :	16 },
+
+//				{ "creature":	"rfgcSagit",		"min":	6,	"max" :	12 },
+//				{ "creature":	"rfgcSharp",		"min":	6,	"max" :	12 },
+
+//				{ "creature":	"rfgcGoldGolem",	"min":	4,	"max" :	8  },
+//				{ "creature":	"rfgcDiamondGolem",	"min":	4,	"max" :	8  },
+				
+//				{ "creature":	"rfgcSorceress",	"min":	3,	"max" :	5  },
+//				{ "creature":	"rfgcEnchanter",	"min":	3,	"max" :	5  },
+
+//				{ "creature":	"rfgcHorseFire",	"min":	2,	"max" :	3  },							
+//				{ "creature":	"rfgcHorseBlack",	"min":	2,	"max" :	3  },
+
+//				{ "creature":	"rfgcAngraMainyu",	"min":	1,	"max" :	1  }			
+		],
+		"skills" :[
+				{ "level" :		"expert",	"skill" :	"necromancy" },
+				{ "level" :		"expert",	"skill" :	"wisdom" }],
+
+		"spellbook" :[ 			"rfgsAmad", "rfgsMet", "rfgsEmet", "rfgsSiguP", "rfgsNamburbi"],
+		"specialty" : {
+			"creature" :		"rfgcFleshGolem",
+			"bonuses" :{
+				"conversionRogue":{			"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rogue",				"addInfo":	"creature.rfgcRogue"},
+				"conversionNomad":{			"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.nomad",				"addInfo":	"creature.rfgcNomad"},
+				"conversionSharpshooter":{	"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.sharpshooter",		"addInfo":	"creature.rfgcSharp"},
+				"conversionEnchanter":{		"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.enchanter",			"addInfo":	"creature.rfgcEnchanter"},
+				"conversionGoldGolem":{		"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.goldGolem",			"addInfo":	"creature.rfgcGoldGolem"},
+				"conversionDiamondGolem":{	"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.diamondGolem",		"addInfo":	"creature.rfgcDiamondGolem"},
+				"reversionRogue":{			"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcRogue",			"addInfo":	"creature.rogue"},
+				"reversionNomad":{			"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcNomad",			"addInfo":	"creature.nomad"},
+				"reversionSharpshooter":{	"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcSharp",			"addInfo":	"creature.sharpshooter"},
+				"reversionEnchanter":{		"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcEnchanter",		"addInfo":	"creature.enchanter"},
+				"reversionGoldGolem":{		"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcGoldGolem",		"addInfo":	"creature.goldGolem"},
+				"reversionDiamondGolem":{	"type" :"SPECIAL_UPGRADE",		"subtype":	"creature.rfgcDiamondGolem",	"addInfo":	"creature.diamondGolem"},				
+
+				"knowledge":{				"type" :"PRIMARY_SKILL",		"subtype":	"knowledge",	"val": 10},
+				"nonevil":{					"type" :"NONEVIL_ALIGNMENT_MIX"},
+				"necrolem":{				"type" :"IMPROVED_NECROMANCY",	"subtype" :	"creature.rfgcFleshGolem"}}},
+
+		"texts":{
+			"name" :			"Debug",
+			"biography" :		"Debug isn't meant to be playable. If you read this in-game, something's definitely wrong.",
+			"specialty" :{
+				"name" :		"Necrolem",
+				"tooltip" :		"speciality : Necrolem",
+				"description" :"{Necrolem}\r\n\r\nIncreases the Attack and Defense skills of any Flesh Golem for each level attained after 5th level."
+		}}
+	}
+}

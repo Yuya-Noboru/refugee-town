@@ -1,6 +1,6 @@
 {
 	"rfghAreman" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgcNomad-small.png",

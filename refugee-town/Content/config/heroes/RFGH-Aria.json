@@ -1,6 +1,6 @@
 {
 	"rfghAria" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterF",
 		"female" :				true,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-gold-small.png",
@@ -9,30 +9,35 @@
 			"large" : 			"heroes/portraits/RFGH-Aria-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
 				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
-				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 }],
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"estates" },	
 				{ "level" :		"basic",	"skill" :	"wisdom" }],
 
 		"spellbook" :[ "hypnotize" ],
-		"specialty" :{
-			"bonuses" :{
-				"gold" :{
-					"subtype" :	"resource.gold",
-					"type" :	"GENERATE_RESOURCE",
-					"val" :		350
-		}}},
+		"specialty" : {
+			"bonuses" : {
+				"estates" : {
+					"subtype" :			"resource.gold",
+					"type" :			"GENERATE_RESOURCE",
+					"updater" :			"TIMES_HERO_LEVEL",
+					"val" :				5,
+					"valueType" :		"PERCENT_TO_TARGET_TYPE",
+					"targetSourceType":	"SECONDARY_SKILL"}
+		}},
 
 		"texts":{
 			"name" :			"Aria",
 			"biography" :		"Aria has never defines violence as an answer but as the latest solution. She focus on ways to increase her kingdom revenues and don't mind to uses her charm and magic to lead her to victory.",
 			"specialty" :{
-				"name" :		"+350 Gold",
-				"tooltip" :		"Increases kingdom's income by 350 gold per day",
-				"description" :	"{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+				"name" :		"Estates",
+				"tooltip" :		"Receives a 5% per level bonus to Estates skill.",
+				"description" :	"{Estates}\r\n\r\nReceives a 5% per level bonus to Estates skill."
+
+//				"description" :	"{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
 		}}
 	}
 }

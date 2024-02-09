@@ -1,0 +1,51 @@
+{
+	"rfgcFleshGolem":{
+		"name" :{
+			"plural" :	"Flesh Golems",
+			"singular" :"Flesh Golem"},
+		"advMapAmount" :{"min" : 30,	"max" : 45},
+		"faction" :		"refugee",
+
+		"level" :		2,
+		"attack" :		4,
+		"defense" :		5,
+		"damage" :		{ "min" : 2, "max" : 2 },
+		"hitPoints" :	8,
+		"speed" :		6,
+		"growth" :		8,
+
+		"fightValue" :	128,
+		"aiValue" :		128,
+		"cost" :		{ "gold" : 105 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/battle/RFGCF.def",
+			"map" :				"creatures/map/RFGCA-FG.def",
+			"iconSmall" :		"creatures/icons/RFGCF-PS.bmp",
+			"iconLarge" :		"creatures/icons/RFGCF-PB.png",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"SGLMATTK.wav",
+			"defend":	"SGLMDFND.wav",
+			"killed":	"SGLMKILL.wav",
+			"move":		"SGLMMOVE.wav",
+			"wince":	"SGLMWNCE.wav"},
+
+		"abilities" :{
+			"nonliving" :{	"type" :	"NON_LIVING"},
+			"soulSteal" :{	"type" :	"SOUL_STEAL",			"subtype" :		"soulStealPermanent",	"val" : 1},
+			"necrolem"	:{	"type" :	"IMPROVED_NECROMANCY",	"subtype" :		"creature.rfgcFleshGolem",
+							"val":		600,	"addInfo" :	0,	"propagator" :	"HERO"},
+
+			"magicResistance" :{
+				"type" :		"SPELL_DAMAGE_REDUCTION",
+				"subtype" :		"spellSchool.any",
+				"val" :			25}
+
+
+		}
+	}
+}

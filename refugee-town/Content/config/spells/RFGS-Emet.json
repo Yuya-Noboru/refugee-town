@@ -38,10 +38,11 @@
 			"base":{
 				"range":				"X",
 				"targetModifier":		{"smart":true}},
+
 			"none":{
-				"description": 			"Summons Gold Golems to fight on your side on battle field.",
+				"description": 			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
-				"power":				20,
+				"power":				30,
 				"aiValue":				10,
 				"battleEffects":{
 					"summon":{
@@ -52,9 +53,9 @@
 						"summonByHealth":true
 					}}},
 			"basic":{
-				"description": 			"Summons Gold Golems to fight on your side on battle field.",
+				"description": 			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
-				"power":				40,
+				"power":				50,
 				"aiValue":				11,
 				"battleEffects":{
 					"summon":{
@@ -65,9 +66,9 @@
 						"summonByHealth":true
 					}}},
 			"advanced":	{
-				"description":			 "Summons Gold Golems to fight on your side on battle field.",
+				"description":			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
-				"power":				60,
+				"power":				70,
 				"aiValue":				12,
 				"battleEffects":{
 					"summon":{
@@ -78,9 +79,9 @@
 						"summonByHealth":true
 					}}},
 			"expert":{
-				"description": 			"Summons Diamond Golems to fight on your side on battle field.",
+				"description": 			"{Emet}\n\nSummons Diamond Golems to fight on your side on battle field.",
 				"cost":					18,
-				"power":				80,
+				"power":				90,
 				"aiValue":				13,
 				"battleEffects":{
 					"summon":{

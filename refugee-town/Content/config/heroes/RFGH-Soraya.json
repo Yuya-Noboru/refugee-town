@@ -1,6 +1,6 @@
 {
 	"rfghSoraya" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererF",
 		"female" :				true,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-logistic-small.png",

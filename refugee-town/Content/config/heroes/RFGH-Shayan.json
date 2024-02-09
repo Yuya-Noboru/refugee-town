@@ -1,6 +1,6 @@
 {
 	"rfghShayan" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-rfgcMotleyArmy-small.png",
@@ -14,20 +14,20 @@
 				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 }],
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"diplomacy" },
-				{ "level" :		"basic",	"skill" :	"tactics" }],
+				{ "level" :		"basic",	"skill" :	"learning" },
+				{ "level" :		"basic",	"skill" :	"diplomacy" }],
 
 		"spellbook" :			["disguise"],
 		"specialty":{
 			"bonuses" :{
 				"selfMorale":{
-					"type" :	"MORALE",
-					"val" : 0,
-					"valueType" : "INDEPENDENT_MAX",
+					"type" :		"MORALE",
+					"val" : 		0,
+					"valueType" : 	"INDEPENDENT_MAX",
+					"limiters" :[	"TEAM_PROPAGATOR" ]}
+
 //					"limiters": [{	"type":			"CREATURE_FACTION_LIMITER",
 //									"parameters": [ "refugee", true ]}]}
-//					"limiters" :[ "TEAM_PROPAGATOR" ]
-				}
 		}},
 					
 		"texts":{

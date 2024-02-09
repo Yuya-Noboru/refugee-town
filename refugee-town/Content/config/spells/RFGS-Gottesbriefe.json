@@ -45,24 +45,24 @@
 				"range":			"0",
 				"targetModifier":	{"smart":true}},
 			"none":{
-				"description": 		"Decreases selected's unit's luck and morale by 1.",
+				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 1.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :	-1,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :	-1,	"duration":	"N_TURNS"}}},
 			"basic":{
-				"description": 		"Decreases selected's unit's luck and morale by 1.",
+				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 1.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :	-1,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :	-1,	"duration":	"N_TURNS"}}},
 
 			"advanced":{
-				"description": 		"Decreases selected's unit's luck and morale by 2.",
+				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 2.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :	-2,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :	-2,	"duration":	"N_TURNS"}}},
 					
 			"expert":{
-				"description": 		"Reduces the luck and morale of all enemy's units by 2.",
+				"description": 		"{Šigû}\n\nReduces the luck and morale of all enemy's units by 2.",
 				"cost":				20,
 				"range":			"X",
 				"effects" :{

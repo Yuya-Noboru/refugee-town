@@ -1,0 +1,69 @@
+{
+	"rfghcEnchanterF" :{
+		"faction" :			"refugee",
+		"name" :			"Enchanter",
+		"affinity" :		"magic",
+		"commander" :		"rfgcCommander",
+		"animation" : {
+			"battle" : {
+				"male"   :					"heroes/EnchFemaleBattle.def",
+				"female" :					"heroes/EnchFemaleBattle.def" }},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" :	"heroes/EnchFemaleMap.def" },
+				"female" : { "animation" :	"heroes/EnchFemaleMap.def" }}},
+
+		"primarySkills" :{		"attack":  1,	"defence":  1,	"spellpower":  2,	"knowledge":  2},
+		"lowLevelChance" :{		"attack": 15,	"defence": 15,	"spellpower": 35,	"knowledge": 35},
+		"highLevelChance" :{	"attack": 15,	"defence": 15,	"spellpower": 35,	"knowledge": 35},
+
+		"secondarySkills" :{
+			"wisdom"       :	8,
+			"fireMagic"    :	8,
+			"airMagic"     :	8,
+			"waterMagic"   :	8,
+			"earthMagic"   :	8,
+
+			"estates"      :	6,
+			"learning"     :	6,
+			"sorcery"      :	6,
+			"intelligence" :	6,
+			"diplomacy"    :	6,
+
+			"resistance"   :	4,
+			"mysticism"    :	4,
+			"logistics"    :	3,
+			"pathfinding"  :	3,
+			"luck"         :	3,
+			"eagleEye"     :	3,
+
+
+			"scholar"      :	2,
+			"firstAid"     :	2,
+			"leadership"   :	2,
+
+			"offence"      :	1,
+			"armorer"      :	1,
+			"archery"      :	1,
+			"scouting"     :	1,
+
+			"artillery"    :	0,
+			"ballistics"   :	0,
+			"navigation"   :	0,
+			"tactics"      :	0,
+			"necromancy"   :	0},
+
+		"defaultTavern" :		5,
+		"tavern" :{
+			"castle" :			4,
+			"rampart" :			4,
+			"tower" :			4,
+			"inferno" :			2,
+			"necropolis" :		1,
+			"dungeon" :			2,
+			"stronghold" :		6,
+			"fortress" :		6,
+			"conflux" :			6,
+			"refugee" :			25},
+	}
+}

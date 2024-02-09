@@ -58,42 +58,29 @@
 
 		"levels":{
 			"base":{
-				"description": 		"Weaken divine unit(s).",
+				"description": 		"{Holy Breaker}\n\nWeaken divine unit(s).",
 				"power":			10,
 				"aiValue":			22,
 				"cost":				0,
 				"range":			"0",
-				"targetModifier":	{"smart":true}},
+				"targetModifier":	{"smart":true},
+				
+				"effects" :{
+					"forgetful":{	"type":	"FORGETFULL",	"duration" :	"N_TURNS",	"val": 2},
+					"stackHealth":{	"type":	"STACK_HEALTH",	"duration" :	"N_TURNS",
+									"val" :	-15,			"valueType":	"PERCENT_TO_ALL"}},
 
-			"none":{
-				"effects" :{
-					"stackHealth" : {	"val" :			-20,
-										"type" :		"STACK_HEALTH",
-										"valueType":	"PERCENT_TO_ALL",
-										"duration" :	"N_TURNS"},
-					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
-
-			"basic":{
-				"effects" :{
-					"stackHealth" : {	"val" :			-20,
-										"type" :		"STACK_HEALTH",
-										"valueType":	"PERCENT_TO_ALL",
-										"duration" :	"N_TURNS"},
-					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
-			"advanced":{
-				"effects" :{
-					"stackHealth" : {	"val" :			-25,
-										"type" :		"STACK_HEALTH",
-										"valueType":	"PERCENT_TO_ALL",
-										"duration" :	"N_TURNS"},
-					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
-			"expert":{
-				"effects" :{
-					"stackHealth" : {	"val" :			-30,
-										"type" :		"STACK_HEALTH",
-										"valueType":	"PERCENT_TO_ALL",
-										"duration" :	"N_TURNS"},
-					"forgetful":{		"type":			"FORGETFULL",	"duration" : "N_TURNS"}}},
+				"cumulativeEffects":{
+					"stackHealth" : {
+						"val" :			-5,
+						"type" :		"STACK_HEALTH",
+						"valueType":	"PERCENT_TO_ALL",
+						"duration" :	"N_TURNS"}}
+			},
+			"none":{},
+			"basic":{		"cumulativeEffects":{	"stackHealth" : {	"val" :	-5 }}},
+			"advanced":{	"cumulativeEffects":{	"stackHealth" : {	"val" :	-10}}},
+			"expert":{		"cumulativeEffects":{	"stackHealth" : {	"val" :	-15}}}
 		}
 	}
 }

@@ -4,16 +4,20 @@
 		"type":						"combat",
 		"targetType" :				"CREATURE",
 		"targetCondition" :{
+			"allOf" :{
+				"core:bonus.NON_LIVING":					"absolute"},
 			"anyOf" :{
 				"refugee-town:creature.rfgcGoldGolem":		"absolute",
 				"refugee-town:creature.rfgcDiamondGolem":	"absolute",
+				"refugee-town:creature.rfgcFleshGolem":		"absolute",
 				"core:creature.ironGolem":					"absolute",
 				"core:creature.stoneGolem":					"absolute",
 				"core:creature.goldGolem":					"absolute",
 				"core:creature.diamondGolem":				"absolute"},
 			"noneOf" :{
-				"bonus.SIEGE_WEAPON" : 						"absolute",
-				"bonus.GARGOYLE" : 							"absolute"}},
+				"core:bonus.SIEGE_WEAPON" : 				"absolute",
+				"core:bonus.UNDEAD" : 						"absolute",
+				"core:bonus.GARGOYLE" : 					"absolute"}},
 
 		"school":{
 			"air":					false,
@@ -23,7 +27,7 @@
 
 		"level":					2,
 		"power":					3,
-		"defaultGainChance": 		0,
+		"defaultGainChance": 		1,
 		"gainChance":{
 			"castle" :				1,
 			"rampart" :				1,
@@ -38,7 +42,7 @@
 
 		"animation":				{"affect":[	"spells/MET.def"]},
 		"sounds": 					{"cast": 	"spells/MET.WAV"},
-		"flags" :					{"negative":true, "indifferent": true },
+		"flags" :					{"negative":true},
 
 		"graphics":{
 			"iconBook":				"spells/Met0.bmp",
@@ -48,8 +52,8 @@
 
 		"levels":{
 			"base":{
-				"description": 			"Inflicts terrible damage to the targeted golem.",
-				"cost":					14,
+				"description": 			"{Met}\n\nInflicts terrible damage to the targeted golem.",
+				"cost":					20,
 				"aiValue":				14,
 				"range":				"0",
 				"targetModifier":		{"smart":true},

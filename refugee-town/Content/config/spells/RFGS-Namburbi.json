@@ -1,6 +1,6 @@
 {
 	"rfgsNamburbi":{
-		"name":						"Namburbi",
+		"name":						"Nambúrbi",
 		"type":						"combat",
 		"targetType" :				"CREATURE",
 		"targetCondition" :{
@@ -46,22 +46,22 @@
 				"targetModifier":	{"smart":true}},
 
 			"none":{
-				"description": 		"Increases selected's unit's luck and morale by 1.",
+				"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
 			"basic":{
-				"description": 		"Increases selected's unit's luck and morale by 1.",
+				"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
 			"advanced":	{
-				"description":		"Increases selected's unit's luck and morale by 2.",
+				"description":		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 2.",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},
 					"morale" :{		"type" :	"MORALE",	"val" :		2,	"duration":	"N_TURNS"}}},
 			"expert":{
-				"description": 		"Increases the luck and morale of all friendly units by 2.",
+				"description": 		"{Nambúrbi}\n\nIncreases the luck and morale of all friendly units by 2.",
 				"range":			"X",
 				"effects" :{
 					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},

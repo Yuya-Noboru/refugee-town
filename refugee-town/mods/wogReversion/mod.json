@@ -1,0 +1,13 @@
+{
+	"name" :			"Reversion - WoG units",
+	"description" :		"Allows to convert Refugee's units into its Neutral WoG counterpart. Warning, using Hillfort upgrade tool will convert selected units into neutral instead of upgrading it.",
+	"author" :			"Yuya Noboru",
+	"contact" :			"yuya.noboru@gmail.com",
+	"version" :			"Same as main mod.",
+	"modType" :			"Mechanics",
+
+	"depends" :			["wake-of-gods",	"wake-of-gods.creatures"],
+	"compatibility" :	{"min" : "1.4.0"},
+	"keepDisabled" : 	true,
+	"heroes" 	:		["RFGH-wogNeutralReversion.json"]
+}

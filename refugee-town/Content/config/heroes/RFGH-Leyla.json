@@ -1,6 +1,6 @@
 {
 	"rfghLeyla" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererF",
 		"female" :				true,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-slayer-small.png",
@@ -9,7 +9,7 @@
 			"large" : 			"heroes/portraits/RFGH-Leyla-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
 				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
 
 		"skills" :[

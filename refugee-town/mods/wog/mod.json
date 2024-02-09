@@ -1,0 +1,14 @@
+{
+	"name" :			"WoG supports",
+	"description" :		"Enable this submod if you're using In The Wake of Gods expansion.",
+	"author" :			"Yuya Noboru",
+	"contact" :			"yuya.noboru@gmail.com",
+	"version" :			"Same as main mod.",
+	"modType" :			"Mechanics",
+
+	"depends" :			["wake-of-gods",	"wake-of-gods.creatures"],
+	"compatibility" :	{"min" : "1.4.0"},
+	"keepDisabled" : 	true,
+	"creatures" :		["RFGC-stackExperience.json"],
+	"heroes"	:		["RFGH-wogNeutralConversion.json"]
+}

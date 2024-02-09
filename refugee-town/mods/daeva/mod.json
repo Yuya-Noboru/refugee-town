@@ -1,0 +1,13 @@
+{
+	"name" :			"Creature : Daeva",
+	"description" :		"This submod adds a new creature bank guarded with genies and efreets. Depending on the number of guards, you might be rewarded with a powerful creature named 'Daeva'.",
+	"author" :			"Yuya Noboru",
+	"contact" :			"yuya.noboru@gmail.com",
+	"version" :			"Same as main mod.",
+	"modType" :			"Creatures",
+
+
+	"compatibility" :	{"min" : "1.4.0"},
+	"keepDisabled" : 	false,
+	"objects" :			["daevasBank.json"]
+}

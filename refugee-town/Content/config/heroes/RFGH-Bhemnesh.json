@@ -1,38 +1,39 @@
 {
 	"rfghBhemnesh" :{
-		"class" :				"rfghcEnchanter",
+		"class" :				"rfghcEnchanterM",
 		"female" :				false,
 		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-resurrection-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-resurrection-large.png",
+			"specialtySmall" :	"heroes/specs/spec-rfgNecrolem-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgNecrolem-large.png",
 			"small" : 			"heroes/portraits/RFGH-Bhemnesh-small.png",
 			"large" : 			"heroes/portraits/RFGH-Bhemnesh-big.png"},
 
 		"army" :[
 				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	6  },
+				{ "creature":	"rfgcFleshGolem", 	"min":	3,	"max" :	6 }
+				],
+
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"earthMagic" },
-				{ "level" :		"basic",	"skill" :	"wisdom" }],
+				{ "level" :		"basic",	"skill" :	"necromancy" },
+				{ "level" :		"basic",	"skill" :	"resistance" }],
 
-		"spellbook" :[ "resurrection" ],
-		"specialty" :{
+		"spellbook" :[ 			"rfgsAmad"],
+		"specialty" : {
+//			"creature" :		"rfgcFleshGolem",
 			"bonuses" :{
-				"resurrection" :{
-					"subtype" :	"spell.resurrection",
-					"type" :	"SPECIAL_SPELL_LEV",
-					"updater" :	"TIMES_HERO_LEVEL",
-					"val" :		3
-		}}},
+				"necrolem":{
+					"type" :	"IMPROVED_NECROMANCY",
+					"subtype" :	"creature.rfgcFleshGolem"}}},
 
 		"texts":{
 			"name" :			"Bhemnesh",
-			"biography" :		"Rumors says Bhemnesh brought Nightmares to Erathia when he attempted to resurrect a fallen unicorn into the door to hell. At least, that is what Azar believes.",
+			"biography" :		"Bhemnesh is captivated by the arcane arts of necromancy and the craftsmanship of golems. With an insatiable curiosity and keen intellect, he dedicates his life to unraveling the secrets that bind life and unlife.",
 			"specialty" :{
-				"name" :		"Resurrection",
-				"tooltip" :		"speciality : Resurrection",
-				"description" : "{Resurrection}\r\n\r\nCasts Resurrection with increased effect, based on his level compared to the level of the target unit."
+				"name" :		"Necrolem",
+				"tooltip" :		"speciality : Necrolem",
+				"description" :"{Necrolem}\r\n\r\nRaises killed enemy creatures into Flesh Golems."
 		}}
 	}
 }

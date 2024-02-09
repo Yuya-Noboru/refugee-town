@@ -1,6 +1,6 @@
 {
 	"rfghYemapel" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererM",
 		"female" :				false,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-armorer-small.png",
@@ -9,7 +9,7 @@
 			"large" : 			"heroes/portraits/RFGH-Yemapel-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
+				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
 				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
 
 		"skills" :[
@@ -19,12 +19,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"armorer" : {
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" :		"TIMES_HERO_LEVEL"
+					"subtype" :				"damageTypeAll",
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" :				"GENERAL_DAMAGE_REDUCTION",
+					"val" :					5,
+					"valueType" :			"PERCENT_TO_BASE",
+					"updater" :				"TIMES_HERO_LEVEL"
 		}}},
 
 		"texts":{

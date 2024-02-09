@@ -3,7 +3,7 @@
 		"name" :{
 			"plural" :	"Enchanters",
 			"singular" :"Enchanter"},
-		"advMapAmount" :{"min" : 5,	"max" : 12},
+		"advMapAmount" :{"min" : 8,	"max" : 12},
 		"faction" :		"refugee",
 
 		"level" :		5,
@@ -21,8 +21,8 @@
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL4U.def",
-			"map" :				"creatures/map/AVWREFG08.def",
+			"animation" :		"creatures/battle/RFGCL5U.def",
+			"map" :				"creatures/map/RFGCA-L5U.def",
 			"iconSmall" :		"creatures/icons/RFGC5U-PS.bmp",
 			"iconLarge" :		"creatures/icons/RFGC5U-PB.png",
 			"timeBetweenFidgets" : 1,
@@ -76,63 +76,6 @@
 				"type" :	"ENCHANTER",
 				"subtype" :	"spell.haste",
 				"val" :		3,	"addInfo" :	3}
-		},
-		"stackExperience" : [
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
-				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]
-			}
-		]
+		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"rfghNiusha" :{
-		"class" :				"rfghcWanderer",
+		"class" :				"rfghcWandererF",
 		"female" :				true,
 		"images" :{
 			"specialtySmall" :	"heroes/specs/spec-offence-small.png",
@@ -10,7 +10,7 @@
 
 		"army" :[
 				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
+				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	6 },
 				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
 		"skills" :[
 				{ "level" :		"basic",	"skill" :	"offence" },
@@ -19,7 +19,7 @@
 		"specialty" :{
 			"bonuses" :{
 				"offence" :{
-					"subtype" : 			"damageTypeMelee",
+					"subtype" :				"damageTypeMelee",
 					"targetSourceType" :	"SECONDARY_SKILL",
 					"type" : 				"PERCENTAGE_DAMAGE_BOOST",
 					"val" : 5,
