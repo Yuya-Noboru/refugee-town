@@ -9,6 +9,7 @@
 
 	"changelog" :{
 		"Note":[				"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
+		"v1.0.1 (11/02/2024)":[	"Udated chinese translation. - by Rindlit."],
 		"v1.0 (09/01/2024)":[	"BRAND NEW VISUALS FOR TOWN-SCREEN, SIEGE-SCREEN, ADV.MAP VISUALS, ETC.!",
 								"Updated town-related sprites to fit with the new townscreen (Icons, portraits, etc.).",
 								"Reworked building tree and made few changes to buildings costs.",
