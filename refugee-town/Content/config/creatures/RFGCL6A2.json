@@ -1,0 +1,76 @@
+{
+	"core:enchanter":{
+		"name" :{
+			"plural" :	"Enchanters",
+			"singular" :"Enchanter"},
+		"advMapAmount" :{"min" : 5,	"max" : 10},
+		"faction" :		"refugee",
+
+		"level" :		6,
+		"attack" :		17,
+		"defense" :		12,
+		"damage" :		{ "min" : 14, "max" : 14 },
+		"hitPoints" :	30,
+		"speed" :		9,
+		"shots" :		32,
+		"growth" :		2,
+		"fightValue" :	1080,
+		"aiValue" :		1210,
+		"cost" :		{ "gold" : 750 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"creatures/RFGCB-L6A2.def",
+			"map" :				"creatures/RFGCA-L6A2.def",
+			"iconSmall" :		"creatures/icons/RFGC6A2-PS.png",
+			"iconLarge" :		"creatures/icons/RFGC6A2-PB.png",
+			"timeBetweenFidgets" : 1,
+			"missile" :{
+				"projectile" :	"creatures/projectile/CPRZEAX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :{
+					"lowerX" :	 62,
+					"lowerY" :	-93,
+					"middleX" :	 62,
+					"middleY" :	-93,
+					"upperX" :	 62,
+					"upperY" :	-93},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+		}},
+
+		"sound" :{
+			"attack":	"ENCHATTK.wav",
+			"defend":	"ENCHDFND.wav",
+			"killed":	"ENCHKILL.wav",
+			"move":		"ENCHMOVE.wav",
+			"shoot":	"ENCHSHOT.wav",
+			"wince":	"ENCHWNCE.wav"},
+
+		"abilities":{
+			"canShoot" :{		"type" :	"SHOOTER"},
+			"noPenalty" :{		"type" :	"NO_WALL_PENALTY"},
+			"casts" :{			"type" :	"CASTS",		"val" :		5},
+
+			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.haste",		"val" :	3,	"addInfo" :	3},
+			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.bless",		"val" :	3,	"addInfo" :	3},
+
+			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.stoneSkin",	"val" :	3,	"addInfo" :	3},
+			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.cure",		"val" :	3,	"addInfo" :	3},
+			"castsSlow" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.slow",		"val" :	3,	"addInfo" :	3},
+			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.airShield",	"val" :	3,	"addInfo" :	3},
+
+			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.bloodlust",	"val" :	3,	"addInfo" :	3},
+			"castsWeakness" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.weakness",	"val" :	3,	"addInfo" :	3}
+
+			// Haste		17.9%
+			// Bless		17.9%
+			// Stone Skin	11.9%
+			// Cure			11.9%
+			// Bloodlust	 6.0%
+			// Slow			11.9%
+			// Weakness		 4.8%
+			// Air Shield	11.9%
+		}
+	}
+}

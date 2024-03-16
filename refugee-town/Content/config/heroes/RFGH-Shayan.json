@@ -9,34 +9,29 @@
 			"large" : 			"heroes/portraits/RFGH-Shayan-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"learning" },
-				{ "level" :		"basic",	"skill" :	"diplomacy" }],
+		"skills" :[{
+				  "level" :		"advanced",	"skill":	"diplomacy" }],
 
-		"spellbook" :			["disguise"],
 		"specialty":{
 			"bonuses" :{
 				"selfMorale":{
 					"type" :		"MORALE",
 					"val" : 		0,
-					"valueType" : 	"INDEPENDENT_MAX",
-					"limiters" :[	"TEAM_PROPAGATOR" ]}
-
-//					"limiters": [{	"type":			"CREATURE_FACTION_LIMITER",
-//									"parameters": [ "refugee", true ]}]}
+					"valueType" : 	"INDEPENDENT_MAX"}
+//					"limiters" :[	"TEAM_PROPAGATOR" ]}
 		}},
 					
 		"texts":{
 			"name" :			"Shayan",
-			"biography" :		"As illegitimate child, Shayan was rejected from the crown. Left to his own devices, he very quickly showed himself to be a charismatic warlord. His territory and then his kingdom experienced a dazzling expansion, rallying all the left behind to his cause.",
+			"biography" :		"In the crucible of conflict, bereft of his throne and people, Shayan’s spirit remained unbroken. Fueled by a solemn vow to forge a new sanctuary for the left behind, he united others by his vision. Thus, Refuge blossomed into a beacon of hope, embodying the resilience and unity of those who refused to yield to the ravages of despair.",
 			"specialty" :{
 				"name" :		"Motley Army",
 				"tooltip" :		"Specialty bonus: Motley Army",
-				"description" : "{Motley Army}\r\n\r\nAll creatures are unaffected by morale penalty."
+				"description" : "{Motley Army}\r\n\r\nAll creatures are unaffected by negative morale."
 		}}
 	}
 }

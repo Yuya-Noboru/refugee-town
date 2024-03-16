@@ -21,9 +21,9 @@
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCF.def",
-			"map" :				"creatures/map/RFGCA-FG.def",
-			"iconSmall" :		"creatures/icons/RFGCF-PS.bmp",
+			"animation" :		"creatures/RFGCB-FG.def",
+			"map" :				"creatures/RFGCA-FG.def",
+			"iconSmall" :		"creatures/icons/RFGCF-PS.png",
 			"iconLarge" :		"creatures/icons/RFGCF-PB.png",
 			"timeBetweenFidgets" : 1},
 

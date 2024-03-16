@@ -1,81 +1,45 @@
 {
-	"rfgcEnchanter":{
+	"core:diamondGolem":{
 		"name" :{
-			"plural" :	"Enchanters",
-			"singular" :"Enchanter"},
+			"plural" :	"Diamond Golems",
+			"singular" :"Diamond Golem"},
 		"advMapAmount" :{"min" : 8,	"max" : 12},
 		"faction" :		"refugee",
 
 		"level" :		5,
-		"attack" :		17,
+		"attack" :		13,
 		"defense" :		12,
-		"damage" :		{ "min" : 14, "max" : 14 },
-		"hitPoints" :	30,
-		"speed" :		9,
-		"shots" :		32,
-		"growth" :		2,
-		"fightValue" :	1080,
-		"aiValue" :		1160,
-		"cost" :		{ "gold" : 750 },
+		"damage" :		{ "min" : 10, "max" : 14 },
+		"hitPoints" :	60,
+		"speed" :		7,
+		"growth" :		3,
+		"horde":		2,
+		"fightValue" :	675,
+		"aiValue" :		675,
+		"cost" :		{ "gold" : 650 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL5U.def",
-			"map" :				"creatures/map/RFGCA-L5U.def",
-			"iconSmall" :		"creatures/icons/RFGC5U-PS.bmp",
+			"animation" :		"creatures/RFGCB-L5U.def",
+			"map" :				"creatures/RFGCA-L5U.def",
+			"iconSmall" :		"creatures/icons/RFGC5U-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC5U-PB.png",
-			"timeBetweenFidgets" : 1,
-			"missile" :{
-				"projectile" :	"creatures/projectile/CPRZEAX.DEF",
-				"attackClimaxFrame" : 4,
-				"offset" :{
-					"lowerX" :	 62,
-					"lowerY" :	-93,
-					"middleX" :	 62,
-					"middleY" :	-93,
-					"upperX" :	 62,
-					"upperY" :	-93},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-		}},
+			"timeBetweenFidgets" : 1},
 
 		"sound" :{
-			"attack":	"ENCHATTK.wav",
-			"defend":	"ENCHDFND.wav",
-			"killed":	"ENCHKILL.wav",
-			"move":		"ENCHMOVE.wav",
-			"shoot":	"ENCHSHOT.wav",
-			"wince":	"ENCHWNCE.wav"},
+			"attack":	"DGLMATTK.wav",
+			"defend":	"DGLMDFND.wav",
+			"killed":	"DGLMKILL.wav",
+			"move":		"DGLMMOVE.wav",
+			"wince":	"DGLMWNCE.wav"},
 
-		"abilities":{
-			"canShoot" :{	"type" :	"SHOOTER"},
-			"noPenalty" :{	"type" :	"NO_WALL_PENALTY"},
-			"casts" :{		"type" :	"CASTS",	"val" :		5},
-
-			"castsAirShield" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.airShield",
-				"val" :		3,	"addInfo" :	3},
-			"castsBless" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.bless",
-				"val" :		3,	"addInfo" :	3},
-			"castsWeakness" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.weakness",
-				"val" :		3,	"addInfo" :	3},
-			"castsStoneSkin" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.stoneSkin",
-				"val" :		3,	"addInfo" :	3},
-			"castsSlow" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.slow",
-				"val" :		3,	"addInfo" :	3},
-			"castsHaste" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.haste",
-				"val" :		3,	"addInfo" :	3}
+		"abilities" :{
+			"magicResistance" :{
+				"type" :	"SPELL_DAMAGE_REDUCTION",
+				"subtype" :	"spellSchool.any",
+				"val" :		95},
+			"nonliving" :{	"type" :"NON_LIVING"}
 		}
 	}
 }

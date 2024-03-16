@@ -1,5 +1,42 @@
 {
-	"refugee-town:rfgcRogue" :{
+	"refugee-town:rfgcOvercomer" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]},
+			{	"bonus" :{										"type" : "ADDITIONAL_ATTACK"},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ]},
+			{	"bonus" :{	"subtype" : "spell.dispel",			"type" : "SPELL_IMMUNITY"},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
+	"refugee-town:rfgcSurvivor" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]},
+			{	"bonus" :{										"type" : "ADDITIONAL_ATTACK"},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ]},
+			{	"bonus" :{	"subtype" : "spell.dispel",			"type" : "SPELL_IMMUNITY"},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
+
+	"core:rogue" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]},
@@ -13,13 +50,13 @@
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
-//				"values" : [ false, false, true, true, true, true, true, true, true, true ]},
-			{	"bonus" :{										"type" : "BLOCKS_RETALIATION"},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]},
+			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
+			{	"bonus" :{										"type" : "LUCK"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
 			{	"bonus" :{	"type" : "SPELL_AFTER_ATTACK",	 "subtype" : "spell.poison",	"addInfo" : [3, 2]},
-				"values" : [ 0, 0, 0, 0, 0, 0, 20, 30, 40, 50 ]}]},
-	"refugee-town:rfgcSpy" :{
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]}]},
+	"refugee-town:rfgcCutthroat":{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]},
@@ -33,12 +70,15 @@
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
-//				"values" : [ false, false, true, true, true, true, true, true, true, true ]},
+
+			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
+			{	"bonus" :{										"type" : "LUCK"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
 			{	"bonus" :{										"type" : "BLOCKS_RETALIATION"},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]},
 			{	"bonus" :{	"type" : "SPELL_AFTER_ATTACK",   "subtype" : "spell.poison",	"addInfo" : [3, 2]},
-				"values" : [ 0, 0, 0, 0, 0, 0, 20, 30, 40, 50 ]}]},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]}]},
 
 
 	"refugee-town:rfgcVagabond" :{
@@ -55,11 +95,13 @@
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
-//				"values" : [ false, false, true, true, true, true, true, true, true, true ]},
+			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
+			{	"bonus" :{										"type" : "DOUBLE_DAMAGE_CHANCE"},
+				"values" : [ 0, 0, 2, 5, 7, 10, 12, 15, 17, 20 ]},
 			{	"bonus" :{										"type" : "JOUSTING"},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
-	"refugee-town:rfgcNomad" :{
+				"values" : [ 0, 0, 0, 0, 1, 2, 3, 4, 5, 8 ]}]},
+	"core:nomad" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]},
@@ -73,43 +115,49 @@
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
-//				"values" : [ false, false, true, true, true, true, true, true, true, true ]},
+			{	"bonus" :{										"type" : "RETURN_AFTER_STRIKE"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
+			{	"bonus" :{										"type" : "DOUBLE_DAMAGE_CHANCE"},
+				"values" : [ 0, 0, 2, 5, 7, 10, 12, 15, 17, 20 ]},
 			{	"bonus" :{										"type" : "JOUSTING"},
+				"values" : [ 0, 0, 0, 0, 1, 2, 3, 4, 5, 8 ]}]},
+
+
+	"refugee-town:rfgcBowman" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
+			{	"bonus" :{										"type" : "FREE_SHOOTING"},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
+	"core:sharpshooter" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
+			{	"bonus" :{										"type" : "FREE_SHOOTING"},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
 
 
-	"refugee-town:rfgcSagit" :{
-		"stackExperience" :[
-			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]},
-			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]},
-			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]},
-			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]},
-			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
-			{	"bonus" :{										"type" : "STACKS_SPEED"},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]}]},
-	"refugee-town:rfgcSharp" :{
-		"stackExperience" :[
-			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]},
-			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]},
-			{	"bonus" :{	"subtype" : "creatureDamageMax",	"type" : "CREATURE_DAMAGE"},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]},
-			{	"bonus" :{	"subtype" : "creatureDamageMin",	"type" : "CREATURE_DAMAGE"},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]},
-			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
-			{	"bonus" :{										"type" : "STACKS_SPEED"},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]}]},
-
-
-	"refugee-town:rfgcGoldGolem" :{
+	"core:goldGolem" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]},
@@ -124,11 +172,10 @@
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]},
 			{	"bonus" : {	"subtype" : "spellSchool.any",		"type" : "SPELL_DAMAGE_REDUCTION"},
-//			{	"bonus" : {	"type" : "MAGIC_RESISTANCE"},
-				"values" : [ 87, 89, 91, 93, 95, 97, 99, 100, 100, 100 ]},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 15, 15, 15 ]},
 			{	"bonus" :{										"type" : "BLOCKS_RETALIATION"},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]}]},
-	"refugee-town:rfgcDiamondGolem" :{
+	"core:diamondGolem" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]},
@@ -143,13 +190,12 @@
 			{	"bonus" :{										"type" : "STACKS_SPEED"},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]},
 			{	"bonus" : {	"subtype" : "spellSchool.any",		"type" : "SPELL_DAMAGE_REDUCTION"},
-//			{	"bonus" : {	"type" : "MAGIC_RESISTANCE"},
-				"values" : [ 96, 97, 98, 99, 100, 100, 100, 100, 100, 100 ]},
+				"values" : [ 1, 2, 3, 4, 5, 5, 5, 5, 5, 5 ]},
 			{	"bonus" :{										"type" : "BLOCKS_RETALIATION"},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]}]},
 
 
-	"refugee-town:rfgcSorceress" :{
+	"refugee-town:rfgcThaumaturge" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]},
@@ -167,7 +213,7 @@
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]},
 			{	"bonus" :{	"type" : "SPELL_BEFORE_ATTACK",	 "subtype" : "spell.clone", "addInfo" : [ 3, 1 ]},
 				"values" : [ 0, 0, 5, 5, 10, 10, 15, 20, 20, 25 ]}]},
-	"refugee-town:rfgcEnchanter" :{
+	"core:enchanter" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]},
@@ -202,8 +248,8 @@
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
 			{	"bonus" :{										"type" : "ADDITIONAL_RETALIATION"},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "FEAR"},
-//				"values" : [ false, false, false, false, false, false, false, false, true, true ]},
+			{	"bonus" :{										"type" : "FEAR"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
 			{	"bonus" :{	"type" : "SPELL_BEFORE_ATTACK",	 "subtype" : "spell.curse",	"addInfo" : [ 3, 2 ]},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]}]},
 	"refugee-town:rfgcHorseBlack" :{
@@ -222,8 +268,8 @@
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]},
 			{	"bonus" :{										"type" : "ADDITIONAL_RETALIATION"},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]},
-//			{	"bonus" :{										"type" : "FEAR"},
-//				"values" : [ false, false, false, false, false, false, true, true, true, true ]},
+			{	"bonus" :{										"type" : "FEAR"},
+				"values" : [ false, false, false, false, false, false, false, false, false, false ]},
 			{	"bonus" :{	"type" : "SPELL_BEFORE_ATTACK",  "subtype" : "spell.curse",	"addInfo" : [ 3, 2 ]},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]}]},
 
@@ -246,8 +292,10 @@
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]},
 			{	"bonus" :{										"type" : "DOUBLE_DAMAGE_CHANCE"},
 				"values" : [ 0, 0, 2, 5, 7, 10, 12, 15, 17, 20 ]},
-			{	"bonus" :{										"type" : "FEAR"},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]}]},
+			{	"bonus" :{										"type" : "HP_REGENERATION"},
+				"values" : [ 0, 0, 20, 40, 55, 70, 85, 100, 115, 130 ]},
+			{	"bonus" :{										"type" : "FEARLESS"},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]}]},
 	"refugee-town:rfgcAhriman" :{
 		"stackExperience" :[
 			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
@@ -266,8 +314,48 @@
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]},
 			{	"bonus" :{										"type" : "DOUBLE_DAMAGE_CHANCE"},
 				"values" : [ 0, 0, 2, 5, 7, 10, 12, 15, 17, 20 ]},
-			{	"bonus" :{										"type" : "FEAR"},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]}]},
+			{	"bonus" :{										"type" : "HP_REGENERATION"},
+				"values" : [ 0, 0, 20, 40, 55, 70, 85, 100, 115, 130 ]},
+			{	"bonus" :{										"type" : "FEARLESS"},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]}]},
+
+
+	"refugee-town:rfgcDragolem" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageBoth",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]},
+			{	"bonus" :{										"type" : "MAGIC_RESISTANCE"},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]},
+			{	"bonus" :{										"type" : "ENEMY_DEFENCE_REDUCTION"},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]},
+			{	"bonus" :{										"type" : "ADDITIONAL_RETALIATION"},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]}]},
+	"refugee-town:rfgcDragolemUp" :{
+		"stackExperience" :[
+			{	"bonus" :{	"subtype" : "attack",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"subtype" : "defence",				"type" : "PRIMARY_SKILL"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"subtype" : "creatureDamageBoth",	"type" : "CREATURE_DAMAGE"},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]},
+			{	"bonus" :{	"valueType" : "PERCENT_TO_BASE",	"type" : "STACK_HEALTH"},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]},
+			{	"bonus" :{										"type" : "STACKS_SPEED"},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 4 ]},
+			{	"bonus" :{										"type" : "MAGIC_RESISTANCE"},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]},
+			{	"bonus" :{										"type" : "ENEMY_DEFENCE_REDUCTION"},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]},
+			{	"bonus" :{										"type" : "ADDITIONAL_RETALIATION"},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]}]},
 
 
 	"refugee-town:rfgcFleshGolem":{

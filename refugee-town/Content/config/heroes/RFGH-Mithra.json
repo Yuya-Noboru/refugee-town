@@ -9,24 +9,24 @@
 			"large" : 			"heroes/portraits/RFGH-Mithra-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
-				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"airMagic" },
-				{ "level" :		"basic",	"skill" :	"waterMagic" }],
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"intelligence" }],
 
-		"spellbook" :[	"destroyUndead" ],
-		"specialty" :{	"creature" : "rfgcSorceress"	},
+		"spellbook" :[	"weakness" ],
+		"specialty" :{	"creature" : "rfgcThaumaturge"	},
 
 		"texts":{
 			"name" :			"Mithra",
-			"biography" :		"Hidden in woods near the land of Deyja, Mithra incredible ability to destroy undead made her popular among sorceresses. After losing a battle against liches, she took refuge within Shayan's kingdom to teaches magic.",
+			"biography" :		"Hidden in woods near the land of Deyja, Mithra combines cunning and sorcery to outmaneuver her foes. Her skills in espionage and manipulation make her a formidable asset to Refuge, striking from the shadows with deadly precision.",
 			"specialty" :{
 				"name" :		"Enchanter",
 				"tooltip" :		"Specialty bonus: Enchanter",
-				"description" :	"{Enchanter}\r\n\r\nIncreases the Attack and Defense skills of any Sorceress or Enchanters for each level attained after 5th level."
+				"description" :	"{Enchanter}\r\n\r\nIncreases the Attack and Defense skills of any Enchanters for each level attained after 5th level."
 		}}
 	}
 }

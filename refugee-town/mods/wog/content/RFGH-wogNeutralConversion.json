@@ -1,82 +1,66 @@
 {
 "refugee-town:rfghLeyla" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghNiusha" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghKiana" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghSoraya" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghAreman" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghShayan" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghMahyar" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghYemapel" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghMithra" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghAran" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghSierra" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghAria" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghAzar" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghKeyvan" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghBhemnesh" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
 "refugee-town:rfghReza" :{
 	"specialty" :{	"bonuses" :{
-			"conversionSorceress":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.wogSorceress",	"addInfo":	"creature.rfgcSorceress"},
 			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
 			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}}
 }

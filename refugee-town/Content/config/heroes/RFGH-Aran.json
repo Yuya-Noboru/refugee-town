@@ -3,37 +3,36 @@
 		"class" :				"rfghcEnchanterF",
 		"female" :				true,
 		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-mysticism-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-mysticism-large.png",
+			"specialtySmall" :	"heroes/specs/spec-icebolt-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-icebolt-large.png",
 			"small" : 			"heroes/portraits/RFGH-Aran-small.png",
 			"large" : 			"heroes/portraits/RFGH-Aran-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6  }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"mysticism" },
-				{ "level" :		"basic",	"skill" :	"intelligence" }],
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"waterMagic" }],
 
-		"spellbook" :[ "blind" ],
+		"spellbook" :			["iceBolt"],
 		"specialty" :{
 			"bonuses" :{
-				"mysticism" :{
-					"targetSourceType" :	"SECONDARY_SKILL",
-					"type" :				"MANA_REGENERATION",
-					"val" :					5,
-					"valueType" :			"PERCENT_TO_BASE",
-					"updater" :				"TIMES_HERO_LEVEL"
-		}}},
+				"iceBolt" :{
+					"subtype" :	"spell.iceBolt",
+					"type" :	"SPECIAL_SPELL_LEV",
+					"updater" :	"TIMES_HERO_LEVEL",
+					"val" : 	3}}},
 
 		"texts":{
 			"name" :			"Aran",
-			"biography" :		"Believed to be the most intelligent and beautiful enchantress, most sorceresses and enchanters seeks to learn from Aran and follow blindly her path.",
+			"biography" :		"Through her gentle demeanor and steadfast support, Aran fosters a sense of belonging among its inhabitants. Yet beneath her gentle exterior lies a steely resolve; Aran is not one to shy away from wielding her power to crush the enemies of her people, ensuring the safety and prosperity of those under her care.",
 			"specialty" :{
-				"name" :		"Mysticism",
-				"tooltip" :		"speciality : Mysticism",
-				"description" :	"{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill."
+				"name" :		"Ice Bolt",
+				"tooltip" :		"Casts Ice Bolt with increased effect, based on hero level compared to the level of target unit.",
+				"description" :	"{Ice Bolt}\r\n\r\nCasts Cure with increased effect, based on hero level compared to the level of target unit."
 		}}
 	}
 }

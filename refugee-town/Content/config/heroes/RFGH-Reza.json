@@ -9,20 +9,20 @@
 			"large" : 			"heroes/portraits/RFGH-Reza-big.png"},
 
 		"army" :[
-				{ "creature" :	"rfgcGoldGolem",	"min" :	1,	"max" :	2 },
-				{ "creature" :	"rfgcGoldGolem",	"min" :	1,	"max" :	1 },
-				{ "creature" :	"rfgcGoldGolem",	"min" :	1,	"max" :	1 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature" :	"goldGolem",		"min" :	1,	"max" :	2 },
+				{ "creature" :	"goldGolem",		"min" :	1,	"max" :	2 }],
 
 		"skills" :[
-			{ "level" :		"basic",	"skill" :	"resistance" },
-			{ "level" :		"basic",	"skill" :	"intelligence" }],
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"resistance" }],
 
-		"spellbook" :[ "rfgsEmet", "rfgsMet" ],
-		"specialty" : {"creature" : "rfgcGoldGolem"},
+		"spellbook" : ["rfgsEmet"],
+		"specialty" : {"creature" : "goldGolem"},
 
 		"texts":{
 			"name" :			"Reza",
-			"biography" :		"Reza holds contempt for living beings and works inside the Golem Factory where he repairs and creates golems. Being a golem himself, he understands their weaknesses and strengths.",
+			"biography" :		"Reza, forged from the very essence of magic and metal, is deeply marked by his needs to comprehend emotions of living beings, forever beyond his grasp. Tasked with meticulous craft inside the golem factory, amidst the clangor of gears and the hiss of steam, a silent longing stirs within him.",
 			"specialty" :{
 				"name" :		"Gold Golem",
 				"tooltip" :		"Specialty bonus: Gold Golem",

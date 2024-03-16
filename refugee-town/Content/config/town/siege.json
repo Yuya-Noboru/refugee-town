@@ -2,7 +2,7 @@
 	"refugee" :{
 		"town" :{
 			"siege" :{
-				"shooter" :			"rfgcEnchanter",
+				"shooter" :			"enchanter",
 				"imagePrefix" :		"siege/SgRf",
 				"towerIconSmall" :	"icons/arrowtowersmall",
 				"towerIconLarge" :	"icons/arrowtowerslarge",

@@ -9,12 +9,13 @@
 			"large" : 			"heroes/portraits/RFGH-Yemapel-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"armorer" },
-				{ "level" :		"basic",	"skill" :	"offence" }],
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"armorer" }],
 
 		"specialty" : {
 			"bonuses" : {
@@ -29,7 +30,7 @@
 
 		"texts":{
 			"name" :			"Yemapel",
-			"biography" :		"Native from Krewlod, nothing much is known about Yemapel except the fact that he has shown impressive talents in military concerns.",
+			"biography" :		"Native to Krewlord, little is known about Yemapel except for his impressive talents in military matters.",
 			"specialty" :{
 				"name" :		"Armorer",
 				"tooltip" :		"speciality bonus: Armorer",

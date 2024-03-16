@@ -9,14 +9,14 @@
 			"large" : 			"heroes/portraits/RFGH-Soraya-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
 		"skills" :[
 				{ "level" :		"basic",	"skill" :	"logistics" },
-				{ "level" :		"basic",	"skill" :	"armorer" }],
+				{ "level" :		"basic",	"skill" :	"pathfinding" }],
 
-		"spellbook" :[ 			"haste" ],
 		"specialty" :{
 			"bonuses" :{
 				"logistics" :{
@@ -30,7 +30,7 @@
 
 		"texts":{
 			"name" :			"Soraya",
-			"biography" :		"Soraya's logistic skill is so good that she is widely known for being the fastest wanderer in both Krewlod and Tatalia.",
+			"biography" :		"Known as the queen of Logistics inside Refuge, Soraya leads her kingdom’s nomadic tribes with unparalleled skill and foresight. With Soraya at the helm, her people move with efficiency, ready to face any challenge that lies ahead.",
 			"specialty" :{
 				"name" :		"Logistics",
 				"tooltip" :		"speciality : Logistics",

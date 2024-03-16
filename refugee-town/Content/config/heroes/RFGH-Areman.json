@@ -9,8 +9,9 @@
 			"large" : 			"heroes/portraits/RFGH-Areman-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
 		"skills" :[
 				{ "level" :		"basic",	"skill" :	"logistics" },
@@ -20,11 +21,11 @@
 
 		"texts":{
 			"name" :			"Areman",
-			"biography" :		"Areman spent his life wandering in Erathia with all kinds of creatures which eventually died during his journey. What earned him to be known as the eternal wanderer.",
+			"biography" :		"Areman’s life has been marked by grief and hardship as a nomad, wandering the unforgiving lands of Erathia. Despite his trials, he possesses an uncanny luck that has seen him through countless perilous situations. With a steadfast resolve forged in adversity, he stands ready to defy fate and carve his own path to victory.",
 			"specialty" :{
 				"name" :		"Nomad",
-				"tooltip" :		"",
-				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of any Boar or Nomad for each level attained after 5th level."
+				"tooltip" :		"Increases the Attack and Defense skills of any Vagabond or Nomad for each level attained after 5th level.",
+				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of any Vagabond or Nomad for each level attained after 5th level."
 		}}
 	}
 }

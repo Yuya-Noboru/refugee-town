@@ -37,7 +37,7 @@
 
 		"abilities":{
 			"nonliving":{		"type" :"NON_LIVING"},
-			"jousting" :{		"type" :"JOUSTING"},
+			"jousting":{		"type" :"JOUSTING",				"val" : 5},
 			"immuneToMind":{	"type" :"MIND_IMMUNITY"},
 			"extraRetaliation":{"type" :"ADDITIONAL_RETALIATION",	"val" :1},
 			"reduceDefence" :{	"type" :"ENEMY_DEFENCE_REDUCTION",	"val" :60},

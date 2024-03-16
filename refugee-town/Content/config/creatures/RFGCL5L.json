@@ -1,65 +1,45 @@
 {
-	"rfgcSorceress":{
+	"core:goldGolem":{
 		"name" :{
-			"plural" :	"Sorceresses", 
-			"singular" :"Sorceress"},
+			"plural" :	"Gold Golems",
+			"singular" :"Gold Golem"},
 		"advMapAmount" :{"min" : 8,	"max" : 16},
 		"faction" :		"refugee",
-		"upgrades":		["rfgcEnchanter"],
+		"upgrades":		["diamondGolem"],
 		"level" :		5,
-		"attack" :		15,
-		"defense" :		13,
-		"damage" :		{ "min" : 10, "max" : 13 },
-		"hitPoints" :	35,
-		"speed" :		8,
-		"shots" :		32,
-		"growth" :		2,
-		"fightValue" :	880,
-		"aiValue" :		960,
-		"cost" :		{ "gold" : 550 },
+		"attack" :		11,
+		"defense" :		12,
+		"damage" :		{ "min" : 10, "max" : 14 },
+		"hitPoints" :	50,
+		"speed" :		6,
+		"growth" :		3,
+		"horde":		2,
+		"fightValue" :	575,
+		"aiValue" :		575,
+		"cost" :		{ "gold" : 500 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL5L.def",
-			"map" :				"creatures/map/RFGCA-L5L.def",
-			"iconSmall" :		"creatures/icons/RFGC5L-PS.bmp",
+			"animation" :		"creatures/RFGCB-L5L.def",
+			"map" :				"creatures/RFGCA-L5L.def",
+			"iconSmall" :		"creatures/icons/RFGC5L-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC5L-PB.png",
-			"timeBetweenFidgets" : 1,
-			"missile" :{
-				"projectile" :	"creatures/projectile/CPRZEAX.DEF",
-				"attackClimaxFrame" : 4,
-				"offset" :{
-					"lowerX" :	 62,
-					"lowerY" :	-93,
-					"middleX" :	 62,
-					"middleY" :	-93,
-					"upperX" :	 62,
-					"upperY" :	-93},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-		}},
+			"timeBetweenFidgets" : 1},
 
 		"sound" :{
-			"attack":	"PIXIATTK.wav",
-			"defend":	"PIXIDFND.wav",
-			"killed":	"PIXIKILL.wav",
-			"move":		"VAMPMOVE.wav",
-			"shoot":	"MONKSHOT.wav",
-			"wince":	"PIXIWNCE.wav"},
+			"attack":	"GGLMATTK.wav",
+			"defend":	"GGLMDFND.wav",
+			"killed":	"GGLMKILL.wav",
+			"move":		"GGLMMOVE.wav",
+			"wince": 	"GGLMWNCE.wav"},
 
 		"abilities" :{
-			"canShoot" :{	"type" :"SHOOTER"},
-			"flying" :{		"type" :"FLYING", "subtype" : "movementFlying"},
-			"castDisease" :{
-				"type" :	"SPELL_AFTER_ATTACK",
-				"subtype" :	"spell.disease",
-				"val" :		25,
-				"addInfo" : [1,1]},
-			"castsWeakness" :{
-				"type" :	"ENCHANTER",
-				"subtype" :	"spell.weakness",
-				"val" :		3,
-				"addInfo" :	3}
+			"magicResistance" :{
+				"type" :	"SPELL_DAMAGE_REDUCTION",
+				"subtype" :	"spellSchool.any",
+				"val" :		85},
+			"nonliving" :{	"type" :"NON_LIVING"}
 		}
 	}
 }

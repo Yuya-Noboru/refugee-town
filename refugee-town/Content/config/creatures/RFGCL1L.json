@@ -1,57 +1,43 @@
 {
-	"rfgcRogue":{
+	"rfgcOvercomer":{
 		"name" :{
-			"plural" :	"Rogues",
-			"singular" :"Rogue"},
-		"advMapAmount" :{"min" : 18,	"max" : 40},
+			"plural" :	"Overcomers",
+			"singular" :"Overcomer"},
+		"advMapAmount" :{"min" : 20,	"max" : 50},
 		"faction" :		"refugee",
-		"upgrades":		["rfgcSpy"],
+		"upgrades":		["rfgcSurvivor"],
 		"level" :		1,
-		"attack" :		8,
-		"defense" : 	3,
-		"damage" :		{ "min" : 2, "max" : 4 },
-		"hitPoints" :	10,
-		"speed" : 		6,
-		"growth" : 		8,
-
-		"fightValue" :	135,
-		"aiValue" : 	135,
-		"cost" : 		{ "gold" : 85 },
+		"attack" :		4,
+		"defense" : 	2,
+		"damage" :		{ "min" : 1, "max" : 3 },
+		"hitPoints" :	4,
+		"speed" : 		4,
+		"growth" : 		18,
+		"horde":		8,
+		"fightValue" :	74,
+		"aiValue" : 	62,
+		"cost" : 		{ "gold" : 35 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL1L.def",
-			"map" :				"creatures/map/RFGCA-L1L.def",
-			"iconSmall" :		"creatures/icons/RFGC1L-PS.bmp",
+			"animation" :		"creatures/RFGCB-L1L.def",
+			"map" :				"creatures/RFGCA-L1L.def",
+			"iconSmall" :		"creatures/icons/RFGC1L-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC1L-PB.png",
             "timeBetweenFidgets" : 1},
 
 		"sound" :{
-			"attack":			"ROGUATTK.wav",
-			"defend":			"ROGUDFND.wav",
-			"killed":			"ROGUKILL.wav",
-			"move":				"ROGUMOVE.wav",
-			"wince":			"ROGUWNCE.wav"},
+			"attack":			"PSNTATTK.wav",
+			"defend":			"PSNTDFND.wav",
+			"killed":			"PSNTKILL.wav",
+			"move":				"PSNTMOVE.wav",
+			"wince":			"PSNTWNCE.wav"},
 
 		"abilities":{
-			"visionsMonsters" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsMonsters",
-				"val" :			2,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsHeroes" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsHeroes",
-				"val" :			2,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsTowns" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsTowns",
-				"val" :			2,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"}}
+			"enchantSlayer":{
+				"type" :		"ENCHANTED",
+				"subtype":		"spell.slayer",
+				"val" :			1}}
 	}
 }

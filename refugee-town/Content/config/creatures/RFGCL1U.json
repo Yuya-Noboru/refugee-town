@@ -1,62 +1,43 @@
 {
-	"rfgcSpy":{
+	"rfgcSurvivor":{
 		"name" :{
-			"plural" :	"Spies",
-			"singular" :"Spy"},
-		"advMapAmount" :{"min" : 18,	"max" : 30},
+			"plural" :	"Survivors",
+			"singular" :"Survivor"},
+		"advMapAmount" :{"min" : 20,	"max" : 30},
 		"faction" :		"refugee",
 
 		"level" :		1,
-		"attack" :		8,
-		"defense" :		3,
-		"damage" :		{ "min" : 2, "max" : 4 },
-		"hitPoints" :	10,
-		"speed" :		7,
-		"growth" :		8,
-
-		"fightValue" :	148,
-		"aiValue" :		148,
-		"cost" :		{ "gold" : 105 },
+		"attack" :		5,
+		"defense" :		4,
+		"damage" :		{ "min" : 1, "max" : 3 },
+		"hitPoints" :	4,
+		"speed" :		6,
+		"growth" :		18,
+		"horde":		8,
+		"fightValue" :	92,
+		"aiValue" :		80,
+		"cost" :		{ "gold" : 55 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL1U.def",
-			"map" :				"creatures/map/RFGCA-L1U.def",
-			"iconSmall" :		"creatures/icons/RFGC1U-PS.bmp",
+			"animation" :		"creatures/RFGCB-L1U.def",
+			"map" :				"creatures/RFGCA-L1U.def",
+			"iconSmall" :		"creatures/icons/RFGC1U-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC1U-PB.png",
 			"timeBetweenFidgets" : 1},
 
 		"sound" :{
-			"attack":			"ROGUATTK.wav",
-			"defend":			"ROGUDFND.wav",
-			"killed":			"ROGUKILL.wav",
-			"move":				"ROGUMOVE.wav",
-			"wince":			"ROGUWNCE.wav",
-			"startMoving":		"creatures/SPYMOVESTART.wav",
-			"endMoving":		"creatures/SPYMOVESTOP.wav"},
+			"attack":			"PSNTATTK.wav",
+			"defend":			"PSNTDFND.wav",
+			"killed":			"PSNTKILL.wav",
+			"move":				"PSNTMOVE.wav",
+			"wince":			"PSNTWNCE.wav"},
 
 		"abilities":{
-			"teleports" : {
-				"type":			"FLYING",
-				"subtype":		"movementTeleporting"},
-			"visionsMonsters" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsMonsters",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsHeroes" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsHeroes",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsTowns" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsTowns",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"}}
+			"enchantSlayer":{
+				"type" :		"ENCHANTED",
+				"subtype":		"spell.slayer",
+				"val" :			2}}
 	}
 }

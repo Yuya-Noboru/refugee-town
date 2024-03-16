@@ -1,43 +1,58 @@
 {
-	"rfgcNomad":{
+	"rfgcCutthroat":{
 		"name" :{
-			"plural" :	"Nomads",
-			"singular" :"Nomad"},
-		"advMapAmount" :{"min" : 12,	"max" : 25},
+			"plural" :	"Cutthroats",
+			"singular" :"Cutthroat"},
+		"advMapAmount" :{"min" : 16,	"max" : 25},
 		"faction" :		"refugee",
 
 		"level" :		2,
-		"attack" :		9,
-		"defense" :		8,
-		"damage" :		{ "min" : 2, "max" : 6 },
-		"hitPoints" :	30,
-		"speed" :		7,
-		"growth" :		7,
-		"horde":		4,
-		"fightValue" :	285,
-		"aiValue" :		345,
-		"cost" :		{ "gold" : 200 },
-		"doubleWide" :	true,
+		"attack" :		8,
+		"defense" :		4,
+		"damage" :		{ "min" : 2, "max" : 4 },
+		"hitPoints" :	10,
+		"speed" :		8,
+		"growth" :		8,
+
+		"fightValue" :	152,
+		"aiValue" :		171,
+		"cost" :		{ "gold" : 140 },
+		"doubleWide" :	false,
 
 		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL2U.def",
-			"map" :				"creatures/map/RFGCA-L2U.def",
-			"iconSmall" :		"creatures/icons/RFGC2U-PS.bmp",
+			"animationTime" :	{ "attack" : 1, "idle" : 40, "walk" : 1 },
+			"animation" :		"creatures/RFGCB-L2U.def",
+			"map" :				"creatures/RFGCA-L2U.def",
+			"iconSmall" :		"creatures/icons/RFGC2U-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC2U-PB.png",
 			"timeBetweenFidgets" : 1},
 
 		"sound" :{
-			"attack":	"NMADATTK.wav",
-			"defend":	"NMADDFND.wav",
-			"killed":	"NMADKILL.wav",
-			"move":		"NMADMOVE.wav",
-			"wince":	"NMADWNCE.wav"},
+			"attack":			"ROGUATTK.wav",
+			"defend":			"ROGUDFND.wav",
+			"killed":			"ROGUKILL.wav",
+			"move":				"ROGUMOVE.wav",
+			"wince":			"ROGUWNCE.wav"},
 
 		"abilities":{
-				"sandWalker" :{
-				"type" :		"NO_TERRAIN_PENALTY",
-				"subtype" :		"terrain.sand",
+			"shadowStrike":{   "type" : "BLOCKS_RETALIATION"},
+			"visionsMonsters" :{
+				"type" :		"VISIONS",
+				"subtype" :		"visionsMonsters",
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsHeroes" :{
+				"type" :		"VISIONS",
+				"subtype" :		"visionsHeroes",
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsTowns" :{
+				"type" :		"VISIONS",
+				"subtype" :		"visionsTowns",
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
 				"propagator" :	"HERO"}}
 	}
 }

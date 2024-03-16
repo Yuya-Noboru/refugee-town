@@ -20,9 +20,9 @@
 
 		"graphics" :{
 			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :			"creatures/battle/RFGCG.def",
-			"map" :					"creatures/map/RFGCA-CDR.def",
-			"iconSmall" :			"creatures/icons/RFGCG-PS.bmp",
+			"animation" :			"creatures/RFGCB-DAEVA.def",
+			"map" :					"creatures/RFGCA-DAEVA.def",
+			"iconSmall" :			"creatures/icons/RFGCG-PS.png",
 			"iconLarge" :			"creatures/icons/RFGCG-PB.png",
 			"timeBetweenFidgets": 	1},
 
@@ -49,7 +49,7 @@
 			"regeneration":{	"type" : "HP_REGENERATION",			"val" : 77},			
 			"doubleDamage":{	"type" : "DOUBLE_DAMAGE_CHANCE",	"val" : 10},
 
-
+			"transmute":{	"type": "TRANSMUTATION",		"subtype" : "transmutationPerHealth", "val" : 1, "addInfo" : "creature.peasant"},
 			"castWeak":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.weakness",
 							"val":	10,						"addInfo" :	[2, 0]},
 			"castCurse":{	"type":	"SPELL_AFTER_ATTACK",	"subtype":	"spell.curse",
@@ -83,7 +83,7 @@
 			"powerImplose":{"type" : "SPECIFIC_SPELL_POWER",	"val" :	300,	"subtype":	"spell.implosion"},
 			"powerLBolt":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	150,	"subtype":	"spell.lightningBolt"},
 			"powerArrow":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	75,		"subtype":	"spell.magicArrow"},
-			"powerHypnotize":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	30,		"subtype":	"spell.hypnotize"},
+			"powerHypno":{	"type" : "SPECIFIC_SPELL_POWER",	"val" :	30,		"subtype":	"spell.hypnotize"},
 			"spellsLth":{	"type" : "CREATURE_ENCHANT_POWER",	"val" :	2},
 			"spellcastRng":{"type" : "RANDOM_SPELLCASTER",		"val" :	2},
 			"casts" :{		"type" : "CASTS",					"val" :	30}

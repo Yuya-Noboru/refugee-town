@@ -20,9 +20,9 @@
 
 		"graphics" :{
 			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :			"creatures/battle/RFGCC.def",
-			"map" :					"creatures/map/RFGCA-CDR.def",
-			"iconSmall" :			"creatures/icons/RFGCC-PS.bmp",
+			"animation" :			"creatures/RFGCB-CDR.def",
+			"map" :					"creatures/RFGCA-CDR.def",
+			"iconSmall" :			"creatures/icons/RFGCC-PS.png",
 			"iconLarge" :			"creatures/icons/RFGCC-PB.png",
 			"timeBetweenFidgets" :	1,
 			"missile" :{

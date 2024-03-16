@@ -1,81 +1,52 @@
 {"core:creatureGeneratorCommon" :{
 	"types" : {
-		"refugeeLevel1" :{
-			"name"		:			"Rogue's Cavern",
-			"creatures" :			[[ "rfgcRogue" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPDEN.wav"]},
+		"rfgDwelling1" :{			"name" :	"Makeshift Camp",		"creatures" :	[[ "rfgcOvercomer" ]],
+			"sounds"	:{			"ambient":	["LOOPDEN.wav"]},
 			"templates" :{
-				"default" :{
-					"animation" :	"adventure-map/RFGD1",
-					"mask" :		["VVV","VBB","BBA" ]}}},
+				"default" :{		"animation":"adventure-map/RFGD1",	"mask" :		["VVV","VBV","BAV" ]}}},
 
-		"refugeeLevel2" : {
-			"name" :				"Nomad's Camp",
-			"creatures" :			[[ "rfgcVagabond" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPHORS"]},
-			"templates" : {
-				"default" : {
-					"animation" :	"adventure-map/RFGD2",
-					"mask" :		[ "VBB", "VBA" ]}}},
+		"rfgDwelling2" :{			"name" :	"Rogue's Cavern",		"creatures" :	[[ "rogue" ]],
+			"sounds"	:{			"ambient":	["LOOPDEN.wav"]},
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD2",	"mask" :		["VVV","VBB","BBA" ]}}},
 
-		"refugeeLevel3" : {
-			"name" :				"Watchtower",
-			"creatures" :			[[ "rfgcSagit" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPARCH"]},
-			"templates" : {
-				"default" : {   
-					"animation" : 	"adventure-map/RFGD3",
-					"mask" :		["VVV","VBB","VBA" ]}}},
+		"rfgDwelling3" :{			"name" :	"Nomad's Camp",			"creatures" :	[[ "rfgcVagabond" ]],
+			"sounds"	:{			"ambient":	["LOOPHORS"]},
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD3",	"mask" :		[ "VVV", "VBB", "VBA" ]}}},
 
-		"refugeeLevel4" : {
-			"name" : 				"Golem Factory",
-			"creatures" : 			[[ "rfgcGoldGolem" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPFACT"]},
-			"templates" : {
-				"default" : {
-					"animation" : 	"adventure-map/RFGD4",
-					"mask" : 		["VVV","VVV","VBB","VAB" ]}}},
+		"rfgDwelling4" :{			"name" :	"Watchtower",			"creatures" :	[[ "rfgcBowman" ]],
+			"sounds"	:{			"ambient":	["LOOPARCH"]},
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD4",	"mask" :		["VVV","VBB","VAV" ]}}},
 
-		"refugeeLevel5" : {
-			"name" : 				"Enchanted Woods",
-			"creatures" : 			[[ "rfgcSorceress" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPMAGI"]},
-			"guards" : [			{"amount" : 9, "type" : "rfgcSorceress" }],
-			"templates" : {
-				"default" : {
-					"animation" :	"adventure-map/RFGD5",
-					"mask" : 		["VVV","VBB","VAB" ]}}},
+		"rfgDwelling5" :{			"name" :	"Golem Factory",		"creatures" :	[[ "goldGolem" ]],
+			"sounds"	:{			"ambient":	["LOOPFACT"]},
+			"guards" : [{			"amount" :	9,						"type" :		"goldGolem" }],
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD5",	"mask" :		["VVV","VVV","VBB","VAB" ]}}},
 
-            "refugeeLevel6" : {
-                "name" :			"Skull Cave",
-                "creatures" :		[[ "rfgcHorseFire" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPDEAD"]},
-                "guards" : [
-                    { "amount" : 6, "type" : "rfgcHorseFire" }
-                ],
-                "templates" : {
-                    "default" : {
-                        "animation" : "adventure-map/RFGD6",
-                        "mask" : ["VVV","BBB","BAB" ]
-                    }
-                }
-            },
-            "refugeeLevel7" : {
-                "name" :			"Door to Hell",
-                "creatures" :		[[ "rfgcAngraMainyu" ]],
-			"sounds"	:{	
-				"ambient":			["LOOPVOLC"]},
-                "guards" : [
-                    { "amount" : 3, "type" : "rfgcAngraMainyu" }
-                ],
-                "templates" : {
-                    "default" : {
-                        "animation" : "adventure-map/RFGD7",
-                        "mask" : ["VVV","VBB","VAB" ]}}}
+		"rfgDwelling6" :{			"name" :	"Enchanted Woods",		"creatures" :	[[ "rfgcThaumaturge" ]],
+			"sounds"	:{			"ambient":	["LOOPMAGI"]},
+			"guards" : [{			"amount" :	6,						"type" :		"rfgcThaumaturge" }],
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD6",	"mask" :		["VVV","VBA" ]}}},
+
+		"rfgDwelling6B" :{			"name" :	"Skull Cave",			"creatures" :	[[ "rfgcHorseFire" ]],
+			"sounds"	:{			"ambient":	["LOOPDEAD"]},
+			"guards" : [{			"amount" :	6,						"type" :		"rfgcHorseFire" }],
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD8",	"mask" :		["VBB","VAB" ]}}},
+
+		"rfgDwelling7" :{			"name" :	"Mercury Lake",			"creatures" :	[[ "rfgcDragolem" ]],
+			"sounds"	:{			"ambient":	["LOOPVOLC"]},
+			"guards" : [{			"amount" :	3,						"type" :		"rfgcDragolem" }],
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD7",	"mask" :		["VVV","VVV","VAB" ]}}},
+
+		"rfgDwelling7B" :{			"name" :	"Door to Hell",			"creatures" :	[[ "rfgcAngraMainyu" ]],
+			"sounds"	:{			"ambient":	["LOOPVOLC"]},
+			"guards" : [{			"amount" :	3,						"type" :		"rfgcAngraMainyu" }],
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD9",	"mask" :		["VVV","VBB","VAB" ]}}}
 }}}

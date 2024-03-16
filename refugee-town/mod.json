@@ -1,15 +1,45 @@
 {
-	"name" :			"Refugee Town (release)",
+	"name" :			"Refugee Town",
 	"description" :		"Refugee Town is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
-	"author":			"Yuya Noboru (v0.1-v0.4, v0.8-v1.0), VCMI Community (v0.5-v0.7, v0.8.1-v0.8.5)",
-	"version" :			"1.0",
+	"author":			"Yuya Noboru (v0.1-v0.4, v0.8-v1.1), VCMI Community (v0.5-v0.7, v0.8.1-v0.8.5)",
+	"version" :			"1.1",
 	"contact":			"mail: yuya.noboru@gmail.com",
 	"modType" :			"Town",
 	"compatibility" :	{"min" : "1.4.0"},
 
 	"changelog" :{
 		"Note":[				"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
-		"v1.0.1 (11/02/2024)":[	"Udated chinese translation. - by Rindlit."],
+		"v1.1 (14/03/2024)":[	"NEW ALTERNATIVE DWELLINGS & CREATURES!",
+								"Renamed in-game faction into “Refuge” (previously “Refugee”) to better fit H3-style town names.",
+								"Wrote the background lore of the faction and the heroes backstory have been rewritten.",
+								"Changed Refuge’s native terrain from “Dirt” to “Rough”, and main resource from “Sulfur” to “Mercury”.",
+								"Fixed Factory Extension (horde) not increasing gold/diamond golems growth.",
+								"Special building “Genizah” now grants +1 knowledge instead of adding spells to Mage Guild.",
+								"Grail: Removed bonus to Magic resistance. It now increases movement points of heroes by 300.",
+								"Reworked faction’s building tree and hall screen. Fixed dead pixels from adventure map castle sprites. ",
+								"For heroes that specialize in creatures: Few changes/fixes + Improved graphics for specialty icons.",
+								"Changed all hero’s description to fit the new written backstory.",
+								"Reworked heroes’ secondary skills to be more coherent with vanilla heroes.",
+								"Fixed Keyvan’s specialty now working as intended.",
+								"Changed starting spell(s) for Mithra, Aran & Reza.",
+								"Removed spell book for Shayan, Leyla & Soraya.",
+								"Changed specialty for Sierra, Yemapel, Aran & Leyla.",
+								"BALANCE OVERHAUL for every creature (statistics, abilities & costs) + NEW ALTERNATIVE UNITS!",
+								"Removed standalone copies of neutral units so the town uses the real vanilla ones.",
+								"Improved Icons graphics, and created Daeva adventure map sprite.",
+								"Reworked stack experience & increased compatibility with Wake of Gods.",
+								"Converted vanilla’s neutral units’ dwellings to be the same as Refuge.",
+								"Ahriman: Changed costs, buffed damage, Holy breaker now slows the target, removed magic resistance ability.",
+								"Increased units’ tiers by 1: Rogue is now level 2, Nomad level 3, Sharpshooter level 4, G/D golems level 5.",
+								"Enchanter and Nightmares are now both level 6, but their dwellings cannot be built at the same time.",
+								"New creature LVL1 Overcomer / Survivor, and alternative LVL7 Rusty Dragolem / Dragolem.",
+								"Replaced ex-LVL1U Spy with new creature “Cutthroat”. Has “No retaliation” instead of “Flying”.",
+								"Replaced ex-LVL3 Sagittarii with new creature “Bowman”. Mostly graphics difference.",
+								"Replaced ex-LVL5 Sorceress with new creature “Thaumaturge”, a weaker variant of Enchanter.",
+								"Reworked sounds for Angra Mainyu & Ahrimans.",
+								"Fixed Enchanter spells list to fit vanilla H3.",
+								"Daeva now has 1% chance of transmuting target into Peasants (buggy on VCMI v1.4.2 – untested on newer versions)."],
+
 		"v1.0 (09/01/2024)":[	"BRAND NEW VISUALS FOR TOWN-SCREEN, SIEGE-SCREEN, ADV.MAP VISUALS, ETC.!",
 								"Updated town-related sprites to fit with the new townscreen (Icons, portraits, etc.).",
 								"Reworked building tree and made few changes to buildings costs.",
@@ -34,8 +64,7 @@
 								"Nerfed neutral creature Shapeshifters a little bit.",
 								"Reworked graphics for Hell Steeds, Nightmare. Subtle improvement to Angra Mainyu & Ahriman portraits.",
 								"Hell Steeds & Nightmares now hates Unicorns/War unicorns and vice-versa. Nerfed Death stare. Removed ability to casts ‘Curse’ as it will now be part of Stack Experience (WoG feature).",
-								"Tier 7: Removed abilities ‘Self morale & luck +1’, ‘Mind spell immunity’, ‘casts Sorrow’ and ‘casts Misfortune’. Unit is now ‘non-living’. Added vulnerability to ‘Slayer’ effect (KING2). Added natural magical resistance +25%/+40%."
-							],
+								"Tier 7: Removed abilities ‘Self morale & luck +1’, ‘Mind spell immunity’, ‘casts Sorrow’ and ‘casts Misfortune’. Unit is now ‘non-living’. Added vulnerability to ‘Slayer’ effect (KING2). Added natural magical resistance +25%/+40%."],
 
 		"v0.8.5 (16/01/2024)":[	"Added chinese translation. - by Rindlit."],
 		"v0.8.4 (07/01/2024)":[	"Added the creatures' stackExp and fixed the commander. - by LeoAllenHan"],
@@ -122,7 +151,7 @@
 
 	"chinese" : {
 		"name" :		"边荒",
-		"description" :	"边荒",
+		"description" :	"边荒的灵感来自WoG的中立城（Neutral）和《英雄无敌III》的难民营，主要兵种基于《英雄无敌III》中的中立生物。因此，这个城镇包含了游牧民族，多种族混编和临时解决方案等等概念，并借鉴了美索不达米亚/苏美尔/阿卡德神话的元素。该模组由Yuya所创作。https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 		"translations" :["translation/refugee/chinese.json"]},
 
 	"german" : {
@@ -148,10 +177,16 @@
 		"config/creatures/RFGCL4U.json",
 		"config/creatures/RFGCL5L.json",
 		"config/creatures/RFGCL5U.json",
-		"config/creatures/RFGCL6L.json",
-		"config/creatures/RFGCL6U.json",
-		"config/creatures/RFGCL7L.json",
-		"config/creatures/RFGCL7U.json",
+
+		"config/creatures/RFGCL6A1.json",
+		"config/creatures/RFGCL6A2.json",
+		"config/creatures/RFGCL6B1.json",
+		"config/creatures/RFGCL6B2.json",
+		"config/creatures/RFGCL7A1.json",
+		"config/creatures/RFGCL7A2.json",
+		"config/creatures/RFGCL7B1.json",
+		"config/creatures/RFGCL7B2.json",
+
 		"config/creatures/RFGC-Commander.json",
 		"config/creatures/RFGC-Daeva.json",
 		"config/creatures/RFGC-FleshGolem.json",
@@ -179,8 +214,7 @@
 		"config/heroes/RFGH-Azar.json",
 		"config/heroes/RFGH-Keyvan.json",
 		"config/heroes/RFGH-Bhemnesh.json",
-		"config/heroes/RFGH-Reza.json",
-		"config/classes/RFGH-HeroNeutralConversion.json"],
+		"config/heroes/RFGH-Reza.json"],
 
 	"spells" :[
 		"config/spells/RFGS-Emet.json",
@@ -193,5 +227,7 @@
 		"config/spells/RFGS-SummonDaeva.json",
 		"config/spells/RFGS-Moat.json"],
 
-	"objects" :	["config/town/dwellings.json"]
+	"objects" :	[
+		"config/town/dwellings.json"]
+//		,"config/town/dwellingsConvert.json"]
 }

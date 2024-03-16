@@ -7,9 +7,9 @@
 			"allOf" :{
 				"core:bonus.NON_LIVING":					"absolute"},
 			"anyOf" :{
-				"refugee-town:creature.rfgcGoldGolem":		"absolute",
-				"refugee-town:creature.rfgcDiamondGolem":	"absolute",
 				"refugee-town:creature.rfgcFleshGolem":		"absolute",
+				"refugee-town:creature.rfgcDragolem":		"absolute",
+				"refugee-town:creature.rfgcDragolemUp":		"absolute",
 				"core:creature.ironGolem":					"absolute",
 				"core:creature.stoneGolem":					"absolute",
 				"core:creature.goldGolem":					"absolute",

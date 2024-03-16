@@ -9,13 +9,14 @@
 			"large" : 			"heroes/portraits/RFGH-Aria-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 },
-				{ "creature" :	"rfgcSagit",	"min" :	2,	"max" :	3 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
 
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"estates" },	
-				{ "level" :		"basic",	"skill" :	"wisdom" }],
+				{ "level" :		"basic",	"skill" :	"wisdom"  },	
+				{ "level" :		"basic",	"skill" :	"estates" }],
 
 		"spellbook" :[ "hypnotize" ],
 		"specialty" : {
@@ -31,7 +32,7 @@
 
 		"texts":{
 			"name" :			"Aria",
-			"biography" :		"Aria has never defines violence as an answer but as the latest solution. She focus on ways to increase her kingdom revenues and don't mind to uses her charm and magic to lead her to victory.",
+			"biography" :		"Aria has never defined violence as an answer, but as a last resort. She focuses her efforts on ways to increase her kingdom revenues, and doesn’t mind using her beauty as a weapon of choice to lead her allies to victory.",
 			"specialty" :{
 				"name" :		"Estates",
 				"tooltip" :		"Receives a 5% per level bonus to Estates skill.",

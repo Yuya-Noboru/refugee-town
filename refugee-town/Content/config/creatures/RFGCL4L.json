@@ -1,45 +1,56 @@
 {
-	"rfgcGoldGolem":{
+	"rfgcBowman":{
 		"name" :{
-			"plural" :	"Gold Golems",
-			"singular" :"Gold Golem"},
+			"plural" :	"Bowmen",
+			"singular" :"Bowman"},
 		"advMapAmount" :{"min" : 10,	"max" : 20},
 		"faction" :		"refugee",
-		"upgrades":		["rfgcDiamondGolem"],
+		"upgrades": 	["sharpshooter"],
 		"level" :		4,
-		"attack" :		11,
-		"defense" :		12,
+		"attack" :		10,
+		"defense" :		10,
 		"damage" :		{ "min" : 8, "max" : 10 },
-		"hitPoints" :	50,
-		"speed" :		5,
-		"growth" :		3,
-		"horde":		2,
-		"fightValue" :	575,
-		"aiValue" :		575,
-		"cost" :		{ "gold" : 450 },
+		"hitPoints" :	15,
+		"speed" :		7,
+		"shots" :		32,
+		"growth" :		4,
+		"fightValue" :	395,
+		"aiValue" :		565,
+		"cost" :		{ "gold" : 360 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/battle/RFGCL4L.def",
-			"map" :				"creatures/map/RFGCA-L4L.def",
-			"iconSmall" :		"creatures/icons/RFGC4L-PS.bmp",
+			"animation" :		"creatures/RFGCB-L4L.def",
+			"map" :				"creatures/RFGCA-L4L.def",
+			"iconSmall" :		"creatures/icons/RFGC4L-PS.png",
 			"iconLarge" :		"creatures/icons/RFGC4L-PB.png",
-			"timeBetweenFidgets" : 1},
+			"timeBetweenFidgets" : 1,
+			"missile" :{
+				"projectile" :	"creatures/projectile/PPLIZAX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :{
+					"lowerX" :	 62,
+					"lowerY" :	-93,
+					"middleX" :	 62,
+					"middleY" :	-93,
+					"upperX" :	 62,
+					"upperY" :	-93},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}},
 
 		"sound" :{
-			"attack":	"GGLMATTK.wav",
-			"defend":	"GGLMDFND.wav",
-			"killed":	"GGLMKILL.wav",
-			"move":		"GGLMMOVE.wav",
-			"wince": 	"GGLMWNCE.wav"},
+			"attack":	"HCRSATTK.wav",
+			"defend":	"HCRSDFND.wav",
+			"killed":	"HCRSKILL.wav",
+			"move":		"HCRSMOVE.wav",
+			"shoot":	"HCRSSHOT.wav",
+			"wince":	"HCRSWNCE.wav"},
 
 		"abilities" :{
-			"magicResistance" :{
-				"type" :	"SPELL_DAMAGE_REDUCTION",
-				"subtype" :	"spellSchool.any",
-				"val" :		85},
-			"nonliving" :{	"type" :"NON_LIVING"}
+			"canShoot" :{			"type" :	"SHOOTER"},
+			"noDistancePenalty" :{	"type" :	"NO_DISTANCE_PENALTY"},
+			"noWallPenalty" :{		"type" :	"NO_WALL_PENALTY"}
 		}
 	}
 }

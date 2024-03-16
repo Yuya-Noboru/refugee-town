@@ -9,10 +9,13 @@
 			"large" : 			"heroes/portraits/RFGH-Kiana-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",	"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",	"min":	3,	"max" :	6 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
 
-		"skills" :[{ 	"level" : "advanced",	"skill" : "resistance" }],
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"resistance" }],
 
 		"specialty":{
 			"bonuses" :{
@@ -26,7 +29,7 @@
 
 		"texts":{
 			"name" :			"Kiana",
-			"biography" :		"During her exile throughout Krewlod,  Kiana showed predisposition to resist magic but her tyrannic attitude oftenly leaded her to get into troubles.",
+			"biography" :		"Kiana's unwavering determination have made her a stalwart defender of Refuge against the darkest sorceries. She shields her allies from harm, ensuring that no enchantment can sway their resolve. However, her tyrannic attitude often leaded her to get into troubles.",
 			"specialty" :{
 				"name" :		"Resistance",
 				"tooltip" :		"Bonus: Resistance",

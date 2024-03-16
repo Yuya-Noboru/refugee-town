@@ -9,15 +9,13 @@
 			"large" : 			"heroes/portraits/RFGH-Bhemnesh-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	6  },
-				{ "creature":	"rfgcFleshGolem", 	"min":	3,	"max" :	6 }
-				],
-
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcFleshGolem", 	"min":	5,	"max" :	7	}],
 
 		"skills" :[
 				{ "level" :		"basic",	"skill" :	"necromancy" },
-				{ "level" :		"basic",	"skill" :	"resistance" }],
+				{ "level" :		"basic",	"skill" :	"earthMagic" }],
 
 		"spellbook" :[ 			"rfgsAmad"],
 		"specialty" : {
@@ -29,7 +27,7 @@
 
 		"texts":{
 			"name" :			"Bhemnesh",
-			"biography" :		"Bhemnesh is captivated by the arcane arts of necromancy and the craftsmanship of golems. With an insatiable curiosity and keen intellect, he dedicates his life to unraveling the secrets that bind life and unlife.",
+			"biography" :		"Drawn to the arcane mysteries of necromancy and the intricacies of golem craftsmanship, Bhemnesh dedicates his life to unraveling the secrets that bind life and death with an insatiable curiosity and keen intellect.",
 			"specialty" :{
 				"name" :		"Necrolem",
 				"tooltip" :		"speciality : Necrolem",

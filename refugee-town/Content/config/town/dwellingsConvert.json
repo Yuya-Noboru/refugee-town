@@ -1,0 +1,39 @@
+{"core:creatureGeneratorCommon" :{
+	"types" : {
+			"rogueCavern":{
+				"name" :					"Rogue's Cavern",
+				"creatures" :				[["rogue"]],
+				"sounds":{	"ambient":		["LOOPDEN.wav"]},
+				"templates" :{
+					"default" :{
+						"animation" :		"adventure-map/RFGD2",
+						"mask" :			["VVV","VBB","BBA" ]}}},
+			
+			"nomadTent":{
+				"name" :					"Nomad's Camp",
+				"creatures" :				[["rfgcVagabond"]],
+				"sounds":{	"ambient":		["LOOPHORS"]},
+				"templates" :{
+					"default" :{
+					"animation" :			"adventure-map/RFGD3",
+					"mask" :				[ "VBB", "VBA" ]}}},
+			
+			"treetopTower":{
+				"name" :					"Watchtower",
+				"creatures" :				[["rfgcBowman"]],
+				"sounds":{	"ambient":		["LOOPARCH"]},
+				"templates" :{
+					"default" :{
+						"animation" :		"adventure-map/RFGD4",
+						"mask" :			["VVV","VBB","VBA" ]}}},
+			
+			"enchantersHollow":{
+				"name" :					"Enchanted Woods",
+				"creatures" :				[["rfgcThaumaturge"]],
+				"sounds":{	"ambient":		["LOOPMAGI"]},
+				"guards" :[{				"amount" : 6, "type" : "rfgcThaumaturge" }],
+				"templates" :{
+					"default" :{
+						"animation" :		"adventure-map/RFGD6",
+						"mask" :			["VVV","VBB","VAB" ]}}}	
+}}}

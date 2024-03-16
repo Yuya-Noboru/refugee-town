@@ -9,12 +9,13 @@
 			"large" : 			"heroes/portraits/RFGH-Niusha-big.png"},
 
 		"army" :[
-				{ "creature":	"rfgcRogue",		"min":	8,	"max" :	16 },
-				{ "creature":	"rfgcVagabond",		"min":	3,	"max" :	6 },
-				{ "creature" :	"rfgcSagit",		"min" :	2,	"max" :	3 }],
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
 		"skills" :[
-				{ "level" :		"basic",	"skill" :	"offence" },
-				{ "level" :		"basic",	"skill" :	"archery" }],
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"offence" }],
 
 		"specialty" :{
 			"bonuses" :{
@@ -22,14 +23,14 @@
 					"subtype" :				"damageTypeMelee",
 					"targetSourceType" :	"SECONDARY_SKILL",
 					"type" : 				"PERCENTAGE_DAMAGE_BOOST",
-					"val" : 5,
+					"val" :					5,
 					"valueType" : 			"PERCENT_TO_BASE",
 					"updater" :				"TIMES_HERO_LEVEL"
 		}}},
 
 		"texts":{
 			"name" :			"Niusha",
-			"biography" :		"Niusha was a slave her whole youth until Shayan sets her free and takes her to his land. Her loyalty is unwavering and she seeks to prove it everyday on battlefields.",
+			"biography" :		"Niusha’s childhood was marked by the chains of slavery until the hand of King Shayan granted her freedom. Since then, she has served as a loyal and formidable warrior of Refuge, her loyalty matched only by her prowess in battle. With her past fueling her determination, she stands as a beacon of resilience and strength, a testament to the indomitable spirit of the freed.",
 			"specialty" :{
 				"name" :		"Offence",
 				"tooltip" :		"speciality : Offence",

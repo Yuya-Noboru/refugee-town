@@ -1,6 +1,0 @@
-
-
-			"casts" :{		"type" :	"CASTS",		"val" :		4},
-			"castsCurse" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.curse",
-							"val" :		1,				"addInfo" :	5}
-			// Casts Curse each 5 turns, 4 times per combat
