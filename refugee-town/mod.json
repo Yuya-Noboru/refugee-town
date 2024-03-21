@@ -229,5 +229,4 @@
 
 	"objects" :	[
 		"config/town/dwellings.json"]
-//		,"config/town/dwellingsConvert.json"]
 }
