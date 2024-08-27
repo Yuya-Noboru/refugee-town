@@ -161,7 +161,7 @@
 		"translations" :["translation/refugee/german.json"]},
 	"russian" : {
 		"name" :		"Город беженцев",
-		"description" :	"Réfugiés est une ville créée par Yuya qui s'inspire de la ville neutre de WoG, ainsi que des camps de réfugiés d'Heroes 3. Le point commun de ses créatures est leur non-appartenance aux autres factions. Ainsi, ce château arbore des concepts tels que le nomadisme, les armées hétéroclites et les solutions de fortune. La ville reprend également des éléments des mythologies mésopotamiennes, sumériennes et akkadiennes. Forum officiel VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+		"description" :	"Refugee Town — это новый город, созданный Yuya, который черпает вдохновение из Neutral Town из WoG и Refugee Camp из Heroes3. Общей чертой его существ является их непринадлежность к другим фракциям. Таким образом, этот замок воплощает такие концепции, как кочевой образ жизни, разношерстные армии и импровизированные решения. Город также берет элементы из месопотамской/шумерской/аккадской мифологии. Официальный форум VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 		"translations" :["translation/refugee/russian.json"]},
 	"factions" :[
 		"config/town/buildings.json",
