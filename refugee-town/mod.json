@@ -2,13 +2,14 @@
 	"name" :			"Refugee Town",
 	"description" :		"Refugee Town is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 	"author":			"Yuya Noboru (v0.1-v0.4, v0.8-v1.1), VCMI Community (v0.5-v0.7, v0.8.1-v0.8.5)",
-	"version" :			"1.11",
+	"version" :			"1.12",
 	"contact":			"mail: yuya.noboru@gmail.com",
 	"modType" :			"Town",
 	"compatibility" :	{"min" : "1.4.0"},
 
 	"changelog" :{
 		"Note":[				"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
+		"v1.11 (21/08/2024)":[	"Updated russian translation" ],
 		"v1.11 (21/08/2024)":[	"Russian translation by Anton Sergeew" ],
 		"v1.1 (14/03/2024)":[	"NEW ALTERNATIVE DWELLINGS & CREATURES!",
 								"Renamed in-game faction into “Refuge” (previously “Refugee”) to better fit H3-style town names.",
