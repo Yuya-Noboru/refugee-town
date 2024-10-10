@@ -4,7 +4,7 @@
 	"author" :			"Yuya Noboru",
 	"contact" :			"yuya.noboru@gmail.com",
 	"version" :			"Same as main mod.",
-	"modType" :			"Mechanics",
+	"modType" :			"Compatibility",
 
 	"depends" :			["wake-of-gods", "wake-of-gods.creatures", "wake-of-gods.stackExperience"],
 	"compatibility" :	{"min" : "1.4.0"},

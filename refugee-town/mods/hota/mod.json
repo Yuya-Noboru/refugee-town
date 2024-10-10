@@ -4,7 +4,7 @@
 	"author" :			"Yuya Noboru",
 	"contact" :			"yuya.noboru@gmail.com",
 	"version" :			"Same as main mod.",
-	"modType" :			"Mechanics",
+	"modType" :			"Compatibility",
 
 	"depends" :			["hota", "hota.heroes3DataPatch"],
 	"compatibility" :	{"min" : "1.4.0"},
