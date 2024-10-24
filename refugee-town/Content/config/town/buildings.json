@@ -56,11 +56,13 @@
 					"id" :			8,
 					"name" :		"Blacksmith",
 					"description" : "The Blacksmith provides your armies with First Aid Tent.",
+					"warMachine" :  "firstAidTent",
 					"cost" :		{"gold":1000,"wood":5}},
 				"marketplace" :{
 					"id" :			9,
 					"name" :		"Marketplace",
 					"description" :	"With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :		{"gold":500,"wood":5}},
 				"resourceSilo" :{
 					"id" :			10,
@@ -113,18 +115,36 @@
 					"description" :	"Increase the land movement rate of any visiting hero.",
 					"cost" :		{"gold":2000,"wood":20},
 					"requires" :	["dwellingUpLvl3"],
-                    "type" : 		"stables" },
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.580",
+								"movePoints" : 400,
+								"bonuses" : [ { "type" : "MOVEMENT", "subtype" : "heroMovementLand",  "val" : 400, "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ]
+							}
+						]
+					}
+				},
 				"special3" :{
 					"id" :			18,
 					"name" :		"Genizah",
 					"description" :	"The Genizah grants visiting heroes +1 knowledge.",
 					"cost" :		{"gold":1000, "ore": 5},
 					"requires" :	["mageGuild1"],
-					"type" : 		"knowledgeVisitingBonus"},
-
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.581",
+								"primary" : { "knowledge" : 1 }
+							}
+						]
+					}
+				},
 				"shipyard" :		null,
 				"ship" :			null,
-				"boat" :			null,
+//				"boat" :			null,
 //				"horde1"	:		null,
 //				"horde1Upgr":		null,
 //				"horde2"	:		null,

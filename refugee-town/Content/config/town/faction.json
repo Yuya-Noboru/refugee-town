@@ -179,9 +179,8 @@
 						"small" :	"icons/RFGT-HS.bmp"}}},
 
 			"primaryResource" :		"mercury",
-			"warMachine" :			"firstAidTent",
 			"mageGuild" :			5,
-			"musicTheme" :			"music/RefugeeTown",
+			"musicTheme" :			[ "music/RefugeeTown" ],
 			"names" : [
 									"Shahriar",
 									"Marvdasht",
