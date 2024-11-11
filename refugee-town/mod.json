@@ -2,13 +2,14 @@
 	"name" :			"Refugee Town",
 	"description" :		"Refugee Town is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 	"author":			"Yuya Noboru (v0.1-v0.4, v0.8-v1.1), VCMI Community (v0.5-v0.7, v0.8.1-v0.8.5)",
-	"version" :			"1.20",
+	"version" :			"1.21",
 	"contact":			"mail: yuya.noboru@gmail.com",
 	"modType" :			"Town",
-	"compatibility" :	{"min" : "1.4.0"},
+	"compatibility" :	{"min" : "1.6.0"},
 
 	"changelog" :{
 		"Note":[				"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
+		"v1.21 (11/11/2024)":[	"Polish translation by FallainBlack" ],
 		"v1.20 (24/10/2024)":[	"Update to vcmi-1.6 format" ],
 		"v1.13 (21/08/2024)":[	"Better compatibility submods system" ],
 		"v1.12 (21/08/2024)":[	"Updated russian translation" ],
@@ -166,6 +167,10 @@
 		"name" :		"Город беженцев",
 		"description" :	"Refugee Town — это новый город, созданный Yuya, который черпает вдохновение из Neutral Town из WoG и Refugee Camp из Heroes3. Общей чертой его существ является их непринадлежность к другим фракциям. Таким образом, этот замок воплощает такие концепции, как кочевой образ жизни, разношерстные армии и импровизированные решения. Город также берет элементы из месопотамской/шумерской/аккадской мифологии. Официальный форум VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 		"translations" :["translation/refugee/russian.json"]},
+	"polish" : {
+		"name" :		"Ostoja",
+		"description" :	"Ostaja to nowa frakcja stworzona przez Yuyę i inspirowana Neutralnym Miastem w WoG oraz obiektem H3 - Obozem Uchodźców. Wspólnym punktem zebranych stworzeń jest brak przynależności do żadnej frakcji. W związku z tym zamysł na miasto wykorzystuje różne koncepty powiązane z wędrówkami stworzeń, różnorodnością gatunkową  oraz prowizorycznymi powiązaniami. W mieście można także odnaleźć inspiracje mitologiami Mezopotamii/Sumerów/Akkadian. Oficjalny temat na forum VCMI https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
+		"translations" :["translation/refugee/polish.json"]},
 	"factions" :[
 		"config/town/buildings.json",
 		"config/town/faction.json",
