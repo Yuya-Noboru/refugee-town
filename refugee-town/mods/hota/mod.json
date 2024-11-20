@@ -8,5 +8,5 @@
 
 	"depends" :			["hota", "hota.heroes3DataPatch"],
 	"compatibility" :	{"min" : "1.4.0"},
-	"keepDisabled" : 	false,
+	"keepDisabled" : 	false
 }
