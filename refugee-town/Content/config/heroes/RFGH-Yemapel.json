@@ -33,7 +33,7 @@
 			"biography" :		"Native to Krewlord, little is known about Yemapel except for his impressive talents in military matters.",
 			"specialty" :{
 				"name" :		"Armorer",
-				"tooltip" :		"speciality bonus: Armorer",
+				"tooltip" :		"Secondary Skill Bonus: Armorer",
 				"description" :	"{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill."
 		}}
 	}

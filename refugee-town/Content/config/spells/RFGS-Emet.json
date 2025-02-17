@@ -29,10 +29,10 @@
 		"flags" :					{"indifferent": true},
 
 		"graphics":{
-			"iconBook":				"spells/Emet0.bmp",
-			"iconScroll":			"spells/Emet1.bmp",
-			"iconScenarioBonus":	"spells/Emet2.bmp",
-			"iconEffect": 			"spells/Emet3.bmp"},
+			"iconBook":				"spells/Emet0.png",
+			"iconScroll":			"spells/Emet1.png",
+			"iconScenarioBonus":	"spells/Emet2.png",
+			"iconEffect": 			"spells/Emet3.png"},
 
 		"levels":{
 			"base":{

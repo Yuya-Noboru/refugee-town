@@ -25,10 +25,10 @@
 		"flags" :					{"negative":true},
 
 		"graphics":{
-			"iconBook":				"spells/Sigu0.bmp",
-			"iconScroll":			"spells/Sigu1.bmp",
-			"iconScenarioBonus":	"spells/Sigu2.bmp",
-			"iconEffect": 			"spells/Sigu3.bmp"},
+			"iconBook":				"spells/Sigu0.png",
+			"iconScroll":			"spells/Sigu1.png",
+			"iconScenarioBonus":	"spells/Sigu2.png",
+			"iconEffect": 			"spells/Sigu3.png"},
 
 		"levels":{
 			"base":{

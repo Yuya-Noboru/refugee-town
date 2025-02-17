@@ -23,8 +23,8 @@
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/RFGCB-L4U.def",
 			"map" :				"creatures/RFGCA-L4U.def",
-			"iconSmall" :		"creatures/icons/RFGC4U-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC4U-PB.png",
+			"iconSmall" :		"icons/RFGC4U-PS.png",
+			"iconLarge" :		"icons/RFGC4U-PB.png",
 			"timeBetweenFidgets" : 1,
 			"missile" :{
 				"projectile" :	"creatures/projectile/PPLIZAX.def",

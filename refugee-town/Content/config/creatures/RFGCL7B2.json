@@ -8,22 +8,22 @@
 
 		"level" :		7,
 		"attack" :		28,
-		"defense" :		26,
+		"defense" :		28,
 		"damage" :		{ "min" : 40, "max" : 40 },
 		"hitPoints" :	260,
-		"speed" :		16,
+		"speed" :		17,
 		"growth" :		1,
 		"fightValue" :	5243,
 		"aiValue" :		7115,
-		"cost" :		{ "gold" : 4500, "mercury" : 2 },
+		"cost" :		{ "gold" : 4600, "mercury" : 2 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/RFGCB-L7B2.def",
 			"map" :				"creatures/RFGCA-L7B2.def",
-			"iconSmall" :		"creatures/icons/RFGC7B2-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC7B2-PB.png",
+			"iconSmall" :		"icons/RFGC7B2-PS.png",
+			"iconLarge" :		"icons/RFGC7B2-PB.png",
 			"timeBetweenFidgets" : 1},
 
 		"sound" :{
@@ -39,7 +39,7 @@
 			"basicSlayer" :{		"type" : 	"KING",					"val" : 2},
 			"strikeFirst" :{		"type" :	"FIRST_STRIKE"},
 
-			"castGottesbriefe":{	"type":		"SPELL_AFTER_ATTACK",
+			"castSigu":{			"type":		"SPELL_AFTER_ATTACK",
 									"subtype":	"spell.rfgsSigu",		"val" :  33,	"addInfo" :	[2, 2]},
 			"castHolyBreaker":{		"type":		"SPELL_AFTER_ATTACK",
 									"subtype":	"spell.rfgsHolybreaker","val" : 100,	"addInfo" :	[3, 2]}

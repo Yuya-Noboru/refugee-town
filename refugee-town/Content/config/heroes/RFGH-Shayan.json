@@ -30,7 +30,7 @@
 			"biography" :		"In the crucible of conflict, bereft of his throne and people, Shayan’s spirit remained unbroken. Fueled by a solemn vow to forge a new sanctuary for the left behind, he united others by his vision. Thus, Refuge blossomed into a beacon of hope, embodying the resilience and unity of those who refused to yield to the ravages of despair.",
 			"specialty" :{
 				"name" :		"Motley Army",
-				"tooltip" :		"Specialty bonus: Motley Army",
+				"tooltip" :		"Special bonus: Motley Army",
 				"description" : "{Motley Army}\r\n\r\nAll creatures are unaffected by negative morale."
 		}}
 	}

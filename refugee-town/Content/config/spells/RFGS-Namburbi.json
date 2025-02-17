@@ -32,10 +32,10 @@
 		"flags" :					{"positive": true},
 
 		"graphics":{
-			"iconBook":				"spells/Namburbi0.bmp",
-			"iconScroll":			"spells/Namburbi1.bmp",
-			"iconScenarioBonus":	"spells/Namburbi2.bmp",
-			"iconEffect": 			"spells/Namburbi3.bmp"},
+			"iconBook":				"spells/Namburbi0.png",
+			"iconScroll":			"spells/Namburbi1.png",
+			"iconScenarioBonus":	"spells/Namburbi2.png",
+			"iconEffect": 			"spells/Namburbi3.png"},
 
 		"levels":{
 			"base":{

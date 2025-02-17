@@ -12,8 +12,8 @@
 		"graphics" :{
 			"animation" :		"creatures/RFGCB-L5U.def",
 			"map" :				"creatures/RFGCA-L5U.def",
-			"iconSmall" :		"creatures/icons/RFGC5U-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC5U-PB.png",
+			"iconSmall" :		"icons/RFGC5U-PS.png",
+			"iconLarge" :		"icons/RFGC5U-PB.png",
 			"timeBetweenFidgets" : 1}
 	}
 }

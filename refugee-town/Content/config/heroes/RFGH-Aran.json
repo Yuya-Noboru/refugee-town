@@ -31,8 +31,8 @@
 			"biography" :		"Through her gentle demeanor and steadfast support, Aran fosters a sense of belonging among its inhabitants. Yet beneath her gentle exterior lies a steely resolve; Aran is not one to shy away from wielding her power to crush the enemies of her people, ensuring the safety and prosperity of those under her care.",
 			"specialty" :{
 				"name" :		"Ice Bolt",
-				"tooltip" :		"Casts Ice Bolt with increased effect, based on hero level compared to the level of target unit.",
-				"description" :	"{Ice Bolt}\r\n\r\nCasts Cure with increased effect, based on hero level compared to the level of target unit."
+				"tooltip" :		"Spell Bonus: Ice Bolt",
+				"description" :	"{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of target unit."
 		}}
 	}
 }

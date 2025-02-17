@@ -11,19 +11,19 @@
 		"defense" :		19,
 		"damage" :		{ "min" : 40, "max" : 40 },
 		"hitPoints" :	180,
-		"speed" :		10,
+		"speed" :		11,
 		"growth" :		1,
 		"fightValue" :	3659,
 		"aiValue" :		4801,
-		"cost" :		{ "gold" : 2800, "mercury" : 1 },
+		"cost" :		{ "gold" : 2850, "mercury" : 1 },
 		"doubleWide" :	false,
 
 		"graphics" :{
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/RFGCB-L7B1.def",
 			"map" :				"creatures/RFGCA-L7B1.def",
-			"iconSmall" :		"creatures/icons/RFGC7B1-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC7B1-PB.png",
+			"iconSmall" :		"icons/RFGC7B1-PS.png",
+			"iconLarge" :		"icons/RFGC7B1-PB.png",
 			"timeBetweenFidgets" : 1},
 
 		"sound" :{

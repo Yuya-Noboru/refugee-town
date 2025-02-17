@@ -32,7 +32,7 @@
 			"biography" :		"Kiana's unwavering determination have made her a stalwart defender of Refuge against the darkest sorceries. She shields her allies from harm, ensuring that no enchantment can sway their resolve. However, her tyrannic attitude often leaded her to get into troubles.",
 			"specialty" :{
 				"name" :		"Resistance",
-				"tooltip" :		"Bonus: Resistance",
+				"tooltip" :		"Secondary Skill Bonus: Resistance",
 				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage."
 		}}
 	}

@@ -30,7 +30,7 @@
 			"biography" :		"Leyla’s heart burns with an unquenchable hatred for dragons, born from the tragic loss of her family to these fearsome beasts. Her journey has been a relentless pursuit of vengeance against the creatures that brought ruin to her homeland. She seeks to bring justice to those who prey upon the innocent.",
 			"specialty" :{
 				"name" :		"Slayer",
-				"tooltip" :		"Enchant army with Slayer at the start of the battle for 1 turn.",
+				"tooltip" :		"Special Bonus: Slayer",
 				"description" : "{Slayer}\r\n\r\nEnchant army with Slayer at the start of the battle for 1 turn."
 		}}
 	}

@@ -1,0 +1,31 @@
+{
+	"rfghOmid" :{
+		"class" :				"rfghcWandererM",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcSurv-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcSurv-large.png",
+			"small" : 			"heroes/portraits/RFGH-Omid-small.png",
+			"large" : 			"heroes/portraits/RFGH-Omid-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"leadership" }],
+
+		"specialty" :{			"creature" : "rfgcOvercomer"},
+
+		"texts":{
+			"name" :			"Omid",
+			"biography" :		"Forced to flee his burning homeland, Omid wandered for years to escape the cruelty of war. He now dedicates himself to protecting those who share his fate, using his skill to offer them a new beginning.",
+			"specialty" :{
+				"name" :		"Overcomers",
+				"tooltip" :		"Creature Bonus: Overcomers",
+				"description" :	"{Overcomers}\r\n\r\nIncreases the Attack and Defense skills of any Overcomer or Survivor for every level."
+		}}
+	}
+}

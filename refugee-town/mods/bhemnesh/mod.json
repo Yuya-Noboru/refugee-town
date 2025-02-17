@@ -1,0 +1,13 @@
+{
+	"name" :			"Refuge Heroes : Bhemnesh",
+	"description" :		"This submod enable Bhemnesh, a Refuge's hero with a necromancy-like specialty that raises Flesh Golems.",
+	"author" :			"Yuya Noboru",
+	"contact" :			"yuya.noboru@gmail.com",
+	"version" :			"Same as main mod.",
+	"modType" :			"Heroes",
+
+	"compatibility" :	{"min" : "1.4.0"},
+	"keepDisabled" : 	false,
+	
+	"heroes" :			["RFGH-Bhemnesh.json"]
+}

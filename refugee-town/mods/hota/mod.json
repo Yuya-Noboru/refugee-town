@@ -1,12 +1,14 @@
 {
-	"name" :			"HotA supports",
+	"name" :			"Refuge HotA supports",
 	"description" :		"Enable this submod if you're playing with the following expansion : Horn of the Abyss.",
 	"author" :			"Yuya Noboru",
 	"contact" :			"yuya.noboru@gmail.com",
 	"version" :			"Same as main mod.",
 	"modType" :			"Compatibility",
 
-	"depends" :			["hota", "hota.heroes3DataPatch"],
+	"depends" :			["hota", "hota.heroes3DataPatch", "hota.neutralcreatures"],
 	"compatibility" :	{"min" : "1.4.0"},
-	"keepDisabled" : 	false
+	"keepDisabled" : 	false,
+	
+	"spells" :			["RFGS-SteelGolem.json"]
 }

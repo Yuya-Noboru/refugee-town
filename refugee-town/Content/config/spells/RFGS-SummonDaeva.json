@@ -28,10 +28,10 @@
 		"flags" :					{"indifferent": true},
 
 		"graphics":{
-			"iconBook":				"spells/daeva0.bmp",
-			"iconScroll":			"spells/daeva1.bmp",
-			"iconScenarioBonus":	"spells/daeva2.bmp",
-			"iconEffect": 			"spells/daeva3.bmp"},
+			"iconBook":				"spells/daeva0.png",
+			"iconScroll":			"spells/daeva1.png",
+			"iconScenarioBonus":	"spells/daeva2.png",
+			"iconEffect": 			"spells/daeva3.png"},
 
 		"levels":{
 			"base":{

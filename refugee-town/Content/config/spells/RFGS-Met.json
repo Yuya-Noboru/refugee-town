@@ -43,10 +43,10 @@
 		"flags" :					{"negative":true},
 
 		"graphics":{
-			"iconBook":				"spells/Met0.bmp",
-			"iconScroll":			"spells/Met1.bmp",
-			"iconScenarioBonus":	"spells/Met2.bmp",
-			"iconEffect": 			"spells/Met3.bmp"},
+			"iconBook":				"spells/Met0.png",
+			"iconScroll":			"spells/Met1.png",
+			"iconScenarioBonus":	"spells/Met2.png",
+			"iconEffect": 			"spells/Met3.png"},
 
 		"levels":{
 			"base":{

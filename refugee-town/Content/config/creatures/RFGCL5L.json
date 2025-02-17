@@ -23,8 +23,8 @@
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/RFGCB-L5L.def",
 			"map" :				"creatures/RFGCA-L5L.def",
-			"iconSmall" :		"creatures/icons/RFGC5L-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC5L-PB.png",
+			"iconSmall" :		"icons/RFGC5L-PS.png",
+			"iconLarge" :		"icons/RFGC5L-PB.png",
 			"timeBetweenFidgets" : 1},
 
 		"sound" :{

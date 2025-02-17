@@ -35,10 +35,8 @@
 			"biography" :		"Aria has never defined violence as an answer, but as a last resort. She focuses her efforts on ways to increase her kingdom revenues, and doesn’t mind using her beauty as a weapon of choice to lead her allies to victory.",
 			"specialty" :{
 				"name" :		"Estates",
-				"tooltip" :		"Receives a 5% per level bonus to Estates skill.",
+				"tooltip" :		"Secondary Skill Bonus: Estates",
 				"description" :	"{Estates}\r\n\r\nReceives a 5% per level bonus to Estates skill."
-
-//				"description" :	"{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
 		}}
 	}
 }

@@ -22,8 +22,8 @@
 			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :			"creatures/RFGCB-CDR.def",
 			"map" :					"creatures/RFGCA-CDR.def",
-			"iconSmall" :			"creatures/icons/RFGCC-PS.png",
-			"iconLarge" :			"creatures/icons/RFGCC-PB.png",
+			"iconSmall" :			"icons/RFGCC-PS.png",
+			"iconLarge" :			"icons/RFGCC-PB.png",
 			"timeBetweenFidgets" :	1,
 			"missile" :{
 				"projectile" :		"CPRZEAX.DEF",

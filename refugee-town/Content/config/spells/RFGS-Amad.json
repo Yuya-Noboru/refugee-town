@@ -45,10 +45,10 @@
 		"flags" :					{"positive": true, "rising" : true},
 
 		"graphics":{
-			"iconBook":				"spells/Amad0.bmp",
-			"iconScroll":			"spells/Amad1.bmp",
-			"iconScenarioBonus":	"spells/Amad2.bmp",
-			"iconEffect": 			"spells/Amad3.bmp"},
+			"iconBook":				"spells/Amad0.png",
+			"iconScroll":			"spells/Amad1.png",
+			"iconScenarioBonus":	"spells/Amad2.png",
+			"iconEffect": 			"spells/Amad3.png"},
 
 		"levels":{
 			"base":{

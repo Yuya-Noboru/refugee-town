@@ -22,8 +22,8 @@
 			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :		"creatures/RFGCB-L6B2.def",
 			"map" :				"creatures/RFGCA-L6B2.def",
-			"iconSmall" :		"creatures/icons/RFGC6B2-PS.png",
-			"iconLarge" :		"creatures/icons/RFGC6B2-PB.png",
+			"iconSmall" :		"icons/RFGC6B2-PS.png",
+			"iconLarge" :		"icons/RFGC6B2-PB.png",
 			"timeBetweenFidgets" : 2},
 
 		"sound" :{

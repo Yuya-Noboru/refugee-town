@@ -51,10 +51,10 @@
 		"flags" :					{"negative":true},
 
 		"graphics":{
-			"iconBook":				"spells/Holybreaker0.bmp",
-			"iconScroll":			"spells/Holybreaker1.bmp",
-			"iconScenarioBonus":	"spells/Holybreaker2.bmp",
-			"iconEffect": 			"spells/Holybreaker3.bmp"},
+			"iconBook":				"spells/Holybreaker0.png",
+			"iconScroll":			"spells/Holybreaker1.png",
+			"iconScenarioBonus":	"spells/Holybreaker2.png",
+			"iconEffect": 			"spells/Holybreaker3.png"},
 
 		"levels":{
 			"base":{

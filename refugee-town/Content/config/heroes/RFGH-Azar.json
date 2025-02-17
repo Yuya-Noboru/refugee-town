@@ -19,14 +19,14 @@
 
 		"spellbook" :[	"fireball" ],
 		"specialty" :{	"creature" : "rfgcHorseFire"},
-		
+
 		"texts":{
 			"name" :			"Azar",
 			"biography" :		"Abandoned in AvLee as a child and raised among unicorns, Azar’s path led him to embrace druidic powers before joining Shayan’s kingdom. Rumors swirl of his connection to Nightmares, born from a tragic attempt to resurrect a fallen unicorn into the door to hell, leaving a trail of dark magic in his wake.",
 			"specialty" :{
-				"name" :		"Hell Steed",
-				"tooltip" :		"Specialty bonus: Hell Steed",
-				"description" :	"{Hell Steed}\r\n\r\nIncreases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 5th level."
+				"name" :		"Hell Steeds",
+				"tooltip" :		"Creature Bonus: Hell Steeds",
+				"description" :	"{Hell Steed}\r\n\r\nIncreases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 6th level."
 		}}
 	}
 }
