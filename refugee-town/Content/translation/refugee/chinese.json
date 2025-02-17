@@ -241,8 +241,8 @@
 	"spell.refugee-town.rfgsAmad.description.basic" : "修复被选中的魔像部队。",
 	"spell.refugee-town.rfgsAmad.description.expert" : "修复被选中的魔像部队。",
 	"spell.refugee-town.rfgsAmad.description.none" : "修复被选中的魔像部队。",
-	"spell.refugee-town.rfgsAmad.name" : "魔像修复"
-	"spell.refugee-town.rfgsDominion.description.advanced" : "控制被选中的部队。",
+	"spell.refugee-town.rfgsAmad.name" : "魔像修复",
+	"spell.refugee-town.rfgsDominion.description.advanced" : "“控制被选中的部队。",
 	"spell.refugee-town.rfgsDominion.description.basic" : "控制被选中的部队。",
 	"spell.refugee-town.rfgsDominion.description.expert" : "控制被选中的部队。",
 	"spell.refugee-town.rfgsDominion.description.none" : "控制被选中的部队。",
