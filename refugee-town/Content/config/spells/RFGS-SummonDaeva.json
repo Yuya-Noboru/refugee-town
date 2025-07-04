@@ -38,7 +38,7 @@
 				"description": 			"{Summon Daeva}\n\nSummons a Daeva to fight on your side on battle field.",
 				"cost":					100,
 				"power":				720,
-				"aiValue":				0,
+//				"aiValue":				0,
 				"range":				"X",
 				"targetModifier":		{"smart":true},
 				"battleEffects":{		"summon":{

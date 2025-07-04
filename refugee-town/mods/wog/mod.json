@@ -3,11 +3,11 @@
 	"description" :		"Enable this submod if you're playing with the following expansion : In The Wake of Gods.",
 	"author" :			"Yuya Noboru",
 	"contact" :			"yuya.noboru@gmail.com",
-	"version" :			"Same as main mod.",
+	"version" :			"1.26",
 	"modType" :			"Compatibility",
 
 	"depends" :			["wake-of-gods", "wake-of-gods.creatures", "wake-of-gods.stackExperience"],
-	"compatibility" :	{"min" : "1.4.0"},
+	"compatibility" :	{"min" : "1.7.0"},
 	"keepDisabled" : 	true,
 	"creatures" :		["RFGC-stackExperience.json"]
 }

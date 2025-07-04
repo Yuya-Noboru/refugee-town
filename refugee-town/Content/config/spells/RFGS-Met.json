@@ -52,7 +52,7 @@
 			"base":{
 				"description": 			"{Met}\n\nInflicts terrible damage to the targeted golem.",
 				"cost":					20,
-				"aiValue":				14,
+//				"aiValue":				14,
 				"range":				"0",
 				"targetModifier":		{"smart":true},
 

@@ -54,7 +54,7 @@
 			"base":{
 				"description": 			"{Amad}\n\nRepair selected golems.",
 				"cost":					18,
-				"aiValue":				60,
+//				"aiValue":				60,
 				"range":				"0",
 				"targetModifier":		{"smart":true},
 

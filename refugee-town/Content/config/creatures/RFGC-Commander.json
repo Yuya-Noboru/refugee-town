@@ -17,7 +17,9 @@
 		"fightValue" :	130,
 		"aiValue" : 	156,
 		"doubleWide" :	false,
-
+		"cost" : {
+			"gold" : 2000
+		},
 		"graphics" :{
 			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" :			"creatures/RFGCB-CDR.def",

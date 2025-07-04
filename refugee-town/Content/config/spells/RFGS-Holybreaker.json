@@ -60,7 +60,7 @@
 			"base":{
 				"description": 		"{Holy Breaker}\n\nWeaken divine unit(s).",
 				"power":			10,
-				"aiValue":			22,
+//				"aiValue":			22,
 				"cost":				0,
 				"range":			"0",
 				"targetModifier":	{"smart":true},
@@ -72,7 +72,7 @@
 
 				"cumulativeEffects":{
 					"stacksSpeed":{
-						"type":			"STACKS_SPEED",		"val" :	-15,	"addInfo" :	0,
+						"type":			"STACKS_SPEED",		"val" :	-15,	// "addInfo" :	0,
 						"valueType" :	"PERCENT_TO_ALL",	"duration" :	"N_TURNS"},
 					"stackHealth" : {
 						"type" :		"STACK_HEALTH",		"val" :	-5,

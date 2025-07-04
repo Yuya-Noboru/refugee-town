@@ -35,7 +35,7 @@
 			"wince":				"CALFWNCE.wav"},
 
 		"abilities":{
-			"fearless":{		"type" : "FEARLESS"},
+			"fearless":{		"type" : "FEARFUL", "valueType" : "INDEPENDENT_MAX", "description" : "PLACEHOLDER", "val" : 0},
 			"flying" :	{		"type" : "FLYING", 					"subtype" :		"movementFlying"},
 			"selfMorale" :{		"type" : "MORALE",	"val" : 1, 		"valueType" :	"INDEPENDENT_MAX"},
 			"selfLuck" :{		"type" : "LUCK",	"val" : 1, 		"valueType" :	"INDEPENDENT_MAX"},
@@ -43,7 +43,7 @@
 
 			"fireShield" :{		"type" : "FIRE_SHIELD",				"val" : 50},		
 			"airShield":{		"type" : "ENCHANTED",			"subtype" : "spell.airShield",
-								"val"  : 3,						"addInfo" : 50},
+							"val"  : 3 },						// "addInfo" : 50},
 			
 			"extraRetaliation":{"type" : "ADDITIONAL_RETALIATION",	"val" :  2},
 			"regeneration":{	"type" : "HP_REGENERATION",			"val" : 77},			

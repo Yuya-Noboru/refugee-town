@@ -30,7 +30,7 @@
 			"specialty" :{
 				"name" :		"Necrolem",
 				"tooltip" :		"Special Bonus: Necrolem",
-				"description" :"{Necrolem}\r\n\r\nRaises killed enemy creatures into Flesh Golems."
+				"description" :"Raises killed enemy creatures into Flesh Golems."
 		}}
 	}
 }

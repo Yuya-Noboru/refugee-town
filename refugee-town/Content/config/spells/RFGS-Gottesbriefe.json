@@ -40,7 +40,7 @@
 		"levels":{
 			"base":{
 				"power":			10,
-				"aiValue":			14,
+//				"aiValue":			14,
 				"cost":				0,
 				"range":			"0",
 				"targetModifier":	{"smart":true}},
