@@ -35,7 +35,7 @@
 			"wince":				"CALFWNCE.wav"},
 
 		"abilities":{
-			"fearless":{		"type" : "FEARFUL", "valueType" : "INDEPENDENT_MAX", "description" : "PLACEHOLDER", "val" : 0},
+			"fearless":{		"type" : "FEARFUL", "valueType" : "INDEPENDENT_MIN", "description" : "PLACEHOLDER", "val" : 0},
 			"flying" :	{		"type" : "FLYING", 					"subtype" :		"movementFlying"},
 			"selfMorale" :{		"type" : "MORALE",	"val" : 1, 		"valueType" :	"INDEPENDENT_MAX"},
 			"selfLuck" :{		"type" : "LUCK",	"val" : 1, 		"valueType" :	"INDEPENDENT_MAX"},
