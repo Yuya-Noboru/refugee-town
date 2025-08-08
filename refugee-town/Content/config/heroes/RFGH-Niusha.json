@@ -17,16 +17,9 @@
 				{ "level" :		"basic",	"skill" :	"logistics" },
 				{ "level" :		"basic",	"skill" :	"offence" }],
 
-		"specialty" :{
-			"bonuses" :{
-				"offence" :{
-					"subtype" :				"damageTypeMelee",
-					"targetSourceType" :	"SECONDARY_SKILL",
-					"type" : 				"PERCENTAGE_DAMAGE_BOOST",
-					"val" :					5,
-					"valueType" : 			"PERCENT_TO_BASE",
-					"updater" :				"TIMES_HERO_LEVEL"
-		}}},
+		"specialty" : {
+			"secondary" : "offence"
+		},
 
 		"texts":{
 			"name" :			"Niusha",
@@ -34,7 +27,7 @@
 			"specialty" :{
 				"name" :		"Offence",
 				"tooltip" :		"Secondary Skill Bonus: Offence",
-				"description" :	"{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill."
+				"description" :	"Receives a 5% per level bonus to Offence skill."
 		}}
 	}
 }

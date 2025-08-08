@@ -49,12 +49,12 @@
 			"wince":	"ZELTWNCE.wav"},
 
 		"abilities" :{
-			"magicResistance":{	"type" :	"MAGIC_RESISTANCE",			"val" : 5},
+			"magicResistance":{ "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : "any", "val" : 5},
 			"castsAmount":{		"type" :	"CASTS",					"val" : 1},
 			"enchant":{			"type" :	"CREATURE_ENCHANT_POWER",	"val" : 1},
 			"spellpower":{		"type" :	"CREATURE_SPELL_POWER",		"val" : 100},
 			"canCast":{			"type" : 	"SPELLCASTER",
-								"subtype":	"spell.rfgsAmad",			"val" : 3}
+								"subtype":	"rfgsAmad",			"val" : 3}
 		}
 	}
 }

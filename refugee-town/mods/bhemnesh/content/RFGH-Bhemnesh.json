@@ -22,7 +22,7 @@
 			"bonuses" :{
 				"necrolem":{
 					"type" :	"IMPROVED_NECROMANCY",
-					"subtype" :	"creature.rfgcFleshGolem"}}},
+					"subtype" :	"rfgcFleshGolem"}}},
 
 		"texts":{
 			"name" :			"Bhemnesh",

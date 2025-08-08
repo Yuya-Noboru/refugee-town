@@ -3,114 +3,82 @@
 		"town" :{
 			"buildings" :{
 				"villageHall" :{
-					"id" : 			1,
 					"name" :		"Village Hall",
-					"description" :	"The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"mode" :		"auto"},
+					"description" :	"The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."},
 				"townHall" :{
-					"id" :			2,
 					"name" :		"Town Hall",
 					"description" :	"The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :		{"gold":2500},
-					"requires" :	[ "tavern" ],
-					"upgrades" :	"villageHall"},
+					"cost" :		{"gold":2500}},
 				"cityHall" :{
-					"id" :			3,
 					"name" : 		"City Hall",
 					"description" :	"The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :		{"gold":5000},
-					"requires" : 	[ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"]],
-					"upgrades" :	"townHall"},
+					"cost" :		{"gold":5000}},
 				"capitol" :{
-					"id" :			4,
 					"name" :		"Capitol",
 					"description" :	"The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :		{"gold":10000},
-					"requires" :	[ "castle" ],
-					"upgrades" :	"cityHall"},			
+					"cost" :		{"gold":10000}},			
 
 				"fort" :{
-					"id" :			4,
 					"name" :		"Fort",
 					"description" :	"The Fort provides your town with defensive walls.",
 					"cost" :		{"gold":5000,"wood":20,"ore":20}},
 				"citadel" :{
-					"id" :			5,
 					"name" :		"Citadel",
 					"description" :	"Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :		{"gold":2500,"ore":5},
-					"upgrades" :	"fort"},
+					"cost" :		{"gold":2500,"ore":5}},
 				"castle" :{
-					"id" :			6,
 					"name" :		"Castle",
 					"description" :	"The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :		{"gold":5000,"wood":10,"ore":10},
-					"upgrades" :	"citadel"},
+					"cost" :		{"gold":5000,"wood":10,"ore":10}},
 
 				"tavern" :{
-					"id" :			7,
 					"name" :		"Tavern",
 					"description" :	"The Tavern increases increases morale for troops defending the city.",
 					"cost" :		{"gold":500,"wood":5}},
 				"blacksmith" :{
-					"id" :			8,
 					"name" :		"Blacksmith",
 					"description" : "The Blacksmith provides your armies with First Aid Tent.",
 					"warMachine" :  "firstAidTent",
 					"cost" :		{"gold":1000,"wood":5}},
 				"marketplace" :{
-					"id" :			9,
 					"name" :		"Marketplace",
 					"description" :	"With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :		{"gold":500,"wood":5}},
 				"resourceSilo" :{
-					"id" :			10,
 					"name" :		"Resource Silo",
 					"description" :	"The Resource Silo provides you with an additional +1 mercury each day.",
 					"cost" :		{"gold":5000,"ore":5},
-					"produce": {	 "mercury":1},
-					"requires" :	["marketplace"]},
+					"produce": {	 "mercury":1}},
 
 				"mageGuild1" :{
-					"id" :			11,
 					"name" :		"Mage Guild 1",
 					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :		{"gold" :2000,"wood" :5,"ore" :5}},
 				"mageGuild2" :{
-					"id" : 			12,
 					"name" :		"Mage Guild 2",
 					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost" :		{"gold" :1000,"wood":5,"ore":5,"mercury":4,"crystal":4,"sulfur":4,"gems":4},
-					"upgrades" :	"mageGuild1"},
+					"cost" :		{"gold" :1000,"wood":5,"ore":5,"mercury":4,"crystal":4,"sulfur":4,"gems":4}},
 				"mageGuild3" :{
-					"id" :			13,
 					"name" :		"Mage Guild 3",
 					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":6,"crystal":6,"sulfur":6,"gems":6},
-					"upgrades" :	"mageGuild2"},
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":6,"crystal":6,"sulfur":6,"gems":6}},
 				"mageGuild4" :{
-					"id" :			14,
 					"name" :		"Mage Guild 4",
 					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":8,"crystal":8,"sulfur":8,"gems":8},
 					"upgrades" :	"mageGuild3"},
 				"mageGuild5" :{
-					"id" :			15,
 					"name" :		"Mage Guild 5",
 					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":10,"crystal":10,"sulfur":10,"gems":10},
-					"upgrades" :	"mageGuild4"},
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":10,"crystal":10,"sulfur":10,"gems":10}},
 
 				"special1" :{
-					"id" :			16,
 					"name" :		"Secret Cave",
 					"description" :	"Earn 10% interest of any gold you have at the start of each week.",
 					"cost":			{"gold":5000,"gems":3,"crystal":3},
 					"requires" :	["dwellingUpLvl2"],
 					"type" : 		"treasury" },
 				"special2" :{
-					"id" :			17,
 					"name" :		"Stables",
 					"description" :	"Increase the land movement rate of any visiting hero.",
 					"cost" :		{"gold":2000,"wood":20},
@@ -127,7 +95,6 @@
 					}
 				},
 				"special3" :{
-					"id" :			18,
 					"name" :		"Genizah",
 					"description" :	"The Genizah grants visiting heroes +1 knowledge.",
 					"cost" :		{"gold":1000, "ore": 5},
@@ -151,77 +118,69 @@
 //				"horde2Upgr":		null,
 
 				"grail" :{
-					"id" :			20,
-					"mode" :		"grail",
 					"name" :		"Asha statue",
                     "description" :	"The presence of the Asha statue increases weekly creature generation by 50%, provides your kindgom with an additional 5000 gold per day and affords 7 mines (for all categories of resources respectively), and increases all four primary skills of a garrison hero by +5 each when defending against a siege. It also increases your heroes movement points over land.",
-					"bonuses":[	{	"type": "PRIMARY_SKILL",		"subtype": "primarySkill.attack",		"val": 5 },
-								{	"type": "PRIMARY_SKILL",		"subtype": "primarySkill.defence",		"val": 5 },
-								{	"type": "PRIMARY_SKILL",		"subtype": "primarySkill.knowledge",	"val": 5 },
-								{	"type": "PRIMARY_SKILL",		"subtype": "primarySkill.spellpower",	"val": 5 },
+					"bonuses":[	{	"type": "PRIMARY_SKILL",		"subtype": "attack",		"val": 5 },
+								{	"type": "PRIMARY_SKILL",		"subtype": "defence",		"val": 5 },
+								{	"type": "PRIMARY_SKILL",		"subtype": "knowledge",	"val": 5 },
+								{	"type": "PRIMARY_SKILL",		"subtype": "spellpower",	"val": 5 },
 								{	"type": "ROUGH_TERRAIN_DISCOUNT",					"valueType" : "ADDITIVE_VALUE",	"val": 25,	"propagator": "PLAYER"},
 								{	"type":	"MOVEMENT",	"subtype": "heroMovementLand",	"valueType" : "ADDITIVE_VALUE",	"val": 300,	"propagator": "PLAYER"}],
 					"produce":	{	"gold":5000, "gems":1, "crystal":1, "sulfur":1, "mercury":1, "wood":2,	"ore": 2}},
 
 				"horde1" :{
-					"id" :			19,
 					"name" :		"Additional Camp",
 					"description" :	"Additional Camp increases weekly production of Overcomers by 8 per week.",
 					"cost" :		{"gold":1000},
 					"requires" :	["dwellingUpLvl1"],
 					"upgrades" :	"dwellingLvl1"},
 				"horde1Upgr" :{
-					"id" :			19,
 					"name" :		"Additional Camp",
 					"description" :	"Additional Camp increases weekly production of Survivors by 8 per week.",
 					"cost" :		{"gold":1000},
 					"requires" :	["horde1"],
-					"upgrades" :	"dwellingUpLvl1",
-					"mode" :		"auto"},
+					"upgrades" :	"dwellingUpLvl1"},
 
 				"horde2" :{
-					"id" :			21,
 					"name" :		"Factory Expansion",
 					"description" :	"Factory Expansion increases weekly production of Gold Golems by 2 per week.",
 					"cost" :		{"gold":2000,"crystal":2,"gems":2},
 					"requires" :	["dwellingUpLvl5"],
 					"upgrades" :	"dwellingLvl5"},
 				"horde2Upgr" :{
-					"id" :			22,
 					"name" :		"Factory Expansion",
 					"description" :	"Factory Expansion increases weekly production of Diamond Golems by 2 per week.",
 					"cost" :		{"gold":2000,"crystal":2,"gems":2},
 					"requires" :	["horde2"],
-					"upgrades" :	"dwellingUpLvl5",
-					"mode" :		"auto"},
+					"upgrades" :	"dwellingUpLvl5"},
 
 
 				"dwellingLvl1" :{
-					"id" :			23,
+
 					"description" :	"Makeshift Camp allows you to recruit Overcomers.",
 					"name" :		"Makeshift Camp",
 					"cost" :		{"gold":500,"wood":3,"ore":2},
 					"requires" :	[ "fort" ]},
 				"dwellingLvl2" :{
-					"id" :			24,
+
 					"description" :	"Rogue's Cavern allows you to recruit Rogues.",
 					"name" :		"Rogue's Cavern",
 					"cost" :		{"gold":1000,"ore":10},
 					"requires" :	[ "dwellingLvl1" ]},
 				"dwellingLvl3" :{
-					"id" :			25,
+
 					"description" :	"Nomad's Camp allows you to recruit Vagabonds.",
 					"name" :		"Nomad's Camp",
 					"cost" :		{"gold":1500,"wood":5,"ore":5},
 					"requires" :	["dwellingLvl1"]},
 				"dwellingLvl4" :{
-					"id" :			26,
+
 					"description" :	"Watchtower allows you to recruit Bowmen.",
 					"name" :		"Watchtower",
 					"cost" :		{"gold":2000,"wood":5,"ore":10},
 					"requires" :	[ "allOf", ["dwellingLvl2"], ["dwellingLvl3"]]},
 				"dwellingLvl5" :{
-					"id" :			27,
+
 					"description" :	"Golem Factory allows you to recruit Gold Golems.",
 					"name" :		"Golem Factory",
 					"cost" :		{"gold":2500,"wood":5,"ore":5,"mercury":10},
@@ -229,7 +188,7 @@
 
 
 				"dwellingLvl6" :{
-					"id" : 			28,
+
 					"description" : "Enchanted Woods allows you to recruit Thaumaturges.",
 					"name" :		"Enchanted Woods",
 					"cost" :		{"gold":4000,"wood":5,"ore":5,"sulfur":3,"mercury":3,"gems":3,"crystal":3},
@@ -243,7 +202,7 @@
 					"requires" :	[ "allOf",	["dwellingLvl4"], ["dwellingLvl5"],
 									[ "noneOf",	["dwellingLvl6"]] ]},
 				"dwellingLvl7" :{
-					"id" :			29,
+
 					"description" : "Mercury Lake allows you to recruit Dragolems.",
 					"name" :		"Mercury Lake",
 					"cost" :		{"gold":20000,"mercury":25},
@@ -257,35 +216,35 @@
 					"requires" :	[ "allOf",	["dwellingLvl6B"],
 									[ "noneOf",	["dwellingLvl6"]]]},
 				"dwellingUpLvl1" :{
-					"id" :			30,
+
 					"description" :	"Upg. Makeshift Camp allows you to recruit Survivors.",
 					"name" :		"Upg. Makeshift Camp",
 					"cost" :		{"gold":1000,"wood":5},
 					"requires" :	["fort"],
 					"upgrades" :	"dwellingLvl1"},
 				"dwellingUpLvl2" :{
-					"id" :			31,
+
 					"description" :	"Upg. Rogue's Cavern allows you to recruit Cutthroats.",
 					"name" :		"Upg. Rogue's Cavern",
 					"cost" :		{"gold":1000,"wood":5,"gems":3},
 					"requires" :	[ "dwellingLvl1"],
 					"upgrades" :	"dwellingLvl2"},
 				"dwellingUpLvl3" :{
-					"id" :			32,
+
 					"description" :	"Upg. Camp allows you to recruit Nomads.",
 					"name" :		"Upg. Nomad's Camp",
 					"cost" :		{"gold":1500,"wood":5,"crystal":3},
 					"requires" :	[ "dwellingLvl1"],
 					"upgrades" :	"dwellingLvl3"},
 				"dwellingUpLvl4" :{
-					"id" :			33,
+
 					"description" :	"Upg. Watchtower allows you to recruit Sharpshooters.",
 					"name" :		"Upg. Watchtower",
 					"cost" :		{"gold":2000,"wood":5,"ore":10},
 					"requires" :	[ "allOf", ["dwellingLvl2"], ["dwellingLvl3"]],	
 					"upgrades" :	"dwellingLvl4"},
 				"dwellingUpLvl5" :{
-					"id" :			34,
+
 					"description" :	"Upg. Golem Factory allows you to recruit Diamond Golems.",
 					"name" :		"Upg. Golem Factory",
 					"cost" :		{"gold":2000,"wood":2,"ore":3,"mercury":5},
@@ -294,7 +253,7 @@
 
 
 				"dwellingUpLvl6" :{
-					"id" :			35,
+
 					"description" :	"Upg. Enchanted Woods allows you to recruit Enchanters.",
 					"name" :		"Upg. Enchanted Woods",
 					"cost" :		{"gold":3000,"wood":5,"ore":5,"sulfur":5,"mercury":5,"gems":5,"crystal":5},
@@ -310,7 +269,7 @@
 									[ "noneOf",	["dwellingLvl6"]]],
 					"upgrades" :	"dwellingLvl6B"},
 				"dwellingUpLvl7" :{
-					"id" :			36,
+
 					"description" : "Upg. Mercury Lake allows you to recruit Dragolems Upg.",
 					"name" :		"Upg. Mercury Lake",
 					"cost" :		{"gold":15000,"wood":5,"ore":5,"mercury":10,"sulfur":5},

@@ -21,7 +21,7 @@
 			"bonuses" :{
 				"battleSpell":{
 					"type":			"OPENING_BATTLE_SPELL",
-					"subtype":		"spell.slayer",
+					"subtype":		"slayer",
 					"val":			2
 		}}},
 
@@ -31,7 +31,7 @@
 			"specialty" :{
 				"name" :		"Slayer",
 				"tooltip" :		"Special Bonus: Slayer",
-				"description" : "{Slayer}\r\n\r\nEnchant army with Slayer at the start of the battle for 1 turn."
+				"description" : "Enchant army with Slayer at the start of the battle for 1 turn."
 		}}
 	}
 }

@@ -26,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Gold Golems",
 				"tooltip" :		"Creature bonus: Gold Golems",
-				"description" :	"{Gold Golems}\r\n\r\nIncreases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
+				"description" :	"Increases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
 		}}
 	}
 }

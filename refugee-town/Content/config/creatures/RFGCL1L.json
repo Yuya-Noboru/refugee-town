@@ -37,7 +37,7 @@
 		"abilities":{
 			"enchantSlayer":{
 				"type" :		"ENCHANTED",
-				"subtype":		"spell.slayer",
+				"subtype":		"slayer",
 				"val" :			1}}
 	}
 }

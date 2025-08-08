@@ -52,12 +52,12 @@
 			"noPenalty" :{		"type" :	"NO_WALL_PENALTY"},
 			"casts" :{			"type" :	"CASTS",		"val" :		5},
 
-			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.haste",		"val" :	3,	"addInfo" :	5},
-			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.bless",		"val" :	3,	"addInfo" :	5},
-			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.stoneSkin",	"val" :	3,	"addInfo" :	5},
-			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.cure",		"val" :	3,	"addInfo" :	5},
-			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.airShield",	"val" :	3,	"addInfo" :	5},
-			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.bloodlust",	"val" :	3,	"addInfo" :	5}
+			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"haste",		"val" :	3,	"addInfo" :	5},
+			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"bless",		"val" :	3,	"addInfo" :	5},
+			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"stoneSkin",	"val" :	3,	"addInfo" :	5},
+			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"cure",		"val" :	3,	"addInfo" :	5},
+			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"airShield",	"val" :	3,	"addInfo" :	5},
+			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"bloodlust",	"val" :	3,	"addInfo" :	5}
 		}
 	}
 }

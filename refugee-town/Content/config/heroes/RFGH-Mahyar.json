@@ -23,7 +23,7 @@
 			"specialty" :{
 				"name" :		"Bowmen",
 				"tooltip" :		"Creature bonus: Bowmen",
-				"description" :	"{Sharpshooter}\r\n\r\nIncreases the Attack and Defense skills of any Bowmen or Sharpshooter for each level attained after 4th level."
+				"description" :	"Increases the Attack and Defense skills of any Bowmen or Sharpshooter for each level attained after 4th level."
 		}}
 	}
 }

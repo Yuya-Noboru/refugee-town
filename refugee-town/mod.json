@@ -2,14 +2,15 @@
 	"name" :			"Refugee Town (Refuge)",
 	"description" :		"Refuge is a new town created by Yuya that takes its inspiration from WoG's Neutral Town and Heroes3's Refugee Camp. The common point of its creatures is their nonbelonging to the other factions. Thus, this castle sports concepts such as nomadism, motley armies and makeshift solutions. The town also takes elements from the Mesopotamian/Sumerian/Akkadian mythologies. Official VCMI Forum https://forum.vcmi.eu/t/new-town-mod-refugee/5002",
 	"author":			"Yuya Noboru, VCMI Community (details in changelog), Translators ([RU] Anton Sergeew, [CH] Rindlit, [FR/DE] VCMI Community)",
-	"version" :			"1.26",
+	"version" :			"1.27",
 	"contact":			"yuya.noboru@gmail.com",
 	"modType" :			"Town",
-	"compatibility" :	{"min" : "1.6.0"},
+	"compatibility" :	{"min" : "1.7.0"},
 
 	"changelog" :{
 		"Note":[				"See 'RefugeeTown-Changelog.txt' file inside the mod to see the full changelog. Or go to the VCMI forum on the official thread: https://forum.vcmi.eu/t/new-town-mod-refugee/5002"],
 
+		"v1.27 (08/08/2025)":[	"Another update to vcmi-1.7 format"],
 		"v1.26 (04/07/2025)":[	"Update to vcmi-1.7 format"],
 		"v1.25 (16/02/2025)":[	"Updated graphics for Creatures Portraits, Spells icons, buildings hall thumbnails and Dwelling3.",
 								"Reworked graphics for following units: Dragolems, Overcomers, Survivors and Cutthroats.",

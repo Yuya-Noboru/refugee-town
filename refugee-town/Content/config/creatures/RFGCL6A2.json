@@ -52,16 +52,16 @@
 			"noPenalty" :{		"type" :	"NO_WALL_PENALTY"},
 			"casts" :{			"type" :	"CASTS",		"val" :		5},
 
-			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.haste",		"val" :	3,	"addInfo" :	3},
-			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.bless",		"val" :	3,	"addInfo" :	3},
+			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"haste",		"val" :	3,	"addInfo" :	3},
+			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"bless",		"val" :	3,	"addInfo" :	3},
 
-			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.stoneSkin",	"val" :	3,	"addInfo" :	3},
-			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.cure",		"val" :	3,	"addInfo" :	3},
-			"castsSlow" :{		"type" :	"ENCHANTER",	"subtype" :	"spell.slow",		"val" :	3,	"addInfo" :	3},
-			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.airShield",	"val" :	3,	"addInfo" :	3},
+			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"stoneSkin",	"val" :	3,	"addInfo" :	3},
+			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"cure",		"val" :	3,	"addInfo" :	3},
+			"castsSlow" :{		"type" :	"ENCHANTER",	"subtype" :	"slow",		"val" :	3,	"addInfo" :	3},
+			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"airShield",	"val" :	3,	"addInfo" :	3},
 
-			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.bloodlust",	"val" :	3,	"addInfo" :	3},
-			"castsWeakness" :{	"type" :	"ENCHANTER",	"subtype" :	"spell.weakness",	"val" :	3,	"addInfo" :	3}
+			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"bloodlust",	"val" :	3,	"addInfo" :	3},
+			"castsWeakness" :{	"type" :	"ENCHANTER",	"subtype" :	"weakness",	"val" :	3,	"addInfo" :	3}
 
 			// Haste		17.9%
 			// Bless		17.9%

@@ -1,66 +1,66 @@
 {
 "refugee-town:rfghLeyla" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghNiusha" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghKiana" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghSoraya" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghAreman" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghShayan" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghMahyar" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghYemapel" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghMithra" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghAran" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghSierra" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghAria" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghAzar" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghKeyvan" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghBhemnesh" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}},
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}},
 "refugee-town:rfghReza" :{
 	"specialty" :{	"bonuses" :{
-			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.hellSteed",	"addInfo":	"creature.rfgcHorseFire"},
-			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:creature.nightmare",	"addInfo":	"creature.rfgcHorseBlack"}}}}
+			"conversionHellSteed":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:hellSteed",	"addInfo":	"rfgcHorseFire"},
+			"conversionNightmare":{		"type" :"SPECIAL_UPGRADE",	"subtype":	"wake-of-gods.creatures:nightmare",	"addInfo":	"rfgcHorseBlack"}}}}
 }

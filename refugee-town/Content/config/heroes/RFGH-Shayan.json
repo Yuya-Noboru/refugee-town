@@ -22,7 +22,6 @@
 					"type" :		"MORALE",
 					"val" : 		0,
 					"valueType" : 	"INDEPENDENT_MAX"}
-//					"limiters" :[	"TEAM_PROPAGATOR" ]}
 		}},
 					
 		"texts":{
@@ -31,7 +30,7 @@
 			"specialty" :{
 				"name" :		"Motley Army",
 				"tooltip" :		"Special bonus: Motley Army",
-				"description" : "{Motley Army}\r\n\r\nAll creatures are unaffected by negative morale."
+				"description" : "All creatures are unaffected by negative morale."
 		}}
 	}
 }

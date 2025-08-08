@@ -43,30 +43,29 @@
 				"power":			14,
 //				"aiValue":			12,
 				"range":			"0",
-				"targetModifier":	{"smart":true}},
+				"targetModifier":	{"smart":true},
+				"effects" :{
+					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
+					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},				
 
 			"none":{
-				"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1.",
-				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
+			"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."},
+
 			"basic":{
-				"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1.",
-				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},
+			"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."},
+
 			"advanced":	{
 				"description":		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 2.",
 				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :		2,	"duration":	"N_TURNS"}}},
+					"luck" :{		"val" :		2},
+					"morale" :{		"val" :		2}}},
 			"expert":{
 				"description": 		"{Nambúrbi}\n\nIncreases the luck and morale of all friendly units by 2.",
 				"range":			"X",
 				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :		2,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :		2,	"duration":	"N_TURNS"}}}},
+					"luck" :{		"val" :		2},
+					"morale" :{		"val" :		2}}}},
 
 		"counters" : {	"spell.rfgsSiguP":	true}
-	}
+		}
 }

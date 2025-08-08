@@ -41,8 +41,8 @@
 			"immuneToMind":{	"type" :"MIND_IMMUNITY"},
 			"extraRetaliation":{"type" :"ADDITIONAL_RETALIATION",	"val" :1},
 			"reduceDefence" :{	"type" :"ENEMY_DEFENCE_REDUCTION",	"val" :60},
-			"petrification":{	"type" :"SPELL_AFTER_ATTACK",		"subtype" :	"spell.stoneGaze",		"val" :20,	"addInfo" :[0,2]},
-			"spellResurrect" :{	"type" :"SPELLCASTER",				"subtype":	"spell.resurrection",	"val":3},
+			"petrification":{	"type" :"SPELL_AFTER_ATTACK",		"subtype" :	"stoneGaze",		"val" :20,	"addInfo" :[0,2]},
+			"spellResurrect" :{	"type" :"SPELLCASTER",				"subtype":	"resurrection",	"val":3},
 			"spellPower" :{		"type" :"CREATURE_SPELL_POWER",		"val" :100},
 			"spellPoints" :{	"type" :"CASTS",					"val" :1}
 		}

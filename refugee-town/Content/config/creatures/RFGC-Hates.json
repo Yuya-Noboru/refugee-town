@@ -3,44 +3,44 @@
 		"abilities" :{
 			"hateHellSteeds":{
 				"type" :	"HATE",
-				"subtype" : "creature.rfgcHorseFire",
+				"subtype" : "rfgcHorseFire",
 				"val" :		50},
 			"hateNightmares":{
 				"type" :	"HATE",
-				"subtype" : "creature.rfgcHorseBlack",
+				"subtype" : "rfgcHorseBlack",
 				"val" :		50}
 	}},
 	"core:warUnicorn":{
 		"abilities" :{
 			"hateHellSteeds":{
 				"type" :	"HATE",
-				"subtype" : "creature.rfgcHorseFire",
+				"subtype" : "rfgcHorseFire",
 				"val" :		50},
 			"hateNightmares":{
 				"type" :	"HATE",
-				"subtype" : "creature.rfgcHorseBlack",
+				"subtype" : "rfgcHorseBlack",
 				"val" :		50}
 	}},
 	"rfgcHorseFire":{
 		"abilities" :{
 			"hateUnicorn":{
 				"type" :	"HATE",
-				"subtype" : "creature.unicorn",
+				"subtype" : "unicorn",
 				"val" :		50},
 			"hateWarUnicorn":{
 				"type" :	"HATE",
-				"subtype" : "creature.warUnicorn",
+				"subtype" : "warUnicorn",
 				"val" :		50}
 	}},
 	"rfgcHorseBlack":{
 		"abilities" :{
 			"hateUnicorn":{
 				"type" :	"HATE",
-				"subtype" : "creature.unicorn",
+				"subtype" : "unicorn",
 				"val" :		50},
 			"hateWarUnicorn":{
 				"type" :	"HATE",
-				"subtype" : "creature.warUnicorn",
+				"subtype" : "warUnicorn",
 				"val" :		50}
 	}}
 }

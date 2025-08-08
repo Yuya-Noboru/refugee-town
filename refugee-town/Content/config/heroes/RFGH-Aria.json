@@ -20,15 +20,8 @@
 
 		"spellbook" :[ "hypnotize" ],
 		"specialty" : {
-			"bonuses" : {
-				"estates" : {
-					"subtype" :			"resource.gold",
-					"type" :			"GENERATE_RESOURCE",
-					"updater" :			"TIMES_HERO_LEVEL",
-					"val" :				5,
-					"valueType" :		"PERCENT_TO_TARGET_TYPE",
-					"targetSourceType":	"SECONDARY_SKILL"}
-		}},
+			"secondary" : "estates"
+		},
 
 		"texts":{
 			"name" :			"Aria",
@@ -36,7 +29,7 @@
 			"specialty" :{
 				"name" :		"Estates",
 				"tooltip" :		"Secondary Skill Bonus: Estates",
-				"description" :	"{Estates}\r\n\r\nReceives a 5% per level bonus to Estates skill."
+				"description" :	"Receives a 5% per level bonus to Estates skill."
 		}}
 	}
 }

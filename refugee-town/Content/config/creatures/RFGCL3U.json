@@ -37,7 +37,7 @@
 		"abilities":{
 				"sandWalker" :{
 				"type" :		"NO_TERRAIN_PENALTY",
-				"subtype" :		"terrain.sand",
+				"subtype" :		"sand",
 				"propagator" :	"HERO"}}
 	}
 }

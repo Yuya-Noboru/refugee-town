@@ -26,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Rogues",
 				"tooltip" :		"Creature Bonus: Rogues.",
-				"description" :	"{Rogues}\r\n\r\nIncreases the Attack and Defense skills of any Rogue or Spy for each level attained after 2th level."
+				"description" :	"Increases the Attack and Defense skills of any Rogue or Spy for each level attained after 2th level."
 		}}
 	}
 }

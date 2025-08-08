@@ -26,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Hell Steeds",
 				"tooltip" :		"Creature Bonus: Hell Steeds",
-				"description" :	"{Hell Steed}\r\n\r\nIncreases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 6th level."
+				"description" :	"Increases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 6th level."
 		}}
 	}
 }

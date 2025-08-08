@@ -20,8 +20,8 @@
 		"spellbook" :[ 			"rfgsNamburbi", "rfgsSiguP" ],
 		"specialty" : {
 			"bonuses" :{
-				"spellSigu":{		"type" : "SPELL",	"subtype": "spell.rfgsSiguP",	"val" :3},
-				"spellNamburbi":{	"type" : "SPELL",	"subtype": "spell.rfgsNamburbi","val" :3},
+				"spellSigu":{		"type" : "SPELL",	"subtype": "rfgsSiguP",	"val" :3},
+				"spellNamburbi":{	"type" : "SPELL",	"subtype": "rfgsNamburbi","val" :3},
 		}},
 		"texts":{
 			"name" :			"Keyvan",
@@ -29,7 +29,7 @@
 			"specialty" :{
 				"name" :		"Alkephobos",
 				"tooltip" :		"Spells Bonuses: Šigû & Namburbi",
-				"description" :	"{Alkephobos}\r\n\r\nKeyvan can casts the Namburbi and Šigû spells at expert level."
+				"description" :	"Keyvan can casts the Namburbi and Šigû spells at expert level."
 		}}
 	}
 }

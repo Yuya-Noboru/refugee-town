@@ -37,7 +37,7 @@
 		"abilities" :{
 			"nonliving" :{	"type" :	"NON_LIVING"},
 			"soulSteal" :{	"type" :	"SOUL_STEAL",			"subtype" :		"soulStealPermanent",	"val" : 1},
-			"necrolem"	:{	"type" :	"IMPROVED_NECROMANCY",	"subtype" :		"creature.rfgcFleshGolem",
+			"necrolem"	:{	"type" :	"IMPROVED_NECROMANCY",	"subtype" :		"rfgcFleshGolem",
 							"val":		600,	"addInfo" :	0,	"propagator" :	"HERO"},
 
 			"magicResistance" :{

@@ -21,7 +21,7 @@
 		"specialty" :{
 			"bonuses" :{
 				"iceBolt" :{
-					"subtype" :	"spell.iceBolt",
+					"subtype" :	"iceBolt",
 					"type" :	"SPECIAL_SPELL_LEV",
 					"updater" :	"TIMES_HERO_LEVEL",
 					"val" : 	3}}},
@@ -32,7 +32,7 @@
 			"specialty" :{
 				"name" :		"Ice Bolt",
 				"tooltip" :		"Spell Bonus: Ice Bolt",
-				"description" :	"{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of target unit."
+				"description" :	"Casts Ice Bolt with increased effect, based on hero level compared to the level of target unit."
 		}}
 	}
 }

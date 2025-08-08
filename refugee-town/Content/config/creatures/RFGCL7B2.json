@@ -40,9 +40,9 @@
 			"strikeFirst" :{		"type" :	"FIRST_STRIKE"},
 
 			"castSigu":{			"type":		"SPELL_AFTER_ATTACK",
-									"subtype":	"spell.rfgsSigu",		"val" :  33,	"addInfo" :	[2, 2]},
+									"subtype":	"rfgsSigu",		"val" :  33,	"addInfo" :	[2, 2]},
 			"castHolyBreaker":{		"type":		"SPELL_AFTER_ATTACK",
-									"subtype":	"spell.rfgsHolybreaker","val" : 100,	"addInfo" :	[3, 2]}
+									"subtype":	"rfgsHolybreaker","val" : 100,	"addInfo" :	[3, 2]}
 		}
 	}
 }
