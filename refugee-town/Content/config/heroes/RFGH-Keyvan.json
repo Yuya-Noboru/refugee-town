@@ -1,35 +1,69 @@
 {
-	"rfghKeyvan" :{
-		"class" :				"rfghcEnchanterM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgcspellNG-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgcspellNG-large.png",
-			"small" : 			"heroes/portraits/RFGH-Keyvan-small.png",
-			"large" : 			"heroes/portraits/RFGH-Keyvan-big.png"},
+	"rfghKeyvan" : {
+		"class" : "rfghcEnchanterM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgcspellNG-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgcspellNG-large.png",
+			"small" : "heroes/portraits/RFGH-Keyvan-small.png",
+			"large" : "heroes/portraits/RFGH-Keyvan-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rogue",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"wisdom" },
-				{ "level" :		"basic",	"skill" :	"airMagic" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
 
-		"spellbook" :[ 			"rfgsNamburbi", "rfgsSiguP" ],
+		"spellbook" : [
+			"rfgsNamburbi",
+			"rfgsSiguP"
+		],
 		"specialty" : {
-			"bonuses" :{
-				"spellSigu":{		"type" : "SPELL",	"subtype": "rfgsSiguP",	"val" :3},
-				"spellNamburbi":{	"type" : "SPELL",	"subtype": "rfgsNamburbi","val" :3},
-		}},
-		"texts":{
-			"name" :			"Keyvan",
-			"biography" :		"Once torn from his kingdom’s grasp by the relentless tides of war, Keyvan found solace in the unity forged with Shayan, as they embarked on their quest to rebuild. Their bond as brothers serving as the bedrock upon which their kingdom flourishes. Most believe he can control the course of battles with a flick of his wrist.",
-			"specialty" :{
-				"name" :		"Alkephobos",
-				"tooltip" :		"Spells Bonuses: Šigû & Namburbi",
-				"description" :	"Keyvan can casts the Namburbi and Šigû spells at expert level."
-		}}
+			"bonuses" : {
+				"spellSigu" : {
+					"type" : "SPELL",
+					"subtype" : "rfgsSiguP",
+					"val" : 3
+				},
+				"spellNamburbi" : {
+					"type" : "SPELL",
+					"subtype" : "rfgsNamburbi",
+					"val" : 3
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Keyvan",
+			"biography" : "Once torn from his kingdom’s grasp by the relentless tides of war, Keyvan found solace in the unity forged with Shayan, as they embarked on their quest to rebuild. Their bond as brothers serving as the bedrock upon which their kingdom flourishes. Most believe he can control the course of battles with a flick of his wrist.",
+			"specialty" : {
+				"name" : "Alkephobos",
+				"tooltip" : "Spells Bonuses: Šigû & Namburbi",
+				"description" : "Keyvan can casts the Namburbi and Šigû spells at expert level."
+			}
+		}
 	}
 }

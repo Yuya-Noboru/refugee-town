@@ -1,31 +1,55 @@
 {
-	"rfghAreman" :{
-		"class" :				"rfghcWandererM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgcNomad-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgcNomad-large.png",
-			"small" : 			"heroes/portraits/RFGH-Areman-small.png",
-			"large" : 			"heroes/portraits/RFGH-Areman-big.png"},
+	"rfghAreman" : {
+		"class" : "rfghcWandererM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgcNomad-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgcNomad-large.png",
+			"small" : "heroes/portraits/RFGH-Areman-small.png",
+			"large" : "heroes/portraits/RFGH-Areman-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"logistics" },
-				{ "level" :		"basic",	"skill" :	"luck" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
 
-		"specialty" :{			"creature" : "rfgcVagabond"},
+		"specialty" : {
+			"creature" : "rfgcVagabond"
+		},
 
-		"texts":{
-			"name" :			"Areman",
-			"biography" :		"Areman’s life has been marked by grief and hardship as a nomad, wandering the unforgiving lands of Erathia. Despite his trials, he possesses an uncanny luck that has seen him through countless perilous situations. With a steadfast resolve forged in adversity, he stands ready to defy fate and carve his own path to victory.",
-			"specialty" :{
-				"name" :		"Vagabonds",
-				"tooltip" :		"Creature Bonus: Vagabonds",
-				"description" :	"Increases the Attack and Defense skills of any Vagabond or Nomad for each level attained after 3th level."
-		}}
+		"texts" : {
+			"name" : "Areman",
+			"biography" : "Areman’s life has been marked by grief and hardship as a nomad, wandering the unforgiving lands of Erathia. Despite his trials, he possesses an uncanny luck that has seen him through countless perilous situations. With a steadfast resolve forged in adversity, he stands ready to defy fate and carve his own path to victory.",
+			"specialty" : {
+				"name" : "Vagabonds",
+				"tooltip" : "Creature Bonus: Vagabonds",
+				"description" : "Increases the Attack and Defense skills of any Vagabond or Nomad for each level attained after 3th level."
+			}
+		}
 	}
 }

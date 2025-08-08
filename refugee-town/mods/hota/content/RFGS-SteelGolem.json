@@ -1,10 +1,16 @@
 {
-	"refugee-town:rfgsAmad":{
-		"targetCondition"  :{
-			"anyOf" :{		"hota.neutralcreatures:creature.steelGolem":"absolute"},
-		}},
-	"refugee-town:rfgsMet":{
-		"targetCondition" :{
-			"anyOf" :{		"hota.neutralcreatures:creature.steelGolem":"absolute"}
-		}}
+	"refugee-town:rfgsAmad" : {
+		"targetCondition" : {
+			"anyOf" : {
+				"hota.neutralcreatures:creature.steelGolem" : "absolute"
+			}
+		}
+	},
+	"refugee-town:rfgsMet" : {
+		"targetCondition" : {
+			"anyOf" : {
+				"hota.neutralcreatures:creature.steelGolem" : "absolute"
+			}
+		}
+	}
 }

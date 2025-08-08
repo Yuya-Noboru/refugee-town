@@ -1,43 +1,60 @@
 {
-	"rfgcSurvivor":{
-		"name" :{
-			"plural" :	"Survivors",
-			"singular" :"Survivor"},
-		"advMapAmount" :{"min" : 20,	"max" : 30},
-		"faction" :		"refugee",
+	"rfgcSurvivor" : {
+		"name" : {
+			"plural" : "Survivors",
+			"singular" : "Survivor"
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"faction" : "refugee",
 
-		"level" :		1,
-		"attack" :		5,
-		"defense" :		4,
-		"damage" :		{ "min" : 1, "max" : 3 },
-		"hitPoints" :	4,
-		"speed" :		6,
-		"growth" :		18,
-		"horde":		8,
-		"fightValue" :	92,
-		"aiValue" :		80,
-		"cost" :		{ "gold" : 55 },
-		"doubleWide" :	false,
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"hitPoints" : 4,
+		"speed" : 6,
+		"growth" : 18,
+		"horde" : 8,
+		"fightValue" : 92,
+		"aiValue" : 80,
+		"cost" : {
+			"gold" : 55
+		},
+		"doubleWide" : false,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L1U.def",
-			"map" :				"creatures/RFGCA-L1U.def",
-			"iconSmall" :		"icons/RFGC1U-PS.png",
-			"iconLarge" :		"icons/RFGC1U-PB.png",
-			"timeBetweenFidgets" : 1},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L1U.def",
+			"map" : "creatures/RFGCA-L1U.def",
+			"iconSmall" : "icons/RFGC1U-PS.png",
+			"iconLarge" : "icons/RFGC1U-PB.png",
+			"timeBetweenFidgets" : 1
+		},
 
-		"sound" :{
-			"attack":			"PSNTATTK.wav",
-			"defend":			"PSNTDFND.wav",
-			"killed":			"PSNTKILL.wav",
-			"move":				"PSNTMOVE.wav",
-			"wince":			"PSNTWNCE.wav"},
+		"sound" : {
+			"attack" : "PSNTATTK.wav",
+			"defend" : "PSNTDFND.wav",
+			"killed" : "PSNTKILL.wav",
+			"move" : "PSNTMOVE.wav",
+			"wince" : "PSNTWNCE.wav"
+		},
 
-		"abilities":{
-			"enchantSlayer":{
-				"type" :		"ENCHANTED",
-				"subtype":		"slayer",
-				"val" :			2}}
+		"abilities" : {
+			"enchantSlayer" : {
+				"type" : "ENCHANTED",
+				"subtype" : "slayer",
+				"val" : 2
+			}
+		}
 	}
 }

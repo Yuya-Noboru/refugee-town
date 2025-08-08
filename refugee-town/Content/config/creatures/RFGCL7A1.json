@@ -1,49 +1,100 @@
 {
-	"rfgcDragolem":{
-		"name" :{
-			"plural" :	"Rusty Dragolems",
-			"singular" :"Rusty Dragolem"},
-		"advMapAmount" :{"min" : 4,	"max" : 10},
-		"faction" :		"refugee",
-		"upgrades":		["rfgcDragolemUp"],
-		"level" :		7,
-		"attack" :		19,
-		"defense" :		27,
-		"damage" :		{ "min" : 40, "max" : 50 },
-		"hitPoints" :	180,
-		"speed" :		9,
-		"growth" :		1,
-		"fightValue" :	3462,
-		"aiValue" :		4702,
-		"cost" :		{ "gold" : 2500, "mercury" : 1 },
-		"doubleWide" :	true,
+	"rfgcDragolem" : {
+		"name" : {
+			"plural" : "Rusty Dragolems",
+			"singular" : "Rusty Dragolem"
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"faction" : "refugee",
+		"upgrades" : [
+			"rfgcDragolemUp"
+		],
+		"level" : 7,
+		"attack" : 19,
+		"defense" : 27,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
+		"hitPoints" : 180,
+		"speed" : 9,
+		"growth" : 1,
+		"fightValue" : 3462,
+		"aiValue" : 4702,
+		"cost" : {
+			"gold" : 2500,
+			"mercury" : 1
+		},
+		"doubleWide" : true,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L7A1.def",
-			"map" :				"creatures/RFGCA-L7A1.def",
-			"iconSmall" :		"icons/RFGC7A1-PS.png",
-			"iconLarge" :		"icons/RFGC7A1-PB.png",
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L7A1.def",
+			"map" : "creatures/RFGCA-L7A1.def",
+			"iconSmall" : "icons/RFGC7A1-PS.png",
+			"iconLarge" : "icons/RFGC7A1-PB.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :{
-				"projectile": 		"CPRZEAX.DEF",
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 8,
-				"offset" :{			"lowerX":62,	"lowerY":-93,	"middleX":62,	"middleY":-93,	"upperX":62,	"upperY":-93},
-				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]}},
+				"offset" : {
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
 
-		"sound" :{
-			"attack":			"creatures/DRGLATTK.wav",	// Cove Aspi ATCK
-			"defend":			"creatures/DRGLDFND.wav",	// H2 Golem  ATCK
-			"killed":			"creatures/DRGLKILL.wav",	// H2 Golem  KILL
-			"shoot":			"ENCHSHOT.wav",
-			"move":				"creatures/DRGLMOVE.wav",	// CrystalDr MOVE
-			"wince":			"creatures/DRGLWNCE.wav"},	// H2 Golem  WNCE
+		"sound" : {
+			"attack" : "creatures/DRGLATTK.wav", // Cove Aspi ATCK
+			"defend" : "creatures/DRGLDFND.wav", // H2 Golem  ATCK
+			"killed" : "creatures/DRGLKILL.wav", // H2 Golem  KILL
+			"shoot" : "ENCHSHOT.wav",
+			"move" : "creatures/DRGLMOVE.wav", // CrystalDr MOVE
+			"wince" : "creatures/DRGLWNCE.wav"
+		}, // H2 Golem  WNCE
 
-		"abilities" :{
-			"nonliving" 	:{	"type" : "NON_LIVING"},
-			"magicReduction":{	"type" : "SPELL_DAMAGE_REDUCTION",	"subtype" :	"any", "val" : 100},
-			"canShootWalls" :{	"type" : "CATAPULT",				"subtype" : "cyclopsShot"},
-			"jousting"		:{	"type" : "JOUSTING",				"val" :	5}
+		"abilities" : {
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"magicReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 100
+			},
+			"canShootWalls" : {
+				"type" : "CATAPULT",
+				"subtype" : "cyclopsShot"
+			},
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 5
+			}
 		}
 	}
 }

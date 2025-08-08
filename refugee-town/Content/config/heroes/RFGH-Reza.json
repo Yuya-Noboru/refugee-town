@@ -1,32 +1,58 @@
 {
-	"rfghReza" :{
-		"class" :				"rfghcEnchanterM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgcGolem-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgcGolem-large.png",
-			"small" : 			"heroes/portraits/RFGH-Reza-small.png",
-			"large" : 			"heroes/portraits/RFGH-Reza-big.png"},
+	"rfghReza" : {
+		"class" : "rfghcEnchanterM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgcGolem-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgcGolem-large.png",
+			"small" : "heroes/portraits/RFGH-Reza-small.png",
+			"large" : "heroes/portraits/RFGH-Reza-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature" :	"goldGolem",		"min" :	1,	"max" :	2 },
-				{ "creature" :	"goldGolem",		"min" :	1,	"max" :	2 }],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goldGolem",
+				"min" : 1,
+				"max" : 2
+			},
+			{
+				"creature" : "goldGolem",
+				"min" : 1,
+				"max" : 2
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"wisdom" },
-				{ "level" :		"basic",	"skill" :	"resistance" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
 
-		"spellbook" : ["rfgsEmet"],
-		"specialty" : {"creature" : "goldGolem"},
+		"spellbook" : [
+			"rfgsEmet"
+		],
+		"specialty" : {
+			"creature" : "goldGolem"
+		},
 
-		"texts":{
-			"name" :			"Reza",
-			"biography" :		"Reza, forged from the very essence of magic and metal, is deeply marked by his needs to comprehend emotions of living beings, forever beyond his grasp. Tasked with meticulous craft inside the golem factory, amidst the clangor of gears and the hiss of steam, a silent longing stirs within him.",
-			"specialty" :{
-				"name" :		"Gold Golems",
-				"tooltip" :		"Creature bonus: Gold Golems",
-				"description" :	"Increases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
-		}}
+		"texts" : {
+			"name" : "Reza",
+			"biography" : "Reza, forged from the very essence of magic and metal, is deeply marked by his needs to comprehend emotions of living beings, forever beyond his grasp. Tasked with meticulous craft inside the golem factory, amidst the clangor of gears and the hiss of steam, a silent longing stirs within him.",
+			"specialty" : {
+				"name" : "Gold Golems",
+				"tooltip" : "Creature bonus: Gold Golems",
+				"description" : "Increases the Attack and Defense skills of any Gold Golem or Diamond Golem for each level attained after 5th level."
+			}
+		}
 	}
 }

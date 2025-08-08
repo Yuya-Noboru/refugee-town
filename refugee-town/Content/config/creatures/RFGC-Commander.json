@@ -1,60 +1,100 @@
 {
-	"rfgcCommander":{
-		"name" :{
-			"plural" :	"Roving Enchanters",
-			"singular":	"Roving Enchanter"},
-		"faction" :		"refugee",
-		"special":		true,
+	"rfgcCommander" : {
+		"name" : {
+			"plural" : "Roving Enchanters",
+			"singular" : "Roving Enchanter"
+		},
+		"faction" : "refugee",
+		"special" : true,
 
-		"level" :		0,
-		"attack" :		5,
-		"defense" : 	5,
-		"damage" :		{ "min" : 6, "max" : 12 },
-		"hitPoints" :	40,
-		"speed" : 		4,
-		"shots" : 		24,
-		"growth" : 		9,
-		"fightValue" :	130,
-		"aiValue" : 	156,
-		"doubleWide" :	false,
+		"level" : 0,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"hitPoints" : 40,
+		"speed" : 4,
+		"shots" : 24,
+		"growth" : 9,
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"doubleWide" : false,
 		"cost" : {
 			"gold" : 2000
 		},
-		"graphics" :{
-			"animationTime" :{ 		"attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :			"creatures/RFGCB-CDR.def",
-			"map" :					"creatures/RFGCA-CDR.def",
-			"iconSmall" :			"icons/RFGCC-PS.png",
-			"iconLarge" :			"icons/RFGCC-PB.png",
-			"timeBetweenFidgets" :	1,
-			"missile" :{
-				"projectile" :		"CPRZEAX.DEF",
-				"attackClimaxFrame":7,
-				"offset" :{
-					"upperX" :		 38,
-					"upperY" :		-65,
-					"middleX" :		 36,
-					"middleY" :		-59,
-					"lowerX" :		 21,
-					"lowerY" :		-50},
-				"frameAngles" :		[90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-		}},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-CDR.def",
+			"map" : "creatures/RFGCA-CDR.def",
+			"iconSmall" : "icons/RFGCC-PS.png",
+			"iconLarge" : "icons/RFGCC-PB.png",
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
 
-		"sound" :{
-			"attack":	"ZELTATTK.wav",
-			"defend":	"ZELTDFND.wav",
-			"killed":	"ZELTKILL.wav",
-			"move":		"ZELTMOVE.wav",
-			"shoot":	"ZELTSHOT.wav",
-			"wince":	"ZELTWNCE.wav"},
+		"sound" : {
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "ZELTWNCE.wav"
+		},
 
-		"abilities" :{
-			"magicResistance":{ "type" : "SPELL_DAMAGE_REDUCTION", "subtype" : "any", "val" : 5},
-			"castsAmount":{		"type" :	"CASTS",					"val" : 1},
-			"enchant":{			"type" :	"CREATURE_ENCHANT_POWER",	"val" : 1},
-			"spellpower":{		"type" :	"CREATURE_SPELL_POWER",		"val" : 100},
-			"canCast":{			"type" : 	"SPELLCASTER",
-								"subtype":	"rfgsAmad",			"val" : 3}
+		"abilities" : {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 5
+			},
+			"castsAmount" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "rfgsAmad",
+				"val" : 3
+			}
 		}
 	}
 }

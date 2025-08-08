@@ -1,19 +1,25 @@
 {
-	"core:diamondGolem":{
-		"advMapAmount" :{"min" : 8,	"max" : 12},
-		"faction" :		"refugee",
-		"level" :		5,
-		"speed" :		7,
-		"growth" :		3,
-		"horde":		2,
-		"fightValue" :	675,
-		"aiValue" :		675,
-		"cost" :		{ "gold" : 650 },
-		"graphics" :{
-			"animation" :		"creatures/RFGCB-L5U.def",
-			"map" :				"creatures/RFGCA-L5U.def",
-			"iconSmall" :		"icons/RFGC5U-PS.png",
-			"iconLarge" :		"icons/RFGC5U-PB.png",
-			"timeBetweenFidgets" : 1}
+	"core:diamondGolem" : {
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"faction" : "refugee",
+		"level" : 5,
+		"speed" : 7,
+		"growth" : 3,
+		"horde" : 2,
+		"fightValue" : 675,
+		"aiValue" : 675,
+		"cost" : {
+			"gold" : 650
+		},
+		"graphics" : {
+			"animation" : "creatures/RFGCB-L5U.def",
+			"map" : "creatures/RFGCA-L5U.def",
+			"iconSmall" : "icons/RFGC5U-PS.png",
+			"iconLarge" : "icons/RFGC5U-PB.png",
+			"timeBetweenFidgets" : 1
+		}
 	}
 }

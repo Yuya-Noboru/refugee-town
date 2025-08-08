@@ -1,68 +1,108 @@
 {
-	"rfgsSiguP":{
-		"name":						"Šigû",
-		"type":						"combat",
-		"targetType" :				"CREATURE",
-		"targetCondition" :{
-			"noneOf" :{				"bonus.SIEGE_WEAPON" :	"absolute"}},
-
-		"school":{
-			"air":					true,
-			"earth":				false,
-			"fire":					false,
-			"water":				false},
-
-		"level":					3,
-		"power":					10,
-		"defaultGainChance": 		0,
-		"gainChance":{
-			"castle":				0,
-			"rampart":				0,
-			"refugee" :				10},
-
-		"animation":				{"affect":[	"spells/SIGU.DEF"]},
-		"sounds": 					{"cast": 	"spells/SIGU.WAV"},
-		"flags" :					{"negative":true},
-
-		"graphics":{
-			"iconBook":				"spells/Sigu0.png",
-			"iconScroll":			"spells/Sigu1.png",
-			"iconScenarioBonus":	"spells/Sigu2.png",
-			"iconEffect": 			"spells/Sigu3.png"},
-
-		"levels":{
-			"base":{
-				"power":			10,
-//				"aiValue":			14,
-				"cost":				18,
-				"range":			"0",
-				"targetModifier":	{"smart":true},
-				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :	-1,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :	-1,	"duration":	"N_TURNS"}}
-			},				
-
-			"none":{
-				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 1."},
-
-			"basic":{
-				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 1."},
-
-			"advanced":{
-				"description": 		"{Šigû}\n\nDecreases selected's unit's luck and morale by 2.",
-				"effects" :{
-					"luck" :{		"val" :	-2},
-					"morale" :{		"val" :	-2}}},
-					
-			"expert":{
-				"description": 		"{Šigû}\n\nReduces the luck and morale of all enemy's units by 2.",
-				"range":			"X",
-				"effects" :{
-					"luck" :{		"val" :	-2},
-					"morale" :{		"val" :	-2}}
+	"rfgsSiguP" : {
+		"name" : "Šigû",
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
 
-		"counters" : {	"spell.rfgsNamburbi":	true}
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"refugee" : 10
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/SIGU.DEF"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/SIGU.WAV"
+		},
+		"flags" : {
+			"negative" : true
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/Sigu0.png",
+			"iconScroll" : "spells/Sigu1.png",
+			"iconScenarioBonus" : "spells/Sigu2.png",
+			"iconEffect" : "spells/Sigu3.png"
+		},
+
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue":			14,
+				"cost" : 18,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"luck" : {
+						"type" : "LUCK",
+						"val" : -1,
+						"duration" : "N_TURNS"
+					},
+					"morale" : {
+						"type" : "MORALE",
+						"val" : -1,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+
+			"none" : {
+				"description" : "{Šigû}\n\nDecreases selected's unit's luck and morale by 1."
+			},
+
+			"basic" : {
+				"description" : "{Šigû}\n\nDecreases selected's unit's luck and morale by 1."
+			},
+
+			"advanced" : {
+				"description" : "{Šigû}\n\nDecreases selected's unit's luck and morale by 2.",
+				"effects" : {
+					"luck" : {
+						"val" : -2
+					},
+					"morale" : {
+						"val" : -2
+					}
+				}
+			},
+
+			"expert" : {
+				"description" : "{Šigû}\n\nReduces the luck and morale of all enemy's units by 2.",
+				"range" : "X",
+				"effects" : {
+					"luck" : {
+						"val" : -2
+					},
+					"morale" : {
+						"val" : -2
+					}
+				}
+			}
+		},
+
+		"counters" : {
+			"spell.rfgsNamburbi" : true
+		}
 	}
 }

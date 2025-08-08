@@ -1,43 +1,62 @@
 {
-	"rfgcOvercomer":{
-		"name" :{
-			"plural" :	"Overcomers",
-			"singular" :"Overcomer"},
-		"advMapAmount" :{"min" : 20,	"max" : 50},
-		"faction" :		"refugee",
-		"upgrades":		["rfgcSurvivor"],
-		"level" :		1,
-		"attack" :		4,
-		"defense" : 	2,
-		"damage" :		{ "min" : 1, "max" : 3 },
-		"hitPoints" :	4,
-		"speed" : 		4,
-		"growth" : 		18,
-		"horde":		8,
-		"fightValue" :	74,
-		"aiValue" : 	62,
-		"cost" : 		{ "gold" : 35 },
-		"doubleWide" :	false,
+	"rfgcOvercomer" : {
+		"name" : {
+			"plural" : "Overcomers",
+			"singular" : "Overcomer"
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"faction" : "refugee",
+		"upgrades" : [
+			"rfgcSurvivor"
+		],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"hitPoints" : 4,
+		"speed" : 4,
+		"growth" : 18,
+		"horde" : 8,
+		"fightValue" : 74,
+		"aiValue" : 62,
+		"cost" : {
+			"gold" : 35
+		},
+		"doubleWide" : false,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L1L.def",
-			"map" :				"creatures/RFGCA-L1L.def",
-			"iconSmall" :		"icons/RFGC1L-PS.png",
-			"iconLarge" :		"icons/RFGC1L-PB.png",
-            "timeBetweenFidgets" : 1},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L1L.def",
+			"map" : "creatures/RFGCA-L1L.def",
+			"iconSmall" : "icons/RFGC1L-PS.png",
+			"iconLarge" : "icons/RFGC1L-PB.png",
+			"timeBetweenFidgets" : 1
+		},
 
-		"sound" :{
-			"attack":			"PSNTATTK.wav",
-			"defend":			"PSNTDFND.wav",
-			"killed":			"PSNTKILL.wav",
-			"move":				"PSNTMOVE.wav",
-			"wince":			"PSNTWNCE.wav"},
+		"sound" : {
+			"attack" : "PSNTATTK.wav",
+			"defend" : "PSNTDFND.wav",
+			"killed" : "PSNTKILL.wav",
+			"move" : "PSNTMOVE.wav",
+			"wince" : "PSNTWNCE.wav"
+		},
 
-		"abilities":{
-			"enchantSlayer":{
-				"type" :		"ENCHANTED",
-				"subtype":		"slayer",
-				"val" :			1}}
+		"abilities" : {
+			"enchantSlayer" : {
+				"type" : "ENCHANTED",
+				"subtype" : "slayer",
+				"val" : 1
+			}
+		}
 	}
 }

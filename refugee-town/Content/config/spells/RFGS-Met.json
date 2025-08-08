@@ -1,71 +1,98 @@
 {
-	"rfgsMet":{
-		"name":						"Met",
-		"type":						"combat",
-		"targetType" :				"CREATURE",
-		"targetCondition" :{
-			"allOf" :{
-				"core:bonus.NON_LIVING":					"absolute"},
-			"anyOf" :{
-				"refugee-town:creature.rfgcFleshGolem":		"absolute",
-				"core:creature.ironGolem":					"absolute",
-				"core:creature.stoneGolem":					"absolute",
-				"core:creature.goldGolem":					"absolute",
-				"core:creature.diamondGolem":				"absolute"},
-			"noneOf" :{
-				"core:bonus.SIEGE_WEAPON" : 				"absolute",
-				"core:bonus.UNDEAD" : 						"absolute",
-				"core:bonus.GARGOYLE" : 					"absolute"}},
+	"rfgsMet" : {
+		"name" : "Met",
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"allOf" : {
+				"core:bonus.NON_LIVING" : "absolute"
+			},
+			"anyOf" : {
+				"refugee-town:creature.rfgcFleshGolem" : "absolute",
+				"core:creature.ironGolem" : "absolute",
+				"core:creature.stoneGolem" : "absolute",
+				"core:creature.goldGolem" : "absolute",
+				"core:creature.diamondGolem" : "absolute"
+			},
+			"noneOf" : {
+				"core:bonus.SIEGE_WEAPON" : "absolute",
+				"core:bonus.UNDEAD" : "absolute",
+				"core:bonus.GARGOYLE" : "absolute"
+			}
+		},
 
-		"school":{
-			"air":					false,
-			"earth":				false,
-			"fire":					true,
-			"water":				false},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
 
-		"level":					2,
-		"power":					3,
-		"defaultGainChance": 		1,
-		"gainChance":{
-			"castle" :				1,
-			"rampart" :				1,
-			"tower" :				10,
-			"inferno" :				1,
-			"necropolis" :			1,
-			"dungeon" :				1,
-			"stronghold" :			1,
-			"fortress" :			1,
-			"conflux" :				5,
-			"refugee" :				25},
+		"level" : 2,
+		"power" : 3,
+		"defaultGainChance" : 1,
+		"gainChance" : {
+			"castle" : 1,
+			"rampart" : 1,
+			"tower" : 10,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"dungeon" : 1,
+			"stronghold" : 1,
+			"fortress" : 1,
+			"conflux" : 5,
+			"refugee" : 25
+		},
 
-		"animation":				{"affect":[	"spells/MET.def"]},
-		"sounds": 					{"cast": 	"spells/MET.WAV"},
-		"flags" :					{"negative":true},
+		"animation" : {
+			"affect" : [
+				"spells/MET.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/MET.WAV"
+		},
+		"flags" : {
+			"negative" : true
+		},
 
-		"graphics":{
-			"iconBook":				"spells/Met0.png",
-			"iconScroll":			"spells/Met1.png",
-			"iconScenarioBonus":	"spells/Met2.png",
-			"iconEffect": 			"spells/Met3.png"},
+		"graphics" : {
+			"iconBook" : "spells/Met0.png",
+			"iconScroll" : "spells/Met1.png",
+			"iconScenarioBonus" : "spells/Met2.png",
+			"iconEffect" : "spells/Met3.png"
+		},
 
-		"levels":{
-			"base":{
-				"description": 			"{Met}\n\nInflicts terrible damage to the targeted golem.",
-				"cost":					20,
-//				"aiValue":				14,
-				"range":				"0",
-				"targetModifier":		{"smart":true},
+		"levels" : {
+			"base" : {
+				"description" : "{Met}\n\nInflicts terrible damage to the targeted golem.",
+				"cost" : 20,
+				//				"aiValue":				14,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
 
-				"battleEffects" :{
-					"destruction" :{
-						"type" :		"core:damage",
-						"killByCount":	true
-				}}},
+				"battleEffects" : {
+					"destruction" : {
+						"type" : "core:damage",
+						"killByCount" : true
+					}
+				}
+			},
 
-			"none":{	"power":	1},
-			"basic":{	"power":	1},
-			"advanced":{"power":	2},		
-			"expert":{	"power":	3}
+			"none" : {
+				"power" : 1
+			},
+			"basic" : {
+				"power" : 1
+			},
+			"advanced" : {
+				"power" : 2
+			},
+			"expert" : {
+				"power" : 3
+			}
 		}
 	}
 }

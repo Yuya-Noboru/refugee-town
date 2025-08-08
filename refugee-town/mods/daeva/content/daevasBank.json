@@ -1,11 +1,16 @@
 {
-	"core:creatureBank":{
-		"types":{
-			"rfgaDaevasBank":{
-				"name" :			"Mysterious Lamp",
+	"core:creatureBank" : {
+		"types" : {
+			"rfgaDaevasBank" : {
+				"name" : "Mysterious Lamp",
 				"sounds" : {
-					"ambient" :		["LOOPMAGI"],
-					"visit" :		["hotaLamp"]},
+					"ambient" : [
+						"LOOPMAGI"
+					],
+					"visit" : [
+						"hotaLamp"
+					]
+				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
@@ -13,83 +18,287 @@
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
 				"rmg" : {
-					"value" :		2000,
-					"rarity" :		100,
-//					"zoneLimit" :	1
-					},
+					"value" : 2000,
+					"rarity" : 100
+					//					"zoneLimit" :	1
+				},
 
 				"templates" : {
-					"base" : { "animation":	"daevaBank.def", 
-					"visitableFrom" :		[ "+++", "+++", "+++" ],
-					"mask" :				["VAV"],
-					"allowedTerrains":		["grass", "rough", "dirt", "sand"]}},
+					"base" : {
+						"animation" : "daevaBank.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"grass",
+							"rough",
+							"dirt",
+							"sand"
+						]
+					}
+				},
 
-				"rewards":[
-// ---------------------------------------------------------------------------------------------------
-					{	"appearChance":		{	"min":	0,	"max":	30},
+				"rewards" : [
+					// ---------------------------------------------------------------------------------------------------
+					{
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"message" : 34,
-						"guards":[
-								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 10 },
-								 {	"amount":	11,	"type":	"efreet"	, "upgradeChance": 10 },
-								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 40 },
-								 {	"amount":	11,	"type":	"efreet"	, "upgradeChance": 10 },
-								 {	"amount":	11,	"type":	"genie"		, "upgradeChance": 10 }
-								],
-						"spells" :	[{	"level" : 4 }],
-						"creatures":[{	"amount": 25,	"type":	   "masterGenie" }],
-						"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}},
-// ---------------------------------------------------------------------------------------------------
-					{	"appearChance":		{	"min":	30,	"max":	60},
+						"guards" : [
+							{
+								"amount" : 11,
+								"type" : "genie",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 11,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 11,
+								"type" : "genie",
+								"upgradeChance" : 40
+							},
+							{
+								"amount" : 11,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 11,
+								"type" : "genie",
+								"upgradeChance" : 10
+							}
+						],
+						"spells" : [
+							{
+								"level" : 4
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 25,
+								"type" : "masterGenie"
+							}
+						],
+						"resources" : {
+							"gems" : 7,
+							"mercury" : 7,
+							"crystal" : 7
+						}
+					},
+					// ---------------------------------------------------------------------------------------------------
+					{
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"message" : 34,
-						"guards":[
-								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 10},
-								 {	"amount":	22,	"type":	"efreet"	, "upgradeChance": 10},
-								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 40},
-								 {	"amount":	22,	"type":	"efreet"	, "upgradeChance": 10},
-								 {	"amount":	22,	"type":	"genie"		, "upgradeChance": 10}
-								],
-						"creatures":[{	"amount": 50,	"type":	   "masterGenie" }],
-						"spells" :	[{	"level" : 5 }],
-						"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}},
-// ---------------------------------------------------------------------------------------------------
-					{	"appearChance":		{	"min":	60,	"max":	85},
+						"guards" : [
+							{
+								"amount" : 22,
+								"type" : "genie",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 22,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 22,
+								"type" : "genie",
+								"upgradeChance" : 40
+							},
+							{
+								"amount" : 22,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 22,
+								"type" : "genie",
+								"upgradeChance" : 10
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 50,
+								"type" : "masterGenie"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 5
+							}
+						],
+						"resources" : {
+							"gems" : 7,
+							"mercury" : 7,
+							"crystal" : 7
+						}
+					},
+					// ---------------------------------------------------------------------------------------------------
+					{
+						"appearChance" : {
+							"min" : 60,
+							"max" : 85
+						},
 						"message" : 34,
-						"guards":[
-								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 10},
-								 {	"amount":	33,	"type":	"efreet"	, "upgradeChance": 10},
-								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 40},
-								 {	"amount":	33,	"type":	"efreet"	, "upgradeChance": 10},
-								 {	"amount":	33,	"type":	"genie"		, "upgradeChance": 10}
-								],
-						"creatures":[{	"amount": 1,	"type":	   "creature.rfgcDaeva" }],
-						"spells" :	[{	"level" : 5 }],
-						"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}},
-// ---------------------------------------------------------------------------------------------------							
-					{	"appearChance":		{	"min":	85,	"max":	95},
+						"guards" : [
+							{
+								"amount" : 33,
+								"type" : "genie",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 33,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 33,
+								"type" : "genie",
+								"upgradeChance" : 40
+							},
+							{
+								"amount" : 33,
+								"type" : "efreet",
+								"upgradeChance" : 10
+							},
+							{
+								"amount" : 33,
+								"type" : "genie",
+								"upgradeChance" : 10
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 1,
+								"type" : "creature.rfgcDaeva"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 5
+							}
+						],
+						"resources" : {
+							"gems" : 7,
+							"mercury" : 7,
+							"crystal" : 7
+						}
+					},
+					// ---------------------------------------------------------------------------------------------------
+					{
+						"appearChance" : {
+							"min" : 85,
+							"max" : 95
+						},
 						"message" : 34,
-						"guards":[
-								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 20},
-								 {	"amount":	44,	"type":	"efreet"	, "upgradeChance": 20},
-								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 60},
-								 {	"amount":	44,	"type":	"efreet"	, "upgradeChance": 20},
-								 {	"amount":	44,	"type":	"genie"		, "upgradeChance": 20}
-								],
-						"creatures":[{	"amount": 2,	"type":	   "creature.rfgcDaeva" }],
-						"spells" :	[{	"level" : 5 }],
-						"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}},
-// ---------------------------------------------------------------------------------------------------							
-					{	"appearChance":		{	"min":	95,	"max":	100},
+						"guards" : [
+							{
+								"amount" : 44,
+								"type" : "genie",
+								"upgradeChance" : 20
+							},
+							{
+								"amount" : 44,
+								"type" : "efreet",
+								"upgradeChance" : 20
+							},
+							{
+								"amount" : 44,
+								"type" : "genie",
+								"upgradeChance" : 60
+							},
+							{
+								"amount" : 44,
+								"type" : "efreet",
+								"upgradeChance" : 20
+							},
+							{
+								"amount" : 44,
+								"type" : "genie",
+								"upgradeChance" : 20
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "creature.rfgcDaeva"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 5
+							}
+						],
+						"resources" : {
+							"gems" : 7,
+							"mercury" : 7,
+							"crystal" : 7
+						}
+					},
+					// ---------------------------------------------------------------------------------------------------
+					{
+						"appearChance" : {
+							"min" : 95,
+							"max" : 100
+						},
 						"message" : 34,
-						"guards":[
-								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66},
-								 {	"amount":	77,	"type":	"efreet"	, "upgradeChance": 33},
-								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66},
-								 {	"amount":	77,	"type":	"efreet"	, "upgradeChance": 33},
-								 {	"amount":	77,	"type":	"genie"		, "upgradeChance": 66}
-								],
-						"creatures":[{	"amount": 4,	"type":	   "creature.rfgcDaeva" }],
-						"spells" :	[{	"level" : 5 }],
-						"resources":{	"gems" :  7,	"mercury": 7,	"crystal" : 7}}
+						"guards" : [
+							{
+								"amount" : 77,
+								"type" : "genie",
+								"upgradeChance" : 66
+							},
+							{
+								"amount" : 77,
+								"type" : "efreet",
+								"upgradeChance" : 33
+							},
+							{
+								"amount" : 77,
+								"type" : "genie",
+								"upgradeChance" : 66
+							},
+							{
+								"amount" : 77,
+								"type" : "efreet",
+								"upgradeChance" : 33
+							},
+							{
+								"amount" : 77,
+								"type" : "genie",
+								"upgradeChance" : 66
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "creature.rfgcDaeva"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 5
+							}
+						],
+						"resources" : {
+							"gems" : 7,
+							"mercury" : 7,
+							"crystal" : 7
+						}
+					}
 				]
 			}
 		}

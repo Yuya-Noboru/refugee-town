@@ -1,33 +1,55 @@
 {
-	"rfghSoraya" :{
-		"class" :				"rfghcWandererF",
-		"female" :				true,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-logistic-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-logistic-large.png",
-			"small" : 			"heroes/portraits/RFGH-Soraya-small.png",
-			"large" : 			"heroes/portraits/RFGH-Soraya-big.png"},
+	"rfghSoraya" : {
+		"class" : "rfghcWandererF",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-logistic-small.png",
+			"specialtyLarge" : "heroes/specs/spec-logistic-large.png",
+			"small" : "heroes/portraits/RFGH-Soraya-small.png",
+			"large" : "heroes/portraits/RFGH-Soraya-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rogue",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"logistics" },
-				{ "level" :		"basic",	"skill" :	"pathfinding" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
 
 		"specialty" : {
 			"secondary" : "logistics"
 		},
 
-		"texts":{
-			"name" :			"Soraya",
-			"biography" :		"Known as the queen of Logistics inside Refuge, Soraya leads her kingdom’s nomadic tribes with unparalleled skill and foresight. With Soraya at the helm, her people move with efficiency, ready to face any challenge that lies ahead.",
-			"specialty" :{
-				"name" :		"Logistics",
-				"tooltip" :		"Secondary Skill Bonus: Logistics",
-				"description" :	"Receives a 5% per level bonus to Logistics skill percentage."
-		}}
+		"texts" : {
+			"name" : "Soraya",
+			"biography" : "Known as the queen of Logistics inside Refuge, Soraya leads her kingdom’s nomadic tribes with unparalleled skill and foresight. With Soraya at the helm, her people move with efficiency, ready to face any challenge that lies ahead.",
+			"specialty" : {
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage."
+			}
+		}
 	}
 }

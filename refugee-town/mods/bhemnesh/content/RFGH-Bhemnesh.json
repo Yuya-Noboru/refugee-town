@@ -1,36 +1,63 @@
 {
-	"rfghBhemnesh" :{
-		"class" :				"rfghcEnchanterM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgNecrolem-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgNecrolem-large.png",
-			"small" : 			"heroes/portraits/RFGH-Bhemnesh-small.png",
-			"large" : 			"heroes/portraits/RFGH-Bhemnesh-big.png"},
+	"rfghBhemnesh" : {
+		"class" : "rfghcEnchanterM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgNecrolem-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgNecrolem-large.png",
+			"small" : "heroes/portraits/RFGH-Bhemnesh-small.png",
+			"large" : "heroes/portraits/RFGH-Bhemnesh-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rfgcFleshGolem", 	"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcFleshGolem", 	"min":	5,	"max" :	7	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rfgcFleshGolem",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcFleshGolem",
+				"min" : 5,
+				"max" : 7
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"necromancy" },
-				{ "level" :		"basic",	"skill" :	"earthMagic" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
 
-		"spellbook" :[ 			"rfgsAmad"],
+		"spellbook" : [
+			"rfgsAmad"
+		],
 		"specialty" : {
-			"bonuses" :{
-				"necrolem":{
-					"type" :	"IMPROVED_NECROMANCY",
-					"subtype" :	"rfgcFleshGolem"}}},
+			"bonuses" : {
+				"necrolem" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "rfgcFleshGolem"
+				}
+			}
+		},
 
-		"texts":{
-			"name" :			"Bhemnesh",
-			"biography" :		"Drawn to the arcane mysteries of necromancy and the intricacies of golem craftsmanship, Bhemnesh dedicates his life to unraveling the secrets that bind life and death with an insatiable curiosity and keen intellect.",
-			"specialty" :{
-				"name" :		"Necrolem",
-				"tooltip" :		"Special Bonus: Necrolem",
-				"description" :"Raises killed enemy creatures into Flesh Golems."
-		}}
+		"texts" : {
+			"name" : "Bhemnesh",
+			"biography" : "Drawn to the arcane mysteries of necromancy and the intricacies of golem craftsmanship, Bhemnesh dedicates his life to unraveling the secrets that bind life and death with an insatiable curiosity and keen intellect.",
+			"specialty" : {
+				"name" : "Necrolem",
+				"tooltip" : "Special Bonus: Necrolem",
+				"description" : "Raises killed enemy creatures into Flesh Golems."
+			}
+		}
 	}
 }

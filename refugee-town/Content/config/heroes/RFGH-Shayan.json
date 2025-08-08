@@ -1,36 +1,57 @@
 {
-	"rfghShayan" :{
-		"class" :				"rfghcWandererM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgcMotleyArmy-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgcMotleyArmy-large.png",
-			"small" : 			"heroes/portraits/RFGH-Shayan-small.png",
-			"large" : 			"heroes/portraits/RFGH-Shayan-big.png"},
+	"rfghShayan" : {
+		"class" : "rfghcWandererM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgcMotleyArmy-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgcMotleyArmy-large.png",
+			"small" : "heroes/portraits/RFGH-Shayan-small.png",
+			"large" : "heroes/portraits/RFGH-Shayan-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rogue",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[{
-				  "level" :		"advanced",	"skill":	"diplomacy" }],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "diplomacy"
+			}
+		],
 
-		"specialty":{
-			"bonuses" :{
-				"selfMorale":{
-					"type" :		"MORALE",
-					"val" : 		0,
-					"valueType" : 	"INDEPENDENT_MAX"}
-		}},
-					
-		"texts":{
-			"name" :			"Shayan",
-			"biography" :		"In the crucible of conflict, bereft of his throne and people, Shayan’s spirit remained unbroken. Fueled by a solemn vow to forge a new sanctuary for the left behind, he united others by his vision. Thus, Refuge blossomed into a beacon of hope, embodying the resilience and unity of those who refused to yield to the ravages of despair.",
-			"specialty" :{
-				"name" :		"Motley Army",
-				"tooltip" :		"Special bonus: Motley Army",
+		"specialty" : {
+			"bonuses" : {
+				"selfMorale" : {
+					"type" : "MORALE",
+					"val" : 0,
+					"valueType" : "INDEPENDENT_MAX"
+				}
+			}
+		},
+
+		"texts" : {
+			"name" : "Shayan",
+			"biography" : "In the crucible of conflict, bereft of his throne and people, Shayan’s spirit remained unbroken. Fueled by a solemn vow to forge a new sanctuary for the left behind, he united others by his vision. Thus, Refuge blossomed into a beacon of hope, embodying the resilience and unity of those who refused to yield to the ravages of despair.",
+			"specialty" : {
+				"name" : "Motley Army",
+				"tooltip" : "Special bonus: Motley Army",
 				"description" : "All creatures are unaffected by negative morale."
-		}}
+			}
+		}
 	}
 }

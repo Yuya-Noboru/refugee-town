@@ -1,145 +1,342 @@
 {
-	"refugee" :{
-		"town" :{
-			"structures":{			
-				"villageHall":    { "animation" :	"townscreen/RFGB-HALL1.def",			"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-HALL1.bmp",
-									"area" :		"townscreen/RFGBA-HALL1.bmp" },
-				"townHall":       { "animation" :	"townscreen/RFGB-HALL2.def",			"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-HALL2.bmp",
-									"area" :		"townscreen/RFGBA-HALL2.bmp" },
-				"cityHall":       { "animation" :	"townscreen/RFGB-HALL3.def",			"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-HALL3.bmp",
-									"area" :		"townscreen/RFGBA-HALL3.bmp" },
-				"capitol":        { "animation" :	"townscreen/RFGB-HALL4.def",			"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-HALL4.bmp",
-									"area" :		"townscreen/RFGBA-HALL4.bmp" },
-									
-				"fort":           { "animation" :	"townscreen/RFGB-CASTLE1.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-CASTLE1.bmp",
-									"area" :		"townscreen/RFGBA-CASTLE1.bmp" },
-				"citadel":        { "animation" :	"townscreen/RFGB-CASTLE2.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-CASTLE2.bmp",
-									"area" :		"townscreen/RFGBA-CASTLE2.bmp" },
-				"castle":         { "animation" :	"townscreen/RFGB-CASTLE3.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-CASTLE3.bmp",
-									"area" :		"townscreen/RFGBA-CASTLE3.bmp" },
+	"refugee" : {
+		"town" : {
+			"structures" : {
+				"villageHall" : {
+					"animation" : "townscreen/RFGB-HALL1.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-HALL1.bmp",
+					"area" : "townscreen/RFGBA-HALL1.bmp"
+				},
+				"townHall" : {
+					"animation" : "townscreen/RFGB-HALL2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-HALL2.bmp",
+					"area" : "townscreen/RFGBA-HALL2.bmp"
+				},
+				"cityHall" : {
+					"animation" : "townscreen/RFGB-HALL3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-HALL3.bmp",
+					"area" : "townscreen/RFGBA-HALL3.bmp"
+				},
+				"capitol" : {
+					"animation" : "townscreen/RFGB-HALL4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-HALL4.bmp",
+					"area" : "townscreen/RFGBA-HALL4.bmp"
+				},
 
-				"tavern":         { "animation" :	"townscreen/RFGB-COMMON-TAVERN.def",		"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-COMMON-TAVERN.bmp",
-									"area" :		"townscreen/RFGBA-COMMON-TAVERN.bmp" },
-				"blacksmith":     { "animation" :	"townscreen/RFGB-COMMON-BLACKSMITH.def",	"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-COMMON-BLACKSMITH.bmp",
-									"area" :		"townscreen/RFGBA-COMMON-BLACKSMITH.bmp"},
-				"marketplace":    { "animation" :	"townscreen/RFGB-COMMON-MARKETPLACE.def",	"x":0,"y":0,"z":2,
-									"border" :		"townscreen/RFGBB-COMMON-MARKETPLACE.bmp",
-									"area" :		"townscreen/RFGBA-COMMON-MARKETPLACE.bmp"},
-				"resourceSilo":   { "animation" :	"townscreen/RFGB-COMMON-MARKETSILO.def",	"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-COMMON-MARKETSILO.bmp",
-									"area" :		"townscreen/RFGBA-COMMON-MARKETSILO.bmp"},
+				"fort" : {
+					"animation" : "townscreen/RFGB-CASTLE1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-CASTLE1.bmp",
+					"area" : "townscreen/RFGBA-CASTLE1.bmp"
+				},
+				"citadel" : {
+					"animation" : "townscreen/RFGB-CASTLE2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-CASTLE2.bmp",
+					"area" : "townscreen/RFGBA-CASTLE2.bmp"
+				},
+				"castle" : {
+					"animation" : "townscreen/RFGB-CASTLE3.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-CASTLE3.bmp",
+					"area" : "townscreen/RFGBA-CASTLE3.bmp"
+				},
 
-				"mageGuild1":     { "animation" :	"townscreen/RFGB-MG1.def",				"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-MG1.bmp",
-									"area" :		"townscreen/RFGBA-MG1.bmp" },
-				"mageGuild2":     { "animation" :	"townscreen/RFGB-MG2.def",				"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-MG2.bmp",
-									"area" :		"townscreen/RFGBA-MG2.bmp" },
-				"mageGuild3":     { "animation" :	"townscreen/RFGB-MG3.def",				"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-MG3.bmp",
-									"area" :		"townscreen/RFGBA-MG3.bmp" },
-				"mageGuild4":     { "animation" :	"townscreen/RFGB-MG4.def",				"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-MG4.bmp",
-									"area" :		"townscreen/RFGBA-MG4.bmp" },
-				"mageGuild5":     { "animation" :	"townscreen/RFGB-MG5.def",				"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-MG5.bmp",
-									"area" :		"townscreen/RFGBA-MG5.bmp" },
+				"tavern" : {
+					"animation" : "townscreen/RFGB-COMMON-TAVERN.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-COMMON-TAVERN.bmp",
+					"area" : "townscreen/RFGBA-COMMON-TAVERN.bmp"
+				},
+				"blacksmith" : {
+					"animation" : "townscreen/RFGB-COMMON-BLACKSMITH.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-COMMON-BLACKSMITH.bmp",
+					"area" : "townscreen/RFGBA-COMMON-BLACKSMITH.bmp"
+				},
+				"marketplace" : {
+					"animation" : "townscreen/RFGB-COMMON-MARKETPLACE.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "townscreen/RFGBB-COMMON-MARKETPLACE.bmp",
+					"area" : "townscreen/RFGBA-COMMON-MARKETPLACE.bmp"
+				},
+				"resourceSilo" : {
+					"animation" : "townscreen/RFGB-COMMON-MARKETSILO.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-COMMON-MARKETSILO.bmp",
+					"area" : "townscreen/RFGBA-COMMON-MARKETSILO.bmp"
+				},
 
-				"special1":       { "animation" :	"townscreen/RFGB-SPECIAL1.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-SPECIAL1.bmp",
-									"area" :		"townscreen/RFGBA-SPECIAL1.bmp" },
-				"special2":       { "animation" :	"townscreen/RFGB-SPECIAL2.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-SPECIAL2.bmp",
-									"area" :		"townscreen/RFGBA-SPECIAL2.bmp" },
-				"special3":       { "animation" :	"townscreen/RFGB-SPECIAL3.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-SPECIAL3.bmp",
-									"area" :		"townscreen/RFGBA-SPECIAL3.bmp" },
-				"grail":          { "animation" :	"townscreen/RFGB-GRAIL.def",			"x":0,"y":0,"z":1,
-									"border" :		"townscreen/RFGBB-GRAIL.bmp",
-									"area" :		"townscreen/RFGBA-GRAIL.bmp" },
+				"mageGuild1" : {
+					"animation" : "townscreen/RFGB-MG1.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-MG1.bmp",
+					"area" : "townscreen/RFGBA-MG1.bmp"
+				},
+				"mageGuild2" : {
+					"animation" : "townscreen/RFGB-MG2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-MG2.bmp",
+					"area" : "townscreen/RFGBA-MG2.bmp"
+				},
+				"mageGuild3" : {
+					"animation" : "townscreen/RFGB-MG3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-MG3.bmp",
+					"area" : "townscreen/RFGBA-MG3.bmp"
+				},
+				"mageGuild4" : {
+					"animation" : "townscreen/RFGB-MG4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-MG4.bmp",
+					"area" : "townscreen/RFGBA-MG4.bmp"
+				},
+				"mageGuild5" : {
+					"animation" : "townscreen/RFGB-MG5.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-MG5.bmp",
+					"area" : "townscreen/RFGBA-MG5.bmp"
+				},
 
-				"horde1":         { "animation" :	"townscreen/RFGB-LVL0UH.def", 			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL0UH.bmp",
-									"area" :		"townscreen/RFGBA-LVL0UH.bmp",			"hidden": true,	"builds": "horde2"},
+				"special1" : {
+					"animation" : "townscreen/RFGB-SPECIAL1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-SPECIAL1.bmp",
+					"area" : "townscreen/RFGBA-SPECIAL1.bmp"
+				},
+				"special2" : {
+					"animation" : "townscreen/RFGB-SPECIAL2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-SPECIAL2.bmp",
+					"area" : "townscreen/RFGBA-SPECIAL2.bmp"
+				},
+				"special3" : {
+					"animation" : "townscreen/RFGB-SPECIAL3.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-SPECIAL3.bmp",
+					"area" : "townscreen/RFGBA-SPECIAL3.bmp"
+				},
+				"grail" : {
+					"animation" : "townscreen/RFGB-GRAIL.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "townscreen/RFGBB-GRAIL.bmp",
+					"area" : "townscreen/RFGBA-GRAIL.bmp"
+				},
 
-				"horde1Upgr":     { "animation" :	"townscreen/RFGB-LVL0UH.def", 			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL0UH.bmp",
-									"area" :		"townscreen/RFGBA-LVL0UH.bmp",			"hidden": true,	"builds": "horde2"},
+				"horde1" : {
+					"animation" : "townscreen/RFGB-LVL0UH.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL0UH.bmp",
+					"area" : "townscreen/RFGBA-LVL0UH.bmp",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
 
-				"horde2":         { "animation" :	"townscreen/RFGB-LVL4H.def", 			"x":0,"y":0,"z":3,
-									"border" :		"townscreen/RFGBB-LVL4UH.bmp",
-									"area" :		"townscreen/RFGBA-LVL4UH.bmp",			"hidden": true,	"builds": "horde2"},
+				"horde1Upgr" : {
+					"animation" : "townscreen/RFGB-LVL0UH.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL0UH.bmp",
+					"area" : "townscreen/RFGBA-LVL0UH.bmp",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
 
-				"horde2Upgr":     { "animation" :	"townscreen/RFGB-LVL4H.def", 			"x":0,"y":0,"z":3,
-									"border" :		"townscreen/RFGBB-LVL4UH.bmp",
-									"area" :		"townscreen/RFGBA-LVL4UH.bmp",			"hidden": true,	"builds": "horde2"},
+				"horde2" : {
+					"animation" : "townscreen/RFGB-LVL4H.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3,
+					"border" : "townscreen/RFGBB-LVL4UH.bmp",
+					"area" : "townscreen/RFGBA-LVL4UH.bmp",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
 
-				"dwellingLvl1":   { "animation" :	"townscreen/RFGB-LVL0L.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL0L.bmp",
-									"area" :		"townscreen/RFGBA-LVL0L.bmp" },
-				"dwellingLvl2":   { "animation" : 	"townscreen/RFGB-LVL1L.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL1L.bmp",
-									"area" :		"townscreen/RFGBA-LVL1L.bmp" },
-				"dwellingLvl3":   { "animation" : 	"townscreen/RFGB-LVL2L.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL2L.bmp",
-									"area" :		"townscreen/RFGBA-LVL2L.bmp" },
-				"dwellingLvl4":   { "animation" : 	"townscreen/RFGB-LVL3L.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL3L.bmp",
-									"area" :		"townscreen/RFGBA-LVL3L.bmp" },
-				"dwellingLvl5":   { "animation" : 	"townscreen/RFGB-LVL4L.def",			"x":0,"y":0,"z":2,
-									"border" :		"townscreen/RFGBB-LVL4L.bmp",
-									"area" :		"townscreen/RFGBA-LVL4L.bmp" },
+				"horde2Upgr" : {
+					"animation" : "townscreen/RFGB-LVL4H.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3,
+					"border" : "townscreen/RFGBB-LVL4UH.bmp",
+					"area" : "townscreen/RFGBA-LVL4UH.bmp",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
 
-				"dwellingLvl6":   { "animation" :	"townscreen/RFGB-LVL5L.def",			"x":0,"y":0,"z":2,
-									"border" :		"townscreen/RFGBB-LVL5L.bmp",
-									"area" :		"townscreen/RFGBA-LVL5L.bmp" },
-				"dwellingLvl6B":   { "animation" :	"townscreen/RFGB-LVL6L.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL6L.bmp",
-									"area" :		"townscreen/RFGBA-LVL6L.bmp" },
-				"dwellingLvl7":   { "animation" : 	"townscreen/RFGB-LVL7A1.def",			"x":0,"y":0,"z":3,
-									"border" :		"townscreen/RFGBB-LVL7A1.bmp",
-									"area" :		"townscreen/RFGBA-LVL7A1.bmp" },
-				"dwellingLvl7B":   { "animation" : 	"townscreen/RFGB-LVL7B1.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL7B.bmp",
-									"area" :		"townscreen/RFGBA-LVL7B.bmp" },
+				"dwellingLvl1" : {
+					"animation" : "townscreen/RFGB-LVL0L.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL0L.bmp",
+					"area" : "townscreen/RFGBA-LVL0L.bmp"
+				},
+				"dwellingLvl2" : {
+					"animation" : "townscreen/RFGB-LVL1L.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL1L.bmp",
+					"area" : "townscreen/RFGBA-LVL1L.bmp"
+				},
+				"dwellingLvl3" : {
+					"animation" : "townscreen/RFGB-LVL2L.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL2L.bmp",
+					"area" : "townscreen/RFGBA-LVL2L.bmp"
+				},
+				"dwellingLvl4" : {
+					"animation" : "townscreen/RFGB-LVL3L.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL3L.bmp",
+					"area" : "townscreen/RFGBA-LVL3L.bmp"
+				},
+				"dwellingLvl5" : {
+					"animation" : "townscreen/RFGB-LVL4L.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "townscreen/RFGBB-LVL4L.bmp",
+					"area" : "townscreen/RFGBA-LVL4L.bmp"
+				},
 
-				"dwellingUpLvl1": { "animation" :	"townscreen/RFGB-LVL0U.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL0U.bmp",
-									"area" :		"townscreen/RFGBA-LVL0U.bmp" },
-				"dwellingUpLvl2": { "animation" : 	"townscreen/RFGB-LVL1U.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL1U.bmp",
-									"area" :		"townscreen/RFGBA-LVL1U.bmp" },
-				"dwellingUpLvl3": { "animation" : 	"townscreen/RFGB-LVL2U.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL2U.bmp",
-									"area" :		"townscreen/RFGBA-LVL2U.bmp" },
-				"dwellingUpLvl4": { "animation" : 	"townscreen/RFGB-LVL3U.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL3U",
-									"area" :		"townscreen/RFGBA-LVL3U.bmp" },
-				"dwellingUpLvl5": { "animation" : 	"townscreen/RFGB-LVL4U.def",			"x":0,"y":0,"z":2,
-									"border" :		"townscreen/RFGBB-LVL4U.bmp",
-									"area" :		"townscreen/RFGBA-LVL4U.bmp" },
+				"dwellingLvl6" : {
+					"animation" : "townscreen/RFGB-LVL5L.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "townscreen/RFGBB-LVL5L.bmp",
+					"area" : "townscreen/RFGBA-LVL5L.bmp"
+				},
+				"dwellingLvl6B" : {
+					"animation" : "townscreen/RFGB-LVL6L.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL6L.bmp",
+					"area" : "townscreen/RFGBA-LVL6L.bmp"
+				},
+				"dwellingLvl7" : {
+					"animation" : "townscreen/RFGB-LVL7A1.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3,
+					"border" : "townscreen/RFGBB-LVL7A1.bmp",
+					"area" : "townscreen/RFGBA-LVL7A1.bmp"
+				},
+				"dwellingLvl7B" : {
+					"animation" : "townscreen/RFGB-LVL7B1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL7B.bmp",
+					"area" : "townscreen/RFGBA-LVL7B.bmp"
+				},
 
-				"dwellingUpLvl6": { "animation" : 	"townscreen/RFGB-LVL5U.def",			"x":0,"y":0,"z":2,
-									"border" :		"townscreen/RFGBB-LVL5U.bmp",
-									"area" :		"townscreen/RFGBA-LVL5U.bmp" },
-				"dwellingUpLvl6B":{ "animation" : 	"townscreen/RFGB-LVL6U.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL6U.bmp",
-									"area" :		"townscreen/RFGBA-LVL6U.bmp" },
-				"dwellingUpLvl7": { "animation" : 	"townscreen/RFGB-LVL7A2.def",			"x":0,"y":0,"z":3,
-									"border" :		"townscreen/RFGBB-LVL7A2.bmp",
-									"area" :		"townscreen/RFGBA-LVL7A2.bmp"},
-				"dwellingUpLvl7B":{ "animation" : 	"townscreen/RFGB-LVL7B2.def",			"x":0,"y":0,
-									"border" :		"townscreen/RFGBB-LVL7B.bmp",
-									"area" :		"townscreen/RFGBA-LVL7B.bmp"}
+				"dwellingUpLvl1" : {
+					"animation" : "townscreen/RFGB-LVL0U.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL0U.bmp",
+					"area" : "townscreen/RFGBA-LVL0U.bmp"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "townscreen/RFGB-LVL1U.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL1U.bmp",
+					"area" : "townscreen/RFGBA-LVL1U.bmp"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "townscreen/RFGB-LVL2U.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL2U.bmp",
+					"area" : "townscreen/RFGBA-LVL2U.bmp"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "townscreen/RFGB-LVL3U.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL3U",
+					"area" : "townscreen/RFGBA-LVL3U.bmp"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "townscreen/RFGB-LVL4U.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "townscreen/RFGBB-LVL4U.bmp",
+					"area" : "townscreen/RFGBA-LVL4U.bmp"
+				},
+
+				"dwellingUpLvl6" : {
+					"animation" : "townscreen/RFGB-LVL5U.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "townscreen/RFGBB-LVL5U.bmp",
+					"area" : "townscreen/RFGBA-LVL5U.bmp"
+				},
+				"dwellingUpLvl6B" : {
+					"animation" : "townscreen/RFGB-LVL6U.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL6U.bmp",
+					"area" : "townscreen/RFGBA-LVL6U.bmp"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "townscreen/RFGB-LVL7A2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3,
+					"border" : "townscreen/RFGBB-LVL7A2.bmp",
+					"area" : "townscreen/RFGBA-LVL7A2.bmp"
+				},
+				"dwellingUpLvl7B" : {
+					"animation" : "townscreen/RFGB-LVL7B2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "townscreen/RFGBB-LVL7B.bmp",
+					"area" : "townscreen/RFGBA-LVL7B.bmp"
+				}
 			}
 		}
 	}

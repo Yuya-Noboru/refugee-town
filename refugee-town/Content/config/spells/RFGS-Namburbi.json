@@ -1,71 +1,114 @@
 {
-	"rfgsNamburbi":{
-		"name":						"Nambúrbi",
-		"type":						"combat",
-		"targetType" :				"CREATURE",
-		"targetCondition" :{
-			"noneOf" :{				"bonus.SIEGE_WEAPON" :	"absolute"}},
+	"rfgsNamburbi" : {
+		"name" : "Nambúrbi",
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
 
-		"school":{
-			"air":					false,
-			"earth":				false,
-			"fire":					false,
-			"water":				true},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
 
-		"level":					3,
-		"power":					10,
-		"defaultGainChance":		0,
-		"gainChance":{
-			"castle" :				3,
-			"rampart" :				5,
-			"tower" :				3,
-			"inferno" :				0,
-			"necropolis" :			0,
-			"dungeon" :				0,
-			"stronghold" :			5,
-			"fortress" :			0,
-			"conflux" :				2,
-			"refugee" :				25},
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 3,
+			"rampart" : 5,
+			"tower" : 3,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"stronghold" : 5,
+			"fortress" : 0,
+			"conflux" : 2,
+			"refugee" : 25
+		},
 
-		"animation":				{"affect":[	"spells/NAMBURBI.DEF"]},
-		"sounds": 					{"cast": 	"spells/NAMBURBI.WAV"},
-		"flags" :					{"positive": true},
+		"animation" : {
+			"affect" : [
+				"spells/NAMBURBI.DEF"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/NAMBURBI.WAV"
+		},
+		"flags" : {
+			"positive" : true
+		},
 
-		"graphics":{
-			"iconBook":				"spells/Namburbi0.png",
-			"iconScroll":			"spells/Namburbi1.png",
-			"iconScenarioBonus":	"spells/Namburbi2.png",
-			"iconEffect": 			"spells/Namburbi3.png"},
+		"graphics" : {
+			"iconBook" : "spells/Namburbi0.png",
+			"iconScroll" : "spells/Namburbi1.png",
+			"iconScenarioBonus" : "spells/Namburbi2.png",
+			"iconEffect" : "spells/Namburbi3.png"
+		},
 
-		"levels":{
-			"base":{
-				"cost":				14,
-				"power":			14,
-//				"aiValue":			12,
-				"range":			"0",
-				"targetModifier":	{"smart":true},
-				"effects" :{
-					"luck" :{		"type" :	"LUCK",		"val" :		1,	"duration":	"N_TURNS"},
-					"morale" :{		"type" :	"MORALE",	"val" :		1,	"duration":	"N_TURNS"}}},				
+		"levels" : {
+			"base" : {
+				"cost" : 14,
+				"power" : 14,
+				//				"aiValue":			12,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"luck" : {
+						"type" : "LUCK",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					},
+					"morale" : {
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
 
-			"none":{
-			"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."},
+			"none" : {
+				"description" : "{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."
+			},
 
-			"basic":{
-			"description": 		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."},
+			"basic" : {
+				"description" : "{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 1."
+			},
 
-			"advanced":	{
-				"description":		"{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 2.",
-				"effects" :{
-					"luck" :{		"val" :		2},
-					"morale" :{		"val" :		2}}},
-			"expert":{
-				"description": 		"{Nambúrbi}\n\nIncreases the luck and morale of all friendly units by 2.",
-				"range":			"X",
-				"effects" :{
-					"luck" :{		"val" :		2},
-					"morale" :{		"val" :		2}}}},
+			"advanced" : {
+				"description" : "{Nambúrbi}\n\nIncreases selected's unit's luck and morale by 2.",
+				"effects" : {
+					"luck" : {
+						"val" : 2
+					},
+					"morale" : {
+						"val" : 2
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Nambúrbi}\n\nIncreases the luck and morale of all friendly units by 2.",
+				"range" : "X",
+				"effects" : {
+					"luck" : {
+						"val" : 2
+					},
+					"morale" : {
+						"val" : 2
+					}
+				}
+			}
+		},
 
-		"counters" : {	"spell.rfgsSiguP":	true}
+		"counters" : {
+			"spell.rfgsSiguP" : true
 		}
+	}
 }

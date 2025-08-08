@@ -1,46 +1,58 @@
 {
-	"core:unicorn":{
-		"abilities" :{
-			"hateHellSteeds":{
-				"type" :	"HATE",
+	"core:unicorn" : {
+		"abilities" : {
+			"hateHellSteeds" : {
+				"type" : "HATE",
 				"subtype" : "rfgcHorseFire",
-				"val" :		50},
-			"hateNightmares":{
-				"type" :	"HATE",
+				"val" : 50
+			},
+			"hateNightmares" : {
+				"type" : "HATE",
 				"subtype" : "rfgcHorseBlack",
-				"val" :		50}
-	}},
-	"core:warUnicorn":{
-		"abilities" :{
-			"hateHellSteeds":{
-				"type" :	"HATE",
+				"val" : 50
+			}
+		}
+	},
+	"core:warUnicorn" : {
+		"abilities" : {
+			"hateHellSteeds" : {
+				"type" : "HATE",
 				"subtype" : "rfgcHorseFire",
-				"val" :		50},
-			"hateNightmares":{
-				"type" :	"HATE",
+				"val" : 50
+			},
+			"hateNightmares" : {
+				"type" : "HATE",
 				"subtype" : "rfgcHorseBlack",
-				"val" :		50}
-	}},
-	"rfgcHorseFire":{
-		"abilities" :{
-			"hateUnicorn":{
-				"type" :	"HATE",
+				"val" : 50
+			}
+		}
+	},
+	"rfgcHorseFire" : {
+		"abilities" : {
+			"hateUnicorn" : {
+				"type" : "HATE",
 				"subtype" : "unicorn",
-				"val" :		50},
-			"hateWarUnicorn":{
-				"type" :	"HATE",
+				"val" : 50
+			},
+			"hateWarUnicorn" : {
+				"type" : "HATE",
 				"subtype" : "warUnicorn",
-				"val" :		50}
-	}},
-	"rfgcHorseBlack":{
-		"abilities" :{
-			"hateUnicorn":{
-				"type" :	"HATE",
+				"val" : 50
+			}
+		}
+	},
+	"rfgcHorseBlack" : {
+		"abilities" : {
+			"hateUnicorn" : {
+				"type" : "HATE",
 				"subtype" : "unicorn",
-				"val" :		50},
-			"hateWarUnicorn":{
-				"type" :	"HATE",
+				"val" : 50
+			},
+			"hateWarUnicorn" : {
+				"type" : "HATE",
 				"subtype" : "warUnicorn",
-				"val" :		50}
-	}}
+				"val" : 50
+			}
+		}
+	}
 }

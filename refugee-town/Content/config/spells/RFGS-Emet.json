@@ -1,80 +1,96 @@
 {
-	"rfgsEmet":{
-		"name":						"Emet",
-		"type":						"combat",
-		"targetType" :				"NO_TARGET",
-		"school":{
-			"air":					false,
-			"earth":				true,
-			"fire":					false,
-			"water":				false},
+	"rfgsEmet" : {
+		"name" : "Emet",
+		"type" : "combat",
+		"targetType" : "NO_TARGET",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
 
-		"level":					4,
-		"power":					20,
-		"defaultGainChance":		0,
-		"gainChance":{
-			"castle" :				1,
-			"rampart" :				1,
-			"tower" :				10,
-			"inferno" :				1,
-			"necropolis" :			1,
-			"dungeon" :				1,
-			"stronghold" :			1,
-			"fortress" :			1,
-			"conflux" :				5,
-			"refugee" :				25},
+		"level" : 4,
+		"power" : 20,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 1,
+			"rampart" : 1,
+			"tower" : 10,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"dungeon" : 1,
+			"stronghold" : 1,
+			"fortress" : 1,
+			"conflux" : 5,
+			"refugee" : 25
+		},
 
-		"animation":				{"cast":		[2]},
- 		"sounds":					{"cast":		"SUMNELM"},
-		"flags" :					{"indifferent": true},
+		"animation" : {
+			"cast" : [
+				2
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+		"flags" : {
+			"indifferent" : true
+		},
 
-		"graphics":{
-			"iconBook":				"spells/Emet0.png",
-			"iconScroll":			"spells/Emet1.png",
-			"iconScenarioBonus":	"spells/Emet2.png",
-			"iconEffect": 			"spells/Emet3.png"},
+		"graphics" : {
+			"iconBook" : "spells/Emet0.png",
+			"iconScroll" : "spells/Emet1.png",
+			"iconScenarioBonus" : "spells/Emet2.png",
+			"iconEffect" : "spells/Emet3.png"
+		},
 
-		"levels":{
-			"base":{
-				"range":				"X",
-				"targetModifier":		{"smart":true},
-								"battleEffects":{
-					"summon":{
-						"exclusive":	true,
-						"id":			"core:goldGolem",
-						"permanent":	false,
-						"type":			"core:summon",
-						"summonByHealth":true
-					}}},
-
-			"none":{
-				"description": 			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
-				"cost":					16,
-				"power":				30
-//				"aiValue":				10,
-},
-			"basic":{
-				"description": 			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
-				"cost":					16,
-				"power":				50,
-//				"aiValue":				11,
-
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : true,
+						"id" : "core:goldGolem",
+						"permanent" : false,
+						"type" : "core:summon",
+						"summonByHealth" : true
+					}
+				}
 			},
-			"advanced":	{
-				"description":			"{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
-				"cost":					16,
-				"power":				70,
-//				"aiValue":				12,
-},
-			"expert":{
-				"description": 			"{Emet}\n\nSummons Diamond Golems to fight on your side on battle field.",
-				"cost":					18,
-				"power":				90,
-//				"aiValue":				13,
-				"battleEffects":{
-					"summon":{
-						"id":			"core:diamondGolem"
-					}}}
+
+			"none" : {
+				"description" : "{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
+				"cost" : 16,
+				"power" : 30
+				//				"aiValue":				10,
+			},
+			"basic" : {
+				"description" : "{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
+				"cost" : 16,
+				"power" : 50
+				//				"aiValue":				11,
+			},
+			"advanced" : {
+				"description" : "{Emet}\n\nSummons Gold Golems to fight on your side on battle field.",
+				"cost" : 16,
+				"power" : 70
+				//				"aiValue":				12,
+			},
+			"expert" : {
+				"description" : "{Emet}\n\nSummons Diamond Golems to fight on your side on battle field.",
+				"cost" : 18,
+				"power" : 90,
+				//				"aiValue":				13,
+				"battleEffects" : {
+					"summon" : {
+						"id" : "core:diamondGolem"
+					}
+				}
+			}
 		}
 	}
 }

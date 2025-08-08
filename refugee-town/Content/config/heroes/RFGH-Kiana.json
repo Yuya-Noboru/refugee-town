@@ -1,33 +1,55 @@
 {
-	"rfghKiana" :{
-		"class" :				"rfghcWandererF",
-		"female" :				true,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-resistance-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-resistance-large.png",
-			"small" : 			"heroes/portraits/RFGH-Kiana-small.png",
-			"large" : 			"heroes/portraits/RFGH-Kiana-big.png"},
+	"rfghKiana" : {
+		"class" : "rfghcWandererF",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-resistance-small.png",
+			"specialtyLarge" : "heroes/specs/spec-resistance-large.png",
+			"small" : "heroes/portraits/RFGH-Kiana-small.png",
+			"large" : "heroes/portraits/RFGH-Kiana-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rogue",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"logistics" },
-				{ "level" :		"basic",	"skill" :	"resistance" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
 
 		"specialty" : {
 			"secondary" : "resistance"
 		},
 
-		"texts":{
-			"name" :			"Kiana",
-			"biography" :		"Kiana's unwavering determination have made her a stalwart defender of Refuge against the darkest sorceries. She shields her allies from harm, ensuring that no enchantment can sway their resolve. However, her tyrannic attitude often leaded her to get into troubles.",
-			"specialty" :{
-				"name" :		"Resistance",
-				"tooltip" :		"Secondary Skill Bonus: Resistance",
+		"texts" : {
+			"name" : "Kiana",
+			"biography" : "Kiana's unwavering determination have made her a stalwart defender of Refuge against the darkest sorceries. She shields her allies from harm, ensuring that no enchantment can sway their resolve. However, her tyrannic attitude often leaded her to get into troubles.",
+			"specialty" : {
+				"name" : "Resistance",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
 				"description" : "Receives a 5% per level bonus to Resistance skill percentage."
-		}}
+			}
+		}
 	}
 }

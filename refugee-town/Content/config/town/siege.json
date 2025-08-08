@@ -1,42 +1,110 @@
 {
-	"refugee" :{
-		"town" :{
-			"siege" :{
-				"shooter" :			"enchanter",
-				"imagePrefix" :		"siege/SgRf",
-				"towerIconSmall" :	"icons/arrowtowersmall",
-				"towerIconLarge" :	"icons/arrowtowerslarge",
+	"refugee" : {
+		"town" : {
+			"siege" : {
+				"shooter" : "enchanter",
+				"imagePrefix" : "siege/SgRf",
+				"towerIconSmall" : "icons/arrowtowersmall",
+				"towerIconLarge" : "icons/arrowtowerslarge",
 
-				"gate" :{
-					"arch" :			{ "x" : 0, "y" : 0 },				// "ARCH"
-					"gate" :			{ "x" : 0, "y" : 0 }},				// "DRW1"-"DRW3" & "DRWC" (rope)
-				"moat" :{
-					"bank" : 			{ "x" : 0, "y" : 0 },				// "MLIP"
-					"moat" : 			{ "x" : 0, "y" : 0 }},				// "MOAT"
-				"static" :{
-					"background" :		{ "x" : 0, "y" : 0 },				// "TPWL"
-					"top" :				{ "x" : 0, "y" : 0 },				// "WA5"
-					"bottom" :			{ "x" : 0, "y" : 0 }},				// "WA2"
+				"gate" : {
+					"arch" : {
+						"x" : 0,
+						"y" : 0
+					}, // "ARCH"
+					"gate" : {
+						"x" : 0,
+						"y" : 0
+					}
+				}, // "DRW1"-"DRW3" & "DRWC" (rope)
+				"moat" : {
+					"bank" : {
+						"x" : 0,
+						"y" : 0
+					}, // "MLIP"
+					"moat" : {
+						"x" : 0,
+						"y" : 0
+					}
+				}, // "MOAT"
+				"static" : {
+					"background" : {
+						"x" : 0,
+						"y" : 0
+					}, // "TPWL"
+					"top" : {
+						"x" : 0,
+						"y" : 0
+					}, // "WA5"
+					"bottom" : {
+						"x" : 0,
+						"y" : 0
+					}
+				}, // "WA2"
 
-				"towers" :{
-					"bottom":{
-						"tower" :		{ "x" : 0,		"y" : 0    },		// "TW11" ... "TW12"
-						"battlement" :	{ "x" : 0,		"y" : 0    },		// "TW1C"
-						"creature" :	{ "x" : 366,	"y" : 303  }},
-					"keep" :{
-						"tower" :		{ "x" : 0,		"y" : 0    },		// "MAN1" ... "MAN2"
-						"battlement" :	{ "x" : 0,		"y" : 0    },		// "MANC"
-						"creature" :	{ "x" : 496,	"y" : 90  }},
-					"top" :{
-						"tower" :		{ "x" : 0,		"y" : 0    },		// "TW21" ... "TW22"
-						"battlement" :	{ "x" : 0,		"y" : 0    },		// "TW2C"
-						"creature" :	{ "x" : 334,	"y" : -182 }}},
+				"towers" : {
+					"bottom" : {
+						"tower" : {
+							"x" : 0,
+							"y" : 0
+						}, // "TW11" ... "TW12"
+						"battlement" : {
+							"x" : 0,
+							"y" : 0
+						}, // "TW1C"
+						"creature" : {
+							"x" : 366,
+							"y" : 303
+						}
+					},
+					"keep" : {
+						"tower" : {
+							"x" : 0,
+							"y" : 0
+						}, // "MAN1" ... "MAN2"
+						"battlement" : {
+							"x" : 0,
+							"y" : 0
+						}, // "MANC"
+						"creature" : {
+							"x" : 496,
+							"y" : 90
+						}
+					},
+					"top" : {
+						"tower" : {
+							"x" : 0,
+							"y" : 0
+						}, // "TW21" ... "TW22"
+						"battlement" : {
+							"x" : 0,
+							"y" : 0
+						}, // "TW2C"
+						"creature" : {
+							"x" : 334,
+							"y" : -182
+						}
+					}
+				},
 
-				"walls" :{
-					"upper" :			{ "x" : 0, "y" : 0 },				// "WA61" ... "WA63"
-					"upperMid" :		{ "x" : 0, "y" : 0 },				// "WA41" ... "WA43"
-					"bottomMid" :		{ "x" : 0, "y" : 0 },				// "WA31" ... "WA33"
-					"bottom" : 			{ "x" : 0, "y" : 0 }}				// "WA11" ... "WA13"
+				"walls" : {
+					"upper" : {
+						"x" : 0,
+						"y" : 0
+					}, // "WA61" ... "WA63"
+					"upperMid" : {
+						"x" : 0,
+						"y" : 0
+					}, // "WA41" ... "WA43"
+					"bottomMid" : {
+						"x" : 0,
+						"y" : 0
+					}, // "WA31" ... "WA33"
+					"bottom" : {
+						"x" : 0,
+						"y" : 0
+					}
+				} // "WA11" ... "WA13"
 			}
 		}
 	}

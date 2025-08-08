@@ -1,32 +1,58 @@
 {
-	"rfghAzar" :{
-		"class" :				"rfghcEnchanterM",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"heroes/specs/spec-rfgchorse-small.png",
-			"specialtyLarge" :	"heroes/specs/spec-rfgchorse-large.png",
-			"small" : 			"heroes/portraits/RFGH-Azar-small.png",
-			"large" : 			"heroes/portraits/RFGH-Azar-big.png"},
+	"rfghAzar" : {
+		"class" : "rfghcEnchanterM",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "heroes/specs/spec-rfgchorse-small.png",
+			"specialtyLarge" : "heroes/specs/spec-rfgchorse-large.png",
+			"small" : "heroes/portraits/RFGH-Azar-small.png",
+			"large" : "heroes/portraits/RFGH-Azar-big.png"
+		},
 
-		"army" :[
-				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
-				{ "creature":	"rogue",			"min":	5,	"max" :	7	},
-				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "rogue",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"min" : 4,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"wisdom" },
-				{ "level" :		"basic",	"skill" :	"fireMagic" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
 
-		"spellbook" :[	"fireball" ],
-		"specialty" :{	"creature" : "rfgcHorseFire"},
+		"spellbook" : [
+			"fireball"
+		],
+		"specialty" : {
+			"creature" : "rfgcHorseFire"
+		},
 
-		"texts":{
-			"name" :			"Azar",
-			"biography" :		"Abandoned in AvLee as a child and raised among unicorns, Azar’s path led him to embrace druidic powers before joining Shayan’s kingdom. Rumors swirl of his connection to Nightmares, born from a tragic attempt to resurrect a fallen unicorn into the door to hell, leaving a trail of dark magic in his wake.",
-			"specialty" :{
-				"name" :		"Hell Steeds",
-				"tooltip" :		"Creature Bonus: Hell Steeds",
-				"description" :	"Increases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 6th level."
-		}}
+		"texts" : {
+			"name" : "Azar",
+			"biography" : "Abandoned in AvLee as a child and raised among unicorns, Azar’s path led him to embrace druidic powers before joining Shayan’s kingdom. Rumors swirl of his connection to Nightmares, born from a tragic attempt to resurrect a fallen unicorn into the door to hell, leaving a trail of dark magic in his wake.",
+			"specialty" : {
+				"name" : "Hell Steeds",
+				"tooltip" : "Creature Bonus: Hell Steeds",
+				"description" : "Increases the Attack and Defense skills of any Hell Steed or Nightmare for each level attained after 6th level."
+			}
+		}
 	}
 }

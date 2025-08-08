@@ -1,67 +1,143 @@
 {
-	"core:enchanter":{
-		"name" :{
-			"plural" :	"Enchanters",
-			"singular" :"Enchanter"},
-		"advMapAmount" :{"min" : 5,	"max" : 10},
-		"faction" :		"refugee",
+	"core:enchanter" : {
+		"name" : {
+			"plural" : "Enchanters",
+			"singular" : "Enchanter"
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"faction" : "refugee",
 
-		"level" :		6,
-		"attack" :		17,
-		"defense" :		12,
-		"damage" :		{ "min" : 14, "max" : 14 },
-		"hitPoints" :	30,
-		"speed" :		9,
-		"shots" :		32,
-		"growth" :		2,
-		"fightValue" :	1080,
-		"aiValue" :		1210,
-		"cost" :		{ "gold" : 750 },
-		"doubleWide" :	false,
+		"level" : 6,
+		"attack" : 17,
+		"defense" : 12,
+		"damage" : {
+			"min" : 14,
+			"max" : 14
+		},
+		"hitPoints" : 30,
+		"speed" : 9,
+		"shots" : 32,
+		"growth" : 2,
+		"fightValue" : 1080,
+		"aiValue" : 1210,
+		"cost" : {
+			"gold" : 750
+		},
+		"doubleWide" : false,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L6A2.def",
-			"map" :				"creatures/RFGCA-L6A2.def",
-			"iconSmall" :		"icons/RFGC6A2-PS.png",
-			"iconLarge" :		"icons/RFGC6A2-PB.png",
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L6A2.def",
+			"map" : "creatures/RFGCA-L6A2.def",
+			"iconSmall" : "icons/RFGC6A2-PS.png",
+			"iconLarge" : "icons/RFGC6A2-PB.png",
 			"timeBetweenFidgets" : 1,
-			"missile" :{
-				"projectile" :	"creatures/projectile/CPRZEAX.DEF",
+			"missile" : {
+				"projectile" : "creatures/projectile/CPRZEAX.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :{
-					"lowerX" :	 62,
-					"lowerY" :	-93,
-					"middleX" :	 62,
-					"middleY" :	-93,
-					"upperX" :	 62,
-					"upperY" :	-93},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-		}},
+				"offset" : {
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
 
-		"sound" :{
-			"attack":	"ENCHATTK.wav",
-			"defend":	"ENCHDFND.wav",
-			"killed":	"ENCHKILL.wav",
-			"move":		"ENCHMOVE.wav",
-			"shoot":	"ENCHSHOT.wav",
-			"wince":	"ENCHWNCE.wav"},
+		"sound" : {
+			"attack" : "ENCHATTK.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move" : "ENCHMOVE.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"wince" : "ENCHWNCE.wav"
+		},
 
-		"abilities":{
-			"canShoot" :{		"type" :	"SHOOTER"},
-			"noPenalty" :{		"type" :	"NO_WALL_PENALTY"},
-			"casts" :{			"type" :	"CASTS",		"val" :		5},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 5
+			},
 
-			"castsHaste" :{		"type" :	"ENCHANTER",	"subtype" :	"haste",		"val" :	3,	"addInfo" :	3},
-			"castsBless" :{		"type" :	"ENCHANTER",	"subtype" :	"bless",		"val" :	3,	"addInfo" :	3},
+			"castsHaste" : {
+				"type" : "ENCHANTER",
+				"subtype" : "haste",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsBless" : {
+				"type" : "ENCHANTER",
+				"subtype" : "bless",
+				"val" : 3,
+				"addInfo" : 3
+			},
 
-			"castsStoneSkin" :{	"type" :	"ENCHANTER",	"subtype" :	"stoneSkin",	"val" :	3,	"addInfo" :	3},
-			"castsCure" :{		"type" :	"ENCHANTER",	"subtype" :	"cure",		"val" :	3,	"addInfo" :	3},
-			"castsSlow" :{		"type" :	"ENCHANTER",	"subtype" :	"slow",		"val" :	3,	"addInfo" :	3},
-			"castsAirShield" :{	"type" :	"ENCHANTER",	"subtype" :	"airShield",	"val" :	3,	"addInfo" :	3},
+			"castsStoneSkin" : {
+				"type" : "ENCHANTER",
+				"subtype" : "stoneSkin",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsCure" : {
+				"type" : "ENCHANTER",
+				"subtype" : "cure",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsSlow" : {
+				"type" : "ENCHANTER",
+				"subtype" : "slow",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsAirShield" : {
+				"type" : "ENCHANTER",
+				"subtype" : "airShield",
+				"val" : 3,
+				"addInfo" : 3
+			},
 
-			"castsBloodlust" :{	"type" :	"ENCHANTER",	"subtype" :	"bloodlust",	"val" :	3,	"addInfo" :	3},
-			"castsWeakness" :{	"type" :	"ENCHANTER",	"subtype" :	"weakness",	"val" :	3,	"addInfo" :	3}
+			"castsBloodlust" : {
+				"type" : "ENCHANTER",
+				"subtype" : "bloodlust",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsWeakness" : {
+				"type" : "ENCHANTER",
+				"subtype" : "weakness",
+				"val" : 3,
+				"addInfo" : 3
+			}
 
 			// Haste		17.9%
 			// Bless		17.9%
