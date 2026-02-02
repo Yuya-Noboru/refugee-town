@@ -1,58 +1,79 @@
 {
-	"rfgcCutthroat":{
-		"name" :{
-			"plural" :	"Cutthroats",
-			"singular" :"Cutthroat"},
-		"advMapAmount" :{"min" : 16,	"max" : 25},
-		"faction" :		"refugee",
+	"rfgcCutthroat" : {
+		"name" : {
+			"plural" : "Cutthroats",
+			"singular" : "Cutthroat"
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"faction" : "refugee",
 
-		"level" :		2,
-		"attack" :		8,
-		"defense" :		4,
-		"damage" :		{ "min" : 2, "max" : 4 },
-		"hitPoints" :	10,
-		"speed" :		8,
-		"growth" :		8,
+		"level" : 2,
+		"attack" : 8,
+		"defense" : 4,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"hitPoints" : 10,
+		"speed" : 8,
+		"growth" : 8,
 
-		"fightValue" :	152,
-		"aiValue" :		171,
-		"cost" :		{ "gold" : 140 },
-		"doubleWide" :	false,
+		"fightValue" : 152,
+		"aiValue" : 171,
+		"cost" : {
+			"gold" : 140
+		},
+		"doubleWide" : false,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 40, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L2U.def",
-			"map" :				"creatures/RFGCA-L2U.def",
-			"iconSmall" :		"icons/RFGC2U-PS.png",
-			"iconLarge" :		"icons/RFGC2U-PB.png",
-			"timeBetweenFidgets" : 1},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 40,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L2U.def",
+			"map" : "creatures/RFGCA-L2U.def",
+			"iconSmall" : "icons/RFGC2U-PS.png",
+			"iconLarge" : "icons/RFGC2U-PB.png",
+			"timeBetweenFidgets" : 1
+		},
 
-		"sound" :{
-			"attack":			"ROGUATTK.wav",
-			"defend":			"ROGUDFND.wav",
-			"killed":			"ROGUKILL.wav",
-			"move":				"ROGUMOVE.wav",
-			"wince":			"ROGUWNCE.wav"},
+		"sound" : {
+			"attack" : "ROGUATTK.wav",
+			"defend" : "ROGUDFND.wav",
+			"killed" : "ROGUKILL.wav",
+			"move" : "ROGUMOVE.wav",
+			"wince" : "ROGUWNCE.wav"
+		},
 
-		"abilities":{
-			"shadowStrike":{   "type" : "BLOCKS_RETALIATION"},
-			"visionsMonsters" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsMonsters",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsHeroes" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsHeroes",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"},
-			"visionsTowns" :{
-				"type" :		"VISIONS",
-				"subtype" :		"visionsTowns",
-				"val" :			3,
-				"valueType" :	"INDEPENDENT_MAX",
-				"propagator" :	"HERO"}}
+		"abilities" : {
+			"shadowStrike" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"visionsMonsters" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsMonsters",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			},
+			"visionsHeroes" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			},
+			"visionsTowns" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsTowns",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+		}
 	}
 }
