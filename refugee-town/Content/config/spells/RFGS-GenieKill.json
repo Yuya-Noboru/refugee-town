@@ -1,7 +1,7 @@
 {
 	"rfgsGenie" : {
 		"type" : "ability",
-		"name" : "Genie",
+		"name" : "Genie Killing",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -46,9 +46,8 @@
 					}
 				}
 			}
-			
 		}
 	}
 }
 			
-}
+

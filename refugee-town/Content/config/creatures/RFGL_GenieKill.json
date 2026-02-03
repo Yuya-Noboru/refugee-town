@@ -1,8 +1,8 @@
 {
-	"rfgcAhriman" : {
+	"rfgcAhrimanGenie" : {
 		"name" : {
-			"plural" : "Ahrimans",
-			"singular" : "Ahriman"
+			"plural" : "Genie",
+			"singular" : "Genie"
 		},
 		"advMapAmount" : {
 			"min" : 3,
@@ -57,21 +57,11 @@
 			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-			"basicSlayer" : {
-				"type" : "KING",
-				"val" : 2
-			},
-			"strikeFirst" : {
-				"type" : "FIRST_STRIKE"
-			},
-
-			"abilities" : {
 			"castGeniekill" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "rfgsGenie",
 				"val" : 10,
 			}
-		}
 		}
 	}
 }
