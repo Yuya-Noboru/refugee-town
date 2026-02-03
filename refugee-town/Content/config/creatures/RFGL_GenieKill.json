@@ -1,0 +1,67 @@
+{
+	"rfgcAhrimanGenie" : {
+		"name" : {
+			"plural" : "Genie",
+			"singular" : "Genie"
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"faction" : "refugee",
+
+		"level" : 7,
+		"attack" : 28,
+		"defense" : 28,
+		"damage" : {
+			"min" : 40,
+			"max" : 40
+		},
+		"hitPoints" : 260,
+		"speed" : 17,
+		"growth" : 1,
+		"fightValue" : 5243,
+		"aiValue" : 7115,
+		"cost" : {
+			"gold" : 4600,
+			"mercury" : 2
+		},
+		"doubleWide" : false,
+
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L7B2.def",
+			"map" : "creatures/RFGCA-L7B2.def",
+			"iconSmall" : "icons/RFGC7B2-PS.png",
+			"iconLarge" : "icons/RFGC7B2-PB.png",
+			"timeBetweenFidgets" : 1
+		},
+
+		"sound" : {
+			"attack" : "creatures/AHRIATTK.wav",
+			"defend" : "creatures/AHRIDFND.wav",
+			"killed" : "creatures/AHRIKILL.wav",
+			"move" : "creatures/AHRIMOVE.wav",
+			"wince" : "creatures/AHRIWNCE.wav"
+		},
+
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"castGeniekill" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "rfgsGenie",
+				"val" : 10,
+			}
+		}
+	}
+}

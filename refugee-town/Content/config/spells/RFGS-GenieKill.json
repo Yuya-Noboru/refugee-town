@@ -1,0 +1,53 @@
+{
+	"rfgsGenie" : {
+		"type" : "ability",
+		"name" : "Genie Killing",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"power" : 10,
+		defaultGainChance" : 0,
+		"gainChance" : {
+			"refugee" : 0
+		},
+		"animation" : {
+			"affect" : [
+			]
+		},
+
+		"flags" : {
+			"negative" : true
+		},
+
+		"graphics" : {
+		},
+
+		"sounds" : {
+			"cast" : ""
+		},
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"cost" : 60,
+				"range" : "0",
+				"power" : 50,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage",
+						"killByPercentage" : true
+					}
+				}
+			}
+		}
+	}
+}
+			
+
