@@ -1,45 +1,65 @@
 {
-	"core:goldGolem":{
-		"name" :{
-			"plural" :	"Gold Golems",
-			"singular" :"Gold Golem"},
-		"advMapAmount" :{"min" : 8,	"max" : 16},
-		"faction" :		"refugee",
-		"upgrades":		["diamondGolem"],
-		"level" :		5,
-		"attack" :		11,
-		"defense" :		12,
-		"damage" :		{ "min" : 10, "max" : 14 },
-		"hitPoints" :	50,
-		"speed" :		6,
-		"growth" :		3,
-		"horde":		2,
-		"fightValue" :	575,
-		"aiValue" :		575,
-		"cost" :		{ "gold" : 500 },
-		"doubleWide" :	false,
+	"core:goldGolem" : {
+		"name" : {
+			"plural" : "Gold Golems",
+			"singular" : "Gold Golem"
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"faction" : "refugee",
+		"upgrades" : [
+			"diamondGolem"
+		],
+		"level" : 5,
+		"attack" : 11,
+		"defense" : 12,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"hitPoints" : 50,
+		"speed" : 6,
+		"growth" : 3,
+		"horde" : 2,
+		"fightValue" : 575,
+		"aiValue" : 575,
+		"cost" : {
+			"gold" : 500
+		},
+		"doubleWide" : false,
 
-		"graphics" :{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"creatures/RFGCB-L5L.def",
-			"map" :				"creatures/RFGCA-L5L.def",
-			"iconSmall" :		"icons/RFGC5L-PS.png",
-			"iconLarge" :		"icons/RFGC5L-PB.png",
-			"timeBetweenFidgets" : 1},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "creatures/RFGCB-L5L.def",
+			"map" : "creatures/RFGCA-L5L.def",
+			"iconSmall" : "icons/RFGC5L-PS.png",
+			"iconLarge" : "icons/RFGC5L-PB.png",
+			"timeBetweenFidgets" : 1
+		},
 
-		"sound" :{
-			"attack":	"GGLMATTK.wav",
-			"defend":	"GGLMDFND.wav",
-			"killed":	"GGLMKILL.wav",
-			"move":		"GGLMMOVE.wav",
-			"wince": 	"GGLMWNCE.wav"},
+		"sound" : {
+			"attack" : "GGLMATTK.wav",
+			"defend" : "GGLMDFND.wav",
+			"killed" : "GGLMKILL.wav",
+			"move" : "GGLMMOVE.wav",
+			"wince" : "GGLMWNCE.wav"
+		},
 
-		"abilities" :{
-			"magicResistance" :{
-				"type" :	"SPELL_DAMAGE_REDUCTION",
-				"subtype" :	"spellSchool.any",
-				"val" :		85},
-			"nonliving" :{	"type" :"NON_LIVING"}
+		"abilities" : {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 85
+			},
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			}
 		}
 	}
 }
